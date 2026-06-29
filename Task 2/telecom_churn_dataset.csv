@@ -1,0 +1,2001 @@
+customer_id,age,gender,marital_status,dependents,location,contract_type,payment_method,monthly_charges,tenure_months,phone_service,internet_service,streaming_service,customer_rating,number_of_complaints,late_payments,last_interaction_days,churn
+CUST-0001,56,Male,Married,No,Karachi,Month-to-Month,Credit Card,1890.15,16,Yes,No,No,1,1,3,332,1
+CUST-0002,69,Female,Single,No,Lahore,Month-to-Month,Cash,5257.47,20,No,No,No,5,4,4,37,0
+CUST-0003,46,Female,Single,No,Peshawar,Two Year,Bank Transfer,6637.36,43,No,No,No,5,5,9,101,1
+CUST-0004,32,Female,Married,No,Karachi,One Year,Bank Transfer,5306.41,44,No,Yes,Yes,4,3,3,31,0
+CUST-0005,60,Female,Married,Yes,Islamabad,Month-to-Month,Cash,2827.99,47,No,No,No,1,4,7,190,0
+CUST-0006,25,Male,Single,No,Islamabad,Month-to-Month,Cash,5420.83,19,No,Yes,Yes,3,4,1,146,1
+CUST-0007,38,Male,Married,Yes,Peshawar,Two Year,Bank Transfer,2078.46,48,No,No,Yes,1,5,8,90,0
+CUST-0008,56,Male,Single,No,Islamabad,Two Year,Credit Card,2886.91,69,No,No,Yes,4,2,1,6,0
+CUST-0009,36,Female,Married,Yes,Quetta,Month-to-Month,Cash,2300.52,11,Yes,No,No,1,0,1,139,1
+CUST-0010,40,Male,Single,No,Peshawar,Month-to-Month,Credit Card,4676.94,29,Yes,Yes,No,3,3,1,95,0
+CUST-0011,28,Male,Married,No,Karachi,Month-to-Month,Cash,1311.7,45,No,Yes,Yes,4,5,9,119,0
+CUST-0012,28,Female,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,7499.83,68,Yes,No,Yes,5,1,7,120,0
+CUST-0013,41,Female,Single,No,Lahore,One Year,Credit Card,3001.34,36,No,Yes,No,1,1,2,123,1
+CUST-0014,70,Male,Married,No,Peshawar,Two Year,Credit Card,2142.28,48,Yes,No,No,5,0,9,285,0
+CUST-0015,53,Male,Single,No,Islamabad,Month-to-Month,Cash,4224.12,15,No,No,Yes,5,0,10,179,0
+CUST-0016,57,Male,Single,Yes,Islamabad,Two Year,Credit Card,2577.48,44,Yes,No,No,2,2,9,325,0
+CUST-0017,41,Male,Single,No,Quetta,Month-to-Month,Cash,4511.78,67,No,No,No,3,1,7,7,0
+CUST-0018,20,Male,Single,Yes,Quetta,One Year,Bank Transfer,3113.82,40,Yes,Yes,Yes,1,3,6,312,1
+CUST-0019,39,Male,Single,No,Quetta,One Year,Credit Card,1490.5,14,Yes,No,No,5,5,9,127,0
+CUST-0020,70,Female,Married,No,Karachi,Month-to-Month,Cash,2494.21,63,No,Yes,No,5,0,3,77,0
+CUST-0021,19,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,3788.3,51,No,No,Yes,3,0,6,234,1
+CUST-0022,41,Female,Single,No,Karachi,One Year,Cash,727.2,58,No,No,No,5,0,10,318,0
+CUST-0023,61,Male,Married,No,Quetta,Month-to-Month,Cash,6279.82,15,Yes,No,Yes,5,5,7,74,1
+CUST-0024,47,Female,Single,Yes,Karachi,Month-to-Month,Cash,5163.68,65,Yes,No,No,5,3,5,271,0
+CUST-0025,55,Male,Married,No,Peshawar,One Year,Bank Transfer,5010.2,55,Yes,No,Yes,5,1,5,309,0
+CUST-0026,19,Male,Married,Yes,Peshawar,Two Year,Credit Card,4595.37,10,Yes,Yes,No,2,3,2,120,0
+CUST-0027,38,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,4927.35,42,No,Yes,Yes,2,5,4,35,1
+CUST-0028,50,Male,Married,Yes,Karachi,Two Year,Cash,7509.89,11,No,No,No,4,3,9,207,0
+CUST-0029,29,Male,Single,No,Lahore,Month-to-Month,Cash,564.27,16,Yes,Yes,No,1,2,1,270,0
+CUST-0030,39,Female,Single,Yes,Islamabad,One Year,Bank Transfer,858.5,19,No,Yes,No,3,5,4,93,0
+CUST-0031,61,Female,Married,Yes,Peshawar,One Year,Bank Transfer,1936.2,31,No,No,Yes,4,0,4,177,0
+CUST-0032,42,Female,Married,No,Karachi,Two Year,Credit Card,1754.76,53,No,No,No,2,1,6,274,0
+CUST-0033,66,Male,Single,Yes,Quetta,Month-to-Month,Cash,1858.96,8,No,No,Yes,2,2,3,179,1
+CUST-0034,44,Female,Married,No,Lahore,One Year,Bank Transfer,5539.58,24,Yes,No,No,2,2,10,129,0
+CUST-0035,59,Female,Single,No,Peshawar,One Year,Cash,3946.12,8,No,Yes,No,4,5,5,125,0
+CUST-0036,45,Male,Single,No,Islamabad,Month-to-Month,Cash,7938.34,48,No,Yes,No,2,4,8,27,0
+CUST-0037,33,Female,Single,No,Karachi,Month-to-Month,Credit Card,2201.64,30,No,Yes,No,4,0,3,64,0
+CUST-0038,32,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,2831.23,58,Yes,Yes,No,2,1,10,60,0
+CUST-0039,64,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,7881.81,55,No,No,No,5,1,5,219,0
+CUST-0040,68,Male,Married,Yes,Quetta,Two Year,Bank Transfer,6738.19,62,Yes,No,Yes,5,1,8,217,0
+CUST-0041,61,Male,Single,Yes,Islamabad,Month-to-Month,Cash,4023.49,48,Yes,No,Yes,1,5,9,169,0
+CUST-0042,69,Male,Married,Yes,Karachi,Month-to-Month,Bank Transfer,4659.48,4,No,No,No,2,0,0,149,1
+CUST-0043,20,Male,Married,No,Peshawar,One Year,Bank Transfer,6823.83,37,No,Yes,No,1,5,7,270,0
+CUST-0044,54,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,4107.35,8,Yes,Yes,No,4,1,0,116,0
+CUST-0045,68,Male,Single,Yes,Peshawar,One Year,Cash,2045.18,1,Yes,No,No,1,3,3,245,1
+CUST-0046,24,Male,Single,Yes,Karachi,Month-to-Month,Cash,6713.33,70,Yes,Yes,No,2,3,2,148,1
+CUST-0047,38,Female,Married,No,Islamabad,Two Year,Credit Card,4533.29,47,Yes,Yes,Yes,4,0,3,92,0
+CUST-0048,26,Female,Married,No,Peshawar,Two Year,Cash,1647.82,5,No,No,No,4,1,6,85,0
+CUST-0049,56,Female,Married,Yes,Quetta,Two Year,Credit Card,4291.89,50,Yes,Yes,No,5,5,8,87,0
+CUST-0050,35,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,3599.03,24,No,No,Yes,4,4,8,120,1
+CUST-0051,21,Male,Single,Yes,Karachi,One Year,Bank Transfer,7076.32,47,No,Yes,Yes,4,4,9,340,0
+CUST-0052,42,Male,Single,Yes,Islamabad,Month-to-Month,Credit Card,1445.42,18,Yes,Yes,Yes,1,4,0,24,1
+CUST-0053,31,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,7064.07,28,No,No,No,4,3,9,89,0
+CUST-0054,67,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,4341.58,5,Yes,No,No,3,5,0,37,1
+CUST-0055,26,Male,Married,Yes,Quetta,One Year,Credit Card,3532.73,30,Yes,No,No,5,4,8,342,0
+CUST-0056,43,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,1714.75,1,Yes,Yes,No,5,1,3,271,1
+CUST-0057,70,Female,Single,No,Lahore,One Year,Cash,5756.13,46,No,No,No,4,1,2,12,1
+CUST-0058,19,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,7451.05,69,No,Yes,Yes,1,4,8,95,1
+CUST-0059,37,Male,Single,No,Lahore,Month-to-Month,Credit Card,3315.33,31,Yes,No,No,5,2,4,31,0
+CUST-0060,45,Female,Single,Yes,Karachi,One Year,Cash,2311.89,70,No,Yes,No,5,4,5,350,0
+CUST-0061,64,Female,Single,No,Lahore,Month-to-Month,Cash,4661.5,56,No,No,No,3,2,0,233,1
+CUST-0062,24,Male,Single,Yes,Karachi,One Year,Bank Transfer,6471.39,28,No,No,Yes,4,0,0,340,0
+CUST-0063,61,Male,Single,Yes,Karachi,Month-to-Month,Cash,528.26,16,No,Yes,No,5,0,6,328,0
+CUST-0064,25,Female,Single,No,Lahore,Two Year,Credit Card,5235.33,54,No,Yes,No,5,1,9,300,0
+CUST-0065,64,Female,Married,Yes,Lahore,One Year,Cash,4973.87,53,Yes,No,No,5,5,7,286,0
+CUST-0066,52,Male,Single,Yes,Karachi,Month-to-Month,Bank Transfer,2886.14,12,No,Yes,No,5,3,10,35,0
+CUST-0067,31,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,3885.67,20,No,No,Yes,1,5,7,21,0
+CUST-0068,34,Female,Married,Yes,Lahore,One Year,Cash,2352.22,34,Yes,Yes,Yes,2,1,6,111,0
+CUST-0069,53,Female,Married,Yes,Islamabad,Two Year,Credit Card,6424.14,53,No,Yes,Yes,3,1,10,319,0
+CUST-0070,67,Female,Married,Yes,Peshawar,Month-to-Month,Credit Card,5259.01,64,No,No,No,1,5,8,348,1
+CUST-0071,57,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,4495.34,23,No,No,Yes,3,3,0,145,0
+CUST-0072,21,Male,Married,No,Karachi,Two Year,Bank Transfer,3443.95,27,Yes,Yes,Yes,5,1,1,12,0
+CUST-0073,19,Female,Single,No,Peshawar,One Year,Credit Card,2685.38,17,No,Yes,No,3,3,2,244,0
+CUST-0074,23,Female,Single,Yes,Quetta,Month-to-Month,Cash,6670.52,48,No,Yes,No,4,1,4,146,0
+CUST-0075,59,Male,Single,Yes,Peshawar,Month-to-Month,Cash,3885.56,21,Yes,Yes,Yes,4,0,3,239,0
+CUST-0076,21,Female,Married,Yes,Lahore,Month-to-Month,Cash,4260.86,50,Yes,No,Yes,2,2,3,92,0
+CUST-0077,46,Male,Married,Yes,Peshawar,One Year,Cash,4406.22,40,No,No,Yes,2,1,7,316,0
+CUST-0078,35,Female,Married,No,Karachi,Month-to-Month,Credit Card,3862.75,3,Yes,Yes,Yes,3,2,7,323,1
+CUST-0079,43,Female,Married,Yes,Peshawar,Two Year,Bank Transfer,2420.66,17,Yes,No,No,1,4,10,115,0
+CUST-0080,61,Male,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,1402.55,61,Yes,Yes,No,1,1,6,15,0
+CUST-0081,51,Male,Single,Yes,Lahore,Month-to-Month,Cash,1239.03,50,No,Yes,Yes,5,0,0,272,0
+CUST-0082,27,Female,Single,No,Peshawar,One Year,Credit Card,6180.97,6,No,Yes,Yes,1,3,9,22,0
+CUST-0083,53,Female,Single,Yes,Karachi,Two Year,Credit Card,2176.46,28,Yes,No,Yes,2,0,3,118,0
+CUST-0084,31,Female,Single,Yes,Lahore,Two Year,Cash,917.55,72,Yes,Yes,No,1,2,0,95,0
+CUST-0085,48,Male,Married,Yes,Karachi,Month-to-Month,Cash,6481.38,55,Yes,No,No,5,3,10,257,1
+CUST-0086,65,Female,Married,Yes,Quetta,One Year,Cash,1655.46,58,Yes,No,No,4,0,4,331,1
+CUST-0087,32,Male,Single,Yes,Islamabad,One Year,Bank Transfer,5188.6,45,No,Yes,Yes,1,0,2,262,0
+CUST-0088,25,Male,Married,No,Quetta,Month-to-Month,Cash,3039.82,72,Yes,No,No,1,0,2,87,1
+CUST-0089,31,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,1448.6,19,No,Yes,Yes,2,5,3,318,0
+CUST-0090,40,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,3608.61,29,Yes,Yes,Yes,3,3,1,58,0
+CUST-0091,57,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,611.07,23,No,No,No,4,0,6,230,0
+CUST-0092,38,Female,Married,Yes,Peshawar,Two Year,Bank Transfer,6807.84,32,No,Yes,Yes,3,0,3,108,0
+CUST-0093,33,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,4351.23,10,Yes,No,No,5,2,4,19,0
+CUST-0094,62,Female,Single,Yes,Islamabad,Two Year,Bank Transfer,1543.7,49,No,No,No,5,0,1,365,0
+CUST-0095,35,Female,Single,Yes,Islamabad,One Year,Bank Transfer,2277.35,65,No,No,Yes,3,0,5,141,0
+CUST-0096,64,Male,Single,Yes,Karachi,One Year,Cash,3859.81,29,No,Yes,Yes,2,4,8,160,0
+CUST-0097,70,Male,Married,Yes,Lahore,One Year,Credit Card,1916.52,59,Yes,No,No,2,3,7,100,0
+CUST-0098,41,Female,Single,Yes,Peshawar,Month-to-Month,Cash,2514.49,45,No,Yes,No,2,4,7,265,1
+CUST-0099,43,Female,Single,No,Peshawar,Month-to-Month,Bank Transfer,4507.89,67,No,Yes,No,4,5,1,238,0
+CUST-0100,42,Male,Married,No,Quetta,Month-to-Month,Cash,6744.57,51,Yes,No,No,5,2,3,238,1
+CUST-0101,62,Male,Married,No,Islamabad,One Year,Cash,3513.8,11,Yes,No,No,5,4,7,49,0
+CUST-0102,58,Male,Married,No,Islamabad,Month-to-Month,Credit Card,5877.31,6,No,Yes,No,5,5,10,165,1
+CUST-0103,46,Male,Married,Yes,Islamabad,One Year,Cash,7075.13,67,No,No,No,4,1,0,287,0
+CUST-0104,32,Female,Married,No,Peshawar,Month-to-Month,Credit Card,2122.26,62,Yes,No,Yes,5,3,7,59,0
+CUST-0105,62,Female,Single,No,Quetta,Month-to-Month,Bank Transfer,6553.94,5,Yes,No,No,3,0,2,183,0
+CUST-0106,18,Male,Single,Yes,Karachi,Month-to-Month,Cash,6180.52,9,No,Yes,Yes,1,4,7,147,1
+CUST-0107,42,Female,Married,No,Lahore,Two Year,Bank Transfer,3177.03,28,No,No,Yes,4,4,5,301,0
+CUST-0108,24,Male,Married,No,Karachi,One Year,Credit Card,7921.4,38,Yes,Yes,No,1,0,6,96,0
+CUST-0109,26,Female,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,2469.29,43,Yes,Yes,No,3,0,1,43,0
+CUST-0110,41,Male,Married,Yes,Islamabad,One Year,Bank Transfer,2411.02,21,No,No,No,2,2,0,354,0
+CUST-0111,18,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,6291.94,62,No,No,No,2,4,5,257,1
+CUST-0112,61,Male,Single,No,Peshawar,Two Year,Bank Transfer,3759.93,46,Yes,Yes,No,2,4,2,213,0
+CUST-0113,25,Male,Single,No,Peshawar,One Year,Bank Transfer,2980.96,70,No,Yes,Yes,4,1,3,189,0
+CUST-0114,41,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,1839.97,38,No,No,Yes,2,5,8,131,0
+CUST-0115,28,Male,Single,Yes,Lahore,One Year,Cash,6239.99,49,No,Yes,No,4,1,2,347,1
+CUST-0116,68,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,6397.41,39,No,No,No,4,4,1,300,0
+CUST-0117,34,Female,Single,Yes,Quetta,Two Year,Credit Card,4749.23,71,Yes,Yes,No,1,1,1,289,0
+CUST-0118,25,Male,Married,No,Quetta,Month-to-Month,Cash,7679.85,30,Yes,No,No,2,4,1,137,1
+CUST-0119,52,Female,Married,Yes,Karachi,One Year,Cash,2886.22,21,No,Yes,Yes,5,3,5,30,0
+CUST-0120,52,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,2147.14,1,No,No,Yes,2,2,1,146,1
+CUST-0121,50,Female,Single,No,Lahore,One Year,Bank Transfer,5581.0,32,No,No,Yes,2,1,10,312,1
+CUST-0122,22,Female,Married,Yes,Lahore,One Year,Cash,6188.06,8,No,Yes,No,2,4,6,105,0
+CUST-0123,59,Female,Single,Yes,Quetta,One Year,Cash,2186.79,69,Yes,No,No,5,1,6,287,0
+CUST-0124,56,Male,Single,Yes,Peshawar,One Year,Cash,1074.58,30,No,Yes,No,5,5,6,191,0
+CUST-0125,58,Female,Married,No,Islamabad,Two Year,Bank Transfer,6578.87,8,No,Yes,Yes,4,2,1,178,0
+CUST-0126,45,Female,Married,Yes,Quetta,Month-to-Month,Cash,7823.76,19,Yes,Yes,Yes,5,3,6,345,1
+CUST-0127,24,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,5335.04,59,Yes,Yes,Yes,4,0,9,239,1
+CUST-0128,26,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,2584.0,55,No,No,No,1,0,7,1,0
+CUST-0129,25,Female,Married,Yes,Karachi,Two Year,Credit Card,7975.04,30,Yes,Yes,Yes,4,1,7,110,0
+CUST-0130,29,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,7199.5,36,Yes,Yes,No,2,4,1,338,1
+CUST-0131,51,Female,Married,Yes,Karachi,One Year,Cash,4350.35,55,No,Yes,Yes,3,5,4,275,1
+CUST-0132,50,Male,Married,No,Lahore,One Year,Cash,6689.91,44,No,No,No,3,2,5,234,0
+CUST-0133,65,Male,Single,No,Quetta,Month-to-Month,Cash,6618.65,27,Yes,Yes,No,2,3,8,64,1
+CUST-0134,40,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,7510.99,54,No,No,No,4,3,5,244,0
+CUST-0135,41,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,6806.93,48,Yes,No,No,2,3,9,53,1
+CUST-0136,54,Female,Single,No,Karachi,Month-to-Month,Cash,5327.59,30,Yes,Yes,Yes,5,0,5,262,1
+CUST-0137,52,Male,Single,Yes,Quetta,Month-to-Month,Cash,5069.78,39,Yes,No,Yes,4,2,9,17,1
+CUST-0138,61,Male,Single,No,Peshawar,Month-to-Month,Credit Card,4005.18,13,No,Yes,Yes,2,0,9,302,1
+CUST-0139,57,Female,Married,No,Quetta,Two Year,Bank Transfer,5198.64,16,No,No,No,5,1,5,234,0
+CUST-0140,39,Female,Married,No,Karachi,Two Year,Credit Card,6464.12,44,Yes,No,Yes,5,3,8,73,0
+CUST-0141,44,Female,Single,No,Islamabad,Month-to-Month,Cash,7767.78,71,Yes,Yes,No,4,2,9,357,0
+CUST-0142,52,Male,Married,No,Quetta,Month-to-Month,Credit Card,4004.66,27,No,No,Yes,1,3,6,91,0
+CUST-0143,18,Female,Single,No,Lahore,Month-to-Month,Cash,4802.4,45,Yes,Yes,Yes,1,0,0,6,1
+CUST-0144,52,Female,Married,No,Peshawar,One Year,Bank Transfer,3836.04,35,Yes,No,No,5,0,0,198,0
+CUST-0145,54,Male,Married,No,Quetta,Two Year,Credit Card,5513.66,28,No,Yes,No,1,0,3,365,0
+CUST-0146,64,Female,Single,Yes,Peshawar,Month-to-Month,Cash,5224.4,7,No,Yes,No,5,3,1,196,0
+CUST-0147,31,Female,Single,Yes,Lahore,Month-to-Month,Cash,633.75,62,No,Yes,Yes,1,2,2,296,0
+CUST-0148,20,Female,Single,No,Islamabad,One Year,Cash,4558.71,51,No,Yes,No,5,2,6,347,0
+CUST-0149,18,Female,Married,No,Islamabad,One Year,Cash,1163.65,46,Yes,No,Yes,5,1,6,322,1
+CUST-0150,22,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,697.88,20,No,Yes,Yes,5,3,2,137,0
+CUST-0151,43,Female,Married,No,Peshawar,One Year,Cash,6433.98,38,No,Yes,Yes,5,1,1,267,0
+CUST-0152,31,Female,Single,No,Quetta,Month-to-Month,Credit Card,2439.87,61,Yes,Yes,No,3,5,0,116,1
+CUST-0153,56,Male,Married,Yes,Lahore,Month-to-Month,Cash,3054.91,32,Yes,Yes,Yes,1,1,8,43,1
+CUST-0154,44,Female,Married,Yes,Karachi,One Year,Credit Card,980.63,26,Yes,No,No,5,1,9,231,0
+CUST-0155,26,Male,Single,Yes,Peshawar,Two Year,Credit Card,1846.25,58,No,Yes,No,2,1,2,58,0
+CUST-0156,32,Female,Married,No,Islamabad,Month-to-Month,Cash,6242.04,39,Yes,No,Yes,4,0,8,206,0
+CUST-0157,32,Male,Married,No,Lahore,Two Year,Cash,4201.48,20,No,Yes,Yes,2,5,3,294,0
+CUST-0158,43,Male,Single,Yes,Islamabad,Month-to-Month,Cash,7105.01,50,Yes,Yes,Yes,2,1,9,94,1
+CUST-0159,59,Male,Married,Yes,Peshawar,One Year,Cash,3479.32,52,No,Yes,Yes,3,2,5,36,0
+CUST-0160,30,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,2515.26,22,Yes,Yes,No,1,1,6,230,0
+CUST-0161,68,Female,Single,Yes,Lahore,Two Year,Cash,3107.0,53,No,Yes,No,3,0,9,227,0
+CUST-0162,49,Male,Single,No,Peshawar,Two Year,Cash,5845.79,66,No,Yes,No,1,4,5,183,0
+CUST-0163,56,Female,Single,No,Karachi,Month-to-Month,Cash,4662.54,43,Yes,No,No,5,5,0,262,0
+CUST-0164,66,Male,Married,Yes,Lahore,Two Year,Credit Card,7281.43,23,Yes,No,No,3,4,5,131,0
+CUST-0165,69,Male,Married,Yes,Quetta,Two Year,Cash,5016.27,64,No,Yes,No,4,4,10,65,0
+CUST-0166,49,Male,Married,No,Lahore,One Year,Credit Card,4197.64,9,Yes,Yes,No,1,5,5,186,0
+CUST-0167,21,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,6393.15,7,No,Yes,No,3,3,4,117,0
+CUST-0168,47,Male,Married,Yes,Lahore,Two Year,Credit Card,7606.5,41,No,No,No,4,2,2,186,0
+CUST-0169,54,Female,Married,Yes,Karachi,Two Year,Credit Card,3168.84,54,No,Yes,Yes,2,0,9,274,0
+CUST-0170,40,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,2374.07,65,Yes,No,Yes,5,5,2,151,0
+CUST-0171,56,Female,Single,No,Quetta,Two Year,Cash,5121.63,2,No,No,No,5,4,10,352,0
+CUST-0172,62,Female,Married,No,Islamabad,Month-to-Month,Credit Card,4241.55,4,No,No,No,2,0,9,151,0
+CUST-0173,32,Female,Single,No,Peshawar,Month-to-Month,Cash,7918.89,32,No,No,Yes,3,0,6,36,1
+CUST-0174,60,Female,Single,No,Peshawar,One Year,Credit Card,3967.71,2,No,No,Yes,2,3,7,326,1
+CUST-0175,46,Female,Single,Yes,Islamabad,One Year,Bank Transfer,1057.49,64,Yes,Yes,Yes,4,4,2,95,0
+CUST-0176,53,Female,Single,Yes,Karachi,One Year,Credit Card,7830.27,14,Yes,No,No,1,1,2,134,1
+CUST-0177,30,Female,Married,No,Karachi,Month-to-Month,Cash,6826.9,20,No,No,Yes,3,0,6,162,0
+CUST-0178,49,Male,Single,No,Lahore,Two Year,Cash,1836.88,49,Yes,Yes,Yes,1,4,9,44,0
+CUST-0179,24,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,7284.54,8,Yes,Yes,Yes,2,0,6,300,1
+CUST-0180,68,Male,Single,No,Quetta,Month-to-Month,Cash,3055.0,63,No,No,Yes,5,3,10,283,0
+CUST-0181,39,Male,Single,No,Quetta,Month-to-Month,Cash,3328.34,46,Yes,Yes,Yes,1,3,8,356,0
+CUST-0182,45,Male,Single,Yes,Lahore,One Year,Credit Card,7297.94,21,Yes,Yes,No,1,1,5,240,1
+CUST-0183,19,Female,Single,No,Quetta,Two Year,Cash,4475.87,32,Yes,Yes,Yes,5,3,6,52,0
+CUST-0184,59,Female,Single,Yes,Islamabad,One Year,Credit Card,1533.22,8,Yes,No,No,1,4,10,281,0
+CUST-0185,62,Female,Single,Yes,Lahore,Two Year,Bank Transfer,3267.92,16,Yes,No,Yes,1,5,9,74,0
+CUST-0186,70,Female,Married,No,Islamabad,Month-to-Month,Cash,5915.73,40,Yes,Yes,Yes,5,3,0,295,0
+CUST-0187,23,Female,Single,Yes,Lahore,One Year,Credit Card,1806.38,27,No,Yes,Yes,5,5,6,238,0
+CUST-0188,45,Female,Married,No,Quetta,Month-to-Month,Cash,4926.73,18,Yes,No,Yes,2,1,1,167,1
+CUST-0189,45,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,5714.56,35,No,No,Yes,2,2,6,140,0
+CUST-0190,61,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,3078.9,52,No,Yes,No,1,0,2,139,1
+CUST-0191,61,Male,Single,No,Islamabad,One Year,Credit Card,5704.11,15,No,No,No,3,0,8,235,1
+CUST-0192,37,Male,Single,No,Lahore,One Year,Cash,7131.56,63,Yes,No,No,2,4,4,3,0
+CUST-0193,47,Male,Married,Yes,Peshawar,One Year,Credit Card,4040.88,53,Yes,Yes,No,2,1,6,256,0
+CUST-0194,28,Female,Single,Yes,Quetta,Month-to-Month,Cash,3371.82,66,No,Yes,No,3,1,7,278,0
+CUST-0195,45,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,2383.69,31,No,No,No,3,1,1,4,0
+CUST-0196,42,Female,Married,Yes,Peshawar,One Year,Credit Card,5031.54,61,No,No,No,5,0,10,270,1
+CUST-0197,56,Male,Married,No,Quetta,Month-to-Month,Cash,7098.89,64,Yes,No,Yes,2,3,0,212,0
+CUST-0198,50,Female,Single,No,Quetta,Two Year,Cash,2934.96,34,Yes,Yes,No,4,0,6,216,0
+CUST-0199,18,Female,Married,Yes,Islamabad,One Year,Cash,3471.77,55,Yes,Yes,Yes,4,0,5,270,0
+CUST-0200,44,Female,Married,No,Islamabad,Month-to-Month,Credit Card,3549.69,59,No,Yes,Yes,1,0,5,16,1
+CUST-0201,69,Male,Married,Yes,Lahore,Two Year,Credit Card,4706.09,3,Yes,Yes,No,2,3,1,64,0
+CUST-0202,30,Female,Single,No,Peshawar,One Year,Credit Card,2213.07,17,Yes,No,Yes,4,2,2,239,0
+CUST-0203,58,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,6666.58,46,No,Yes,Yes,2,4,3,16,1
+CUST-0204,20,Male,Single,No,Islamabad,One Year,Cash,2717.02,38,Yes,Yes,No,2,2,2,52,0
+CUST-0205,56,Male,Married,No,Quetta,Month-to-Month,Cash,5790.22,35,No,No,Yes,4,2,1,19,0
+CUST-0206,23,Male,Single,Yes,Islamabad,Two Year,Bank Transfer,4349.12,1,Yes,Yes,No,2,0,2,325,0
+CUST-0207,25,Female,Married,No,Quetta,Two Year,Bank Transfer,4894.23,29,No,No,Yes,3,2,5,93,0
+CUST-0208,44,Male,Single,No,Quetta,Two Year,Credit Card,1847.07,4,Yes,Yes,No,1,0,8,261,0
+CUST-0209,26,Male,Single,Yes,Islamabad,One Year,Credit Card,6012.67,61,No,No,Yes,5,0,3,298,0
+CUST-0210,54,Female,Married,No,Karachi,Month-to-Month,Credit Card,1914.65,17,Yes,No,No,4,4,5,17,1
+CUST-0211,50,Female,Single,Yes,Peshawar,One Year,Credit Card,1351.05,28,No,No,Yes,5,1,0,111,0
+CUST-0212,68,Male,Married,No,Quetta,Month-to-Month,Credit Card,4600.1,50,No,Yes,No,1,0,5,328,0
+CUST-0213,59,Female,Married,Yes,Quetta,One Year,Credit Card,5819.73,8,Yes,No,Yes,3,2,2,360,0
+CUST-0214,61,Male,Single,No,Karachi,One Year,Bank Transfer,875.27,34,Yes,Yes,Yes,3,4,8,94,0
+CUST-0215,41,Male,Married,No,Lahore,Month-to-Month,Bank Transfer,1020.46,59,No,Yes,No,3,5,3,10,0
+CUST-0216,32,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,6520.09,18,Yes,Yes,Yes,3,5,6,212,0
+CUST-0217,49,Male,Single,Yes,Karachi,Two Year,Cash,6567.75,59,No,Yes,No,4,5,3,237,0
+CUST-0218,49,Female,Married,Yes,Quetta,Two Year,Cash,2339.79,27,No,Yes,Yes,4,2,10,254,0
+CUST-0219,41,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,5114.21,16,Yes,Yes,Yes,2,1,5,16,1
+CUST-0220,58,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,3823.85,10,Yes,No,No,2,3,6,144,1
+CUST-0221,69,Female,Single,No,Lahore,Month-to-Month,Cash,5245.22,22,Yes,No,Yes,1,1,1,42,1
+CUST-0222,66,Female,Single,No,Islamabad,Two Year,Cash,6971.59,16,No,Yes,No,2,4,9,3,0
+CUST-0223,66,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,1098.92,12,No,Yes,Yes,1,1,5,156,0
+CUST-0224,69,Male,Single,Yes,Karachi,One Year,Cash,6334.88,51,Yes,Yes,Yes,1,5,7,173,0
+CUST-0225,29,Female,Single,Yes,Lahore,Month-to-Month,Cash,4197.72,1,No,Yes,Yes,1,1,5,24,0
+CUST-0226,56,Male,Married,No,Peshawar,One Year,Bank Transfer,4730.95,27,No,Yes,Yes,3,4,1,275,0
+CUST-0227,19,Female,Married,Yes,Karachi,Month-to-Month,Cash,5404.49,67,Yes,No,No,5,4,3,75,0
+CUST-0228,20,Female,Married,Yes,Karachi,One Year,Bank Transfer,7419.67,12,No,No,No,5,5,0,40,0
+CUST-0229,66,Male,Married,No,Peshawar,Month-to-Month,Cash,925.4,30,No,Yes,Yes,4,2,6,302,0
+CUST-0230,54,Male,Married,No,Lahore,One Year,Bank Transfer,721.07,9,No,Yes,Yes,1,0,7,40,0
+CUST-0231,66,Male,Married,Yes,Karachi,Month-to-Month,Cash,1836.96,53,Yes,No,No,3,3,9,62,0
+CUST-0232,34,Female,Single,No,Peshawar,One Year,Cash,7898.36,61,Yes,Yes,Yes,2,3,1,238,1
+CUST-0233,66,Female,Single,Yes,Karachi,Two Year,Bank Transfer,5863.07,54,No,Yes,No,2,5,9,245,1
+CUST-0234,19,Male,Married,No,Islamabad,Month-to-Month,Cash,5109.81,37,Yes,Yes,Yes,4,3,4,18,0
+CUST-0235,19,Male,Married,Yes,Quetta,Two Year,Bank Transfer,852.79,65,No,No,Yes,4,1,10,140,0
+CUST-0236,45,Male,Single,Yes,Islamabad,One Year,Bank Transfer,7093.33,42,Yes,No,No,1,4,7,82,0
+CUST-0237,40,Male,Single,Yes,Karachi,Month-to-Month,Cash,6595.68,49,No,Yes,Yes,1,4,10,189,0
+CUST-0238,54,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,5486.0,4,No,No,No,2,5,7,108,1
+CUST-0239,49,Male,Married,No,Quetta,Month-to-Month,Cash,3043.48,64,No,No,No,2,4,4,234,0
+CUST-0240,50,Male,Married,No,Islamabad,One Year,Credit Card,1028.79,51,No,Yes,No,2,0,7,268,0
+CUST-0241,18,Male,Married,No,Peshawar,One Year,Credit Card,4850.29,72,Yes,No,No,2,4,5,104,0
+CUST-0242,36,Male,Single,No,Lahore,Month-to-Month,Cash,5897.71,60,No,No,No,5,4,4,134,1
+CUST-0243,19,Female,Single,Yes,Islamabad,One Year,Credit Card,1206.8,31,No,No,No,1,1,10,344,1
+CUST-0244,70,Male,Married,Yes,Peshawar,Two Year,Bank Transfer,5253.26,72,Yes,No,Yes,1,2,3,33,0
+CUST-0245,61,Female,Married,No,Karachi,Two Year,Bank Transfer,2647.75,58,Yes,No,No,2,3,4,237,1
+CUST-0246,43,Male,Single,No,Peshawar,One Year,Credit Card,6231.83,4,No,No,No,3,1,3,336,0
+CUST-0247,49,Male,Single,No,Islamabad,Two Year,Bank Transfer,4547.12,22,No,Yes,Yes,2,1,0,178,1
+CUST-0248,23,Female,Single,No,Islamabad,One Year,Cash,1467.78,3,Yes,Yes,No,4,1,2,12,1
+CUST-0249,49,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,4448.9,47,No,Yes,Yes,3,3,7,351,0
+CUST-0250,21,Female,Married,Yes,Peshawar,Two Year,Credit Card,3468.03,38,No,No,No,4,5,6,229,0
+CUST-0251,28,Female,Single,Yes,Peshawar,Month-to-Month,Cash,1852.67,33,No,Yes,No,3,1,6,309,0
+CUST-0252,34,Male,Single,Yes,Karachi,Month-to-Month,Bank Transfer,6811.37,48,No,No,No,4,2,10,269,0
+CUST-0253,55,Female,Single,No,Peshawar,Month-to-Month,Cash,582.71,65,No,No,Yes,2,5,2,358,0
+CUST-0254,41,Female,Married,No,Karachi,Two Year,Credit Card,2840.96,26,No,Yes,Yes,2,4,8,131,0
+CUST-0255,22,Female,Married,No,Lahore,Two Year,Bank Transfer,594.46,8,No,No,No,3,2,5,249,0
+CUST-0256,69,Female,Single,No,Islamabad,Month-to-Month,Cash,1220.05,50,No,Yes,No,4,5,7,58,0
+CUST-0257,51,Female,Single,Yes,Lahore,Month-to-Month,Cash,2728.22,38,No,No,Yes,5,4,7,4,1
+CUST-0258,23,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,907.03,10,Yes,Yes,Yes,3,4,2,236,0
+CUST-0259,39,Female,Married,No,Quetta,One Year,Cash,4974.73,42,Yes,Yes,Yes,3,1,3,173,0
+CUST-0260,28,Female,Married,Yes,Quetta,Month-to-Month,Cash,1151.47,37,Yes,Yes,No,1,1,5,322,0
+CUST-0261,65,Male,Married,Yes,Karachi,One Year,Credit Card,5762.85,26,No,Yes,Yes,3,3,1,36,0
+CUST-0262,33,Male,Single,No,Peshawar,Month-to-Month,Credit Card,894.82,12,No,No,Yes,5,0,10,279,0
+CUST-0263,50,Female,Married,No,Lahore,Month-to-Month,Credit Card,944.82,49,No,Yes,Yes,2,2,6,237,0
+CUST-0264,26,Male,Single,No,Lahore,Month-to-Month,Credit Card,2789.94,14,Yes,No,Yes,4,3,1,275,0
+CUST-0265,23,Female,Single,No,Lahore,Month-to-Month,Credit Card,7224.29,46,Yes,Yes,Yes,1,3,10,296,1
+CUST-0266,33,Female,Single,No,Lahore,Two Year,Credit Card,5310.45,35,No,Yes,Yes,4,2,4,328,0
+CUST-0267,46,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,6275.98,29,Yes,Yes,Yes,2,5,3,58,0
+CUST-0268,20,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,1561.64,12,Yes,No,No,3,2,8,363,0
+CUST-0269,37,Female,Married,Yes,Peshawar,Month-to-Month,Cash,6755.94,44,No,Yes,Yes,5,4,1,18,1
+CUST-0270,53,Female,Married,No,Quetta,Month-to-Month,Bank Transfer,561.1,66,No,Yes,No,1,0,6,36,0
+CUST-0271,36,Female,Single,Yes,Lahore,Month-to-Month,Cash,2097.93,2,Yes,No,No,5,5,6,129,1
+CUST-0272,43,Male,Single,No,Karachi,Month-to-Month,Credit Card,5120.69,59,No,Yes,Yes,5,1,6,1,1
+CUST-0273,20,Female,Married,No,Islamabad,One Year,Credit Card,3314.35,17,Yes,No,No,5,0,0,64,0
+CUST-0274,36,Female,Single,No,Islamabad,One Year,Cash,7881.45,10,Yes,Yes,No,5,0,7,62,0
+CUST-0275,37,Female,Married,No,Islamabad,Month-to-Month,Cash,727.54,18,Yes,Yes,Yes,2,1,1,331,0
+CUST-0276,49,Male,Single,Yes,Quetta,Month-to-Month,Cash,7989.49,22,No,Yes,No,5,0,4,146,1
+CUST-0277,24,Female,Married,No,Lahore,Two Year,Bank Transfer,5177.21,58,Yes,No,Yes,5,5,1,272,0
+CUST-0278,69,Male,Married,Yes,Quetta,Month-to-Month,Credit Card,4690.3,53,Yes,Yes,Yes,2,5,4,17,0
+CUST-0279,58,Male,Married,No,Peshawar,Month-to-Month,Cash,946.34,1,No,Yes,Yes,4,5,6,280,1
+CUST-0280,50,Female,Married,No,Karachi,Month-to-Month,Credit Card,2549.97,61,No,Yes,Yes,2,3,5,98,0
+CUST-0281,57,Female,Single,No,Karachi,Month-to-Month,Cash,7434.97,31,Yes,No,Yes,3,3,4,227,0
+CUST-0282,56,Male,Single,Yes,Islamabad,One Year,Credit Card,3156.85,31,No,No,Yes,2,5,3,243,1
+CUST-0283,35,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,5462.4,66,No,No,Yes,4,1,7,201,0
+CUST-0284,57,Male,Married,No,Islamabad,One Year,Credit Card,7996.22,19,Yes,No,No,3,1,10,179,0
+CUST-0285,18,Male,Single,No,Lahore,Month-to-Month,Cash,2473.02,53,No,No,Yes,3,2,7,270,0
+CUST-0286,28,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,4820.61,22,Yes,No,No,1,2,0,234,1
+CUST-0287,45,Female,Single,Yes,Peshawar,One Year,Bank Transfer,5723.28,23,No,Yes,Yes,5,5,9,112,0
+CUST-0288,42,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,1734.7,15,No,Yes,Yes,3,0,1,66,0
+CUST-0289,67,Male,Single,No,Peshawar,One Year,Credit Card,1615.04,26,Yes,Yes,Yes,3,0,2,338,0
+CUST-0290,40,Male,Single,Yes,Islamabad,Month-to-Month,Cash,3922.31,3,Yes,Yes,No,4,1,0,349,0
+CUST-0291,48,Male,Married,No,Karachi,One Year,Bank Transfer,3393.59,20,No,Yes,No,3,0,10,245,0
+CUST-0292,47,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,5856.62,40,No,No,No,4,4,2,245,0
+CUST-0293,59,Female,Single,Yes,Peshawar,Two Year,Credit Card,1021.32,39,No,No,No,5,3,9,72,0
+CUST-0294,52,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,7791.25,72,Yes,No,No,1,0,7,357,0
+CUST-0295,24,Female,Single,Yes,Peshawar,Two Year,Bank Transfer,607.08,18,No,Yes,No,1,0,3,49,0
+CUST-0296,33,Female,Single,No,Quetta,Month-to-Month,Cash,5009.88,41,Yes,No,Yes,5,2,6,346,1
+CUST-0297,43,Male,Single,No,Karachi,One Year,Cash,4719.74,70,No,Yes,Yes,5,4,6,190,0
+CUST-0298,65,Female,Single,Yes,Quetta,Month-to-Month,Cash,1510.37,27,No,No,No,2,0,10,293,0
+CUST-0299,69,Female,Single,No,Lahore,Two Year,Credit Card,1631.87,15,No,Yes,No,3,3,4,177,0
+CUST-0300,66,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,6445.08,37,No,No,No,3,0,0,161,0
+CUST-0301,19,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,7156.72,58,No,Yes,No,3,1,9,150,1
+CUST-0302,18,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,2622.63,5,Yes,No,No,4,4,3,70,0
+CUST-0303,65,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,3784.73,7,Yes,Yes,Yes,2,0,6,33,0
+CUST-0304,29,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,3162.46,41,Yes,No,Yes,3,4,4,284,0
+CUST-0305,22,Male,Married,No,Peshawar,Two Year,Cash,1044.1,10,No,Yes,Yes,4,0,1,344,0
+CUST-0306,54,Female,Single,No,Islamabad,Two Year,Credit Card,5549.03,62,Yes,Yes,Yes,4,3,7,260,0
+CUST-0307,49,Male,Married,Yes,Peshawar,Month-to-Month,Credit Card,6688.95,26,Yes,Yes,Yes,1,3,1,322,1
+CUST-0308,26,Male,Married,Yes,Quetta,Two Year,Bank Transfer,2786.6,68,No,Yes,Yes,4,4,10,77,0
+CUST-0309,58,Female,Single,Yes,Peshawar,One Year,Credit Card,7926.32,24,No,No,Yes,5,5,7,110,0
+CUST-0310,52,Female,Single,Yes,Quetta,Month-to-Month,Cash,1068.89,41,Yes,No,Yes,4,2,10,305,0
+CUST-0311,36,Female,Single,No,Lahore,One Year,Credit Card,5463.43,65,Yes,No,No,5,2,1,139,1
+CUST-0312,65,Male,Single,No,Quetta,One Year,Bank Transfer,3861.71,17,Yes,Yes,No,5,1,10,35,0
+CUST-0313,33,Male,Single,Yes,Karachi,Two Year,Cash,3849.51,24,Yes,No,Yes,1,5,4,235,0
+CUST-0314,20,Female,Married,Yes,Karachi,Month-to-Month,Cash,3932.34,27,Yes,Yes,Yes,1,2,3,330,1
+CUST-0315,37,Female,Married,No,Karachi,One Year,Bank Transfer,2440.11,7,Yes,No,Yes,4,4,0,200,0
+CUST-0316,41,Male,Married,No,Islamabad,Month-to-Month,Credit Card,5866.72,12,Yes,Yes,No,1,2,7,325,1
+CUST-0317,50,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,5911.82,3,No,No,No,1,1,9,151,1
+CUST-0318,41,Female,Married,No,Islamabad,Month-to-Month,Credit Card,2617.98,10,Yes,Yes,Yes,3,0,2,34,0
+CUST-0319,69,Female,Married,Yes,Quetta,Two Year,Credit Card,6764.8,33,No,Yes,No,4,2,3,124,0
+CUST-0320,28,Male,Married,No,Islamabad,Two Year,Cash,2876.34,46,No,No,Yes,4,4,3,32,1
+CUST-0321,66,Female,Single,No,Lahore,One Year,Bank Transfer,5938.2,59,No,No,Yes,4,4,4,272,0
+CUST-0322,25,Male,Single,Yes,Karachi,One Year,Cash,1407.5,52,Yes,No,Yes,1,1,2,324,0
+CUST-0323,53,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,1765.26,6,Yes,Yes,Yes,1,1,8,310,0
+CUST-0324,55,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,2868.47,2,No,Yes,Yes,5,3,3,124,0
+CUST-0325,57,Male,Single,Yes,Islamabad,Month-to-Month,Cash,4954.05,29,Yes,Yes,No,2,3,9,316,0
+CUST-0326,37,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,5341.34,40,Yes,No,Yes,2,3,10,78,0
+CUST-0327,52,Female,Single,Yes,Peshawar,One Year,Bank Transfer,3472.67,61,No,Yes,Yes,2,0,10,76,1
+CUST-0328,65,Male,Single,No,Lahore,One Year,Credit Card,1083.79,68,Yes,No,Yes,3,4,3,60,1
+CUST-0329,42,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,3302.26,68,No,Yes,Yes,1,3,5,85,0
+CUST-0330,52,Male,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,5665.76,29,No,No,No,5,4,7,80,0
+CUST-0331,42,Male,Married,Yes,Lahore,Month-to-Month,Cash,5532.47,62,No,Yes,Yes,5,1,6,172,0
+CUST-0332,46,Male,Married,No,Lahore,Month-to-Month,Cash,1701.47,60,No,Yes,Yes,2,0,3,258,0
+CUST-0333,35,Female,Married,Yes,Peshawar,Two Year,Bank Transfer,558.38,41,Yes,No,No,3,1,3,279,1
+CUST-0334,63,Female,Single,Yes,Islamabad,One Year,Credit Card,6147.36,65,No,Yes,Yes,3,4,4,221,0
+CUST-0335,35,Female,Single,Yes,Islamabad,Two Year,Credit Card,1297.76,64,Yes,Yes,Yes,2,5,9,46,0
+CUST-0336,19,Female,Married,No,Karachi,Month-to-Month,Cash,1117.62,63,Yes,No,Yes,2,5,4,73,0
+CUST-0337,52,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,520.26,48,Yes,Yes,Yes,1,3,0,54,0
+CUST-0338,33,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,3744.51,20,Yes,No,No,3,5,7,327,1
+CUST-0339,58,Male,Single,No,Karachi,Two Year,Credit Card,4274.48,37,No,No,Yes,5,1,9,221,0
+CUST-0340,53,Male,Married,No,Quetta,One Year,Credit Card,5282.48,64,No,Yes,Yes,2,5,4,337,1
+CUST-0341,50,Male,Single,No,Lahore,Month-to-Month,Credit Card,2720.48,5,No,Yes,No,1,2,2,9,1
+CUST-0342,21,Female,Married,Yes,Quetta,One Year,Cash,5828.19,34,No,Yes,Yes,5,0,2,326,0
+CUST-0343,50,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,1769.99,39,No,No,Yes,3,4,3,172,0
+CUST-0344,31,Female,Married,No,Karachi,One Year,Cash,6739.93,67,Yes,Yes,No,2,3,6,84,1
+CUST-0345,38,Female,Single,Yes,Peshawar,Two Year,Bank Transfer,4788.86,62,No,No,Yes,2,1,4,330,0
+CUST-0346,65,Female,Single,No,Quetta,One Year,Cash,4879.17,24,Yes,Yes,No,1,0,0,329,0
+CUST-0347,37,Female,Married,No,Quetta,One Year,Bank Transfer,2073.32,3,Yes,Yes,Yes,1,3,4,12,0
+CUST-0348,25,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,1055.82,71,No,No,No,3,1,4,32,0
+CUST-0349,24,Female,Married,Yes,Karachi,Month-to-Month,Credit Card,3985.44,67,Yes,Yes,Yes,2,5,5,339,0
+CUST-0350,20,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,5117.09,50,Yes,Yes,Yes,1,4,6,289,1
+CUST-0351,34,Female,Single,No,Karachi,Month-to-Month,Cash,1212.85,29,No,Yes,No,2,2,4,320,1
+CUST-0352,50,Male,Single,Yes,Lahore,One Year,Credit Card,7629.01,32,No,Yes,Yes,3,2,10,304,1
+CUST-0353,65,Male,Married,No,Karachi,One Year,Bank Transfer,7853.11,39,No,Yes,No,2,5,1,272,1
+CUST-0354,29,Male,Single,No,Lahore,Month-to-Month,Cash,4590.93,9,Yes,No,No,5,4,1,178,0
+CUST-0355,68,Female,Single,No,Lahore,Two Year,Bank Transfer,7625.52,14,No,Yes,No,2,0,3,114,1
+CUST-0356,39,Female,Married,No,Karachi,Month-to-Month,Cash,1845.84,68,No,No,No,4,4,0,26,0
+CUST-0357,39,Male,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,690.66,64,Yes,Yes,Yes,4,5,6,237,0
+CUST-0358,63,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,795.57,20,No,Yes,No,3,1,0,310,0
+CUST-0359,47,Male,Married,No,Quetta,Month-to-Month,Cash,4906.34,28,Yes,No,Yes,3,0,2,172,0
+CUST-0360,55,Male,Single,Yes,Quetta,Month-to-Month,Cash,962.31,14,Yes,Yes,Yes,3,2,9,233,0
+CUST-0361,55,Female,Single,No,Islamabad,Month-to-Month,Credit Card,7689.09,44,No,Yes,No,5,5,6,37,0
+CUST-0362,62,Female,Single,No,Lahore,Month-to-Month,Credit Card,1564.5,39,Yes,No,No,5,1,10,265,1
+CUST-0363,68,Female,Single,No,Islamabad,Two Year,Bank Transfer,2785.42,28,Yes,No,Yes,2,5,5,13,0
+CUST-0364,25,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,6668.88,64,No,Yes,No,1,3,6,316,1
+CUST-0365,44,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,2140.55,32,No,No,Yes,4,3,4,106,1
+CUST-0366,44,Male,Single,No,Karachi,Month-to-Month,Cash,2322.26,9,No,No,No,4,3,7,126,1
+CUST-0367,51,Male,Single,Yes,Islamabad,One Year,Cash,5317.32,28,Yes,No,Yes,4,2,5,336,0
+CUST-0368,38,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,2570.65,17,Yes,No,Yes,2,4,3,130,0
+CUST-0369,47,Male,Married,Yes,Karachi,Two Year,Bank Transfer,2130.86,55,No,Yes,No,2,0,10,316,0
+CUST-0370,50,Female,Married,Yes,Peshawar,One Year,Credit Card,2406.33,10,No,Yes,Yes,3,2,0,256,0
+CUST-0371,45,Male,Single,No,Quetta,One Year,Cash,4179.86,6,No,No,Yes,1,1,1,115,1
+CUST-0372,64,Male,Married,Yes,Quetta,One Year,Cash,7745.75,48,Yes,Yes,No,3,1,5,299,0
+CUST-0373,50,Male,Married,No,Islamabad,Month-to-Month,Cash,6741.78,67,No,No,No,2,3,3,124,1
+CUST-0374,22,Female,Married,Yes,Karachi,Month-to-Month,Credit Card,2634.58,41,Yes,Yes,No,5,0,2,256,0
+CUST-0375,65,Female,Married,Yes,Peshawar,Month-to-Month,Cash,3225.3,60,No,Yes,No,3,3,6,139,0
+CUST-0376,36,Female,Married,Yes,Karachi,One Year,Bank Transfer,3983.84,42,Yes,No,No,2,1,6,206,0
+CUST-0377,21,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,7841.97,71,Yes,No,Yes,2,1,1,47,0
+CUST-0378,52,Male,Married,Yes,Karachi,Month-to-Month,Cash,1792.93,28,No,Yes,Yes,5,4,7,217,1
+CUST-0379,66,Male,Single,Yes,Peshawar,Two Year,Credit Card,3181.12,13,Yes,Yes,No,5,4,10,319,0
+CUST-0380,34,Female,Single,No,Islamabad,Month-to-Month,Credit Card,5970.7,15,Yes,Yes,Yes,5,4,0,350,0
+CUST-0381,61,Female,Married,Yes,Lahore,Two Year,Cash,7729.58,36,No,No,Yes,1,3,10,123,0
+CUST-0382,45,Male,Single,Yes,Karachi,One Year,Cash,1667.56,15,No,Yes,Yes,2,5,9,31,0
+CUST-0383,47,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,2205.35,56,Yes,No,Yes,5,0,6,55,0
+CUST-0384,46,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,2192.71,4,Yes,No,Yes,1,4,9,153,0
+CUST-0385,63,Female,Single,No,Islamabad,Month-to-Month,Cash,656.99,52,Yes,No,No,4,2,0,286,0
+CUST-0386,70,Female,Married,Yes,Islamabad,One Year,Bank Transfer,5030.87,10,No,Yes,No,4,4,2,36,0
+CUST-0387,23,Female,Married,Yes,Karachi,One Year,Credit Card,5530.27,45,Yes,No,Yes,4,3,2,306,0
+CUST-0388,52,Male,Married,Yes,Islamabad,One Year,Credit Card,5018.94,29,Yes,Yes,Yes,2,0,9,285,1
+CUST-0389,58,Male,Single,Yes,Karachi,Two Year,Bank Transfer,1034.92,53,No,No,No,1,4,1,256,0
+CUST-0390,54,Male,Single,No,Karachi,One Year,Cash,1019.23,29,No,Yes,No,1,0,9,178,1
+CUST-0391,41,Female,Single,Yes,Lahore,Month-to-Month,Cash,2077.9,23,No,Yes,No,4,2,4,36,0
+CUST-0392,46,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,2677.21,57,No,No,No,3,1,3,254,0
+CUST-0393,66,Male,Married,Yes,Karachi,Two Year,Cash,6399.08,50,No,No,Yes,4,0,5,162,0
+CUST-0394,63,Male,Married,No,Lahore,Month-to-Month,Cash,1695.43,21,Yes,Yes,No,2,5,1,21,1
+CUST-0395,70,Male,Single,No,Peshawar,Month-to-Month,Credit Card,830.69,43,Yes,Yes,No,4,4,3,294,1
+CUST-0396,48,Male,Married,Yes,Lahore,One Year,Credit Card,3454.91,10,Yes,No,Yes,4,3,6,75,0
+CUST-0397,52,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,3622.94,30,No,No,No,1,5,0,207,1
+CUST-0398,50,Male,Single,No,Karachi,Two Year,Bank Transfer,3881.81,51,No,Yes,No,4,5,10,178,0
+CUST-0399,69,Male,Married,No,Quetta,One Year,Cash,6701.78,33,No,Yes,No,5,3,2,37,0
+CUST-0400,38,Male,Single,Yes,Quetta,Month-to-Month,Cash,1235.04,18,Yes,No,No,5,3,0,120,0
+CUST-0401,49,Male,Married,No,Quetta,Two Year,Credit Card,5779.57,22,No,Yes,No,3,3,1,118,0
+CUST-0402,40,Male,Single,No,Lahore,Month-to-Month,Credit Card,3034.59,64,No,No,Yes,2,5,8,1,0
+CUST-0403,50,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,2824.85,21,No,No,Yes,2,0,9,209,1
+CUST-0404,20,Male,Married,Yes,Islamabad,Month-to-Month,Cash,7494.07,1,Yes,No,Yes,1,3,4,311,1
+CUST-0405,35,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,2363.51,15,No,No,Yes,2,1,3,208,1
+CUST-0406,42,Female,Single,No,Lahore,Month-to-Month,Cash,5318.99,36,No,Yes,Yes,3,5,3,154,0
+CUST-0407,59,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,2563.46,47,Yes,No,No,5,5,7,250,0
+CUST-0408,48,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,4303.58,54,No,No,No,1,5,2,171,1
+CUST-0409,20,Male,Married,Yes,Lahore,Month-to-Month,Bank Transfer,6397.2,32,No,Yes,No,5,2,3,315,0
+CUST-0410,57,Female,Married,No,Peshawar,One Year,Bank Transfer,7112.92,58,No,Yes,No,3,0,1,307,0
+CUST-0411,63,Female,Single,Yes,Peshawar,Two Year,Credit Card,6790.23,46,Yes,No,No,1,0,5,107,0
+CUST-0412,41,Male,Married,No,Quetta,Month-to-Month,Cash,4866.36,54,No,No,No,4,3,8,143,1
+CUST-0413,67,Male,Single,Yes,Karachi,Month-to-Month,Cash,2366.12,33,No,No,No,2,5,3,8,0
+CUST-0414,49,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,5459.25,39,Yes,No,No,3,5,10,94,0
+CUST-0415,64,Female,Married,No,Karachi,Month-to-Month,Bank Transfer,5824.29,23,Yes,No,No,1,3,5,97,1
+CUST-0416,39,Male,Married,Yes,Quetta,One Year,Bank Transfer,580.19,43,No,No,No,5,0,3,7,0
+CUST-0417,40,Female,Single,Yes,Karachi,One Year,Bank Transfer,3794.08,55,Yes,Yes,No,1,3,1,274,0
+CUST-0418,19,Male,Single,Yes,Lahore,Month-to-Month,Cash,6824.47,2,No,Yes,No,4,3,5,12,1
+CUST-0419,44,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,4171.91,66,Yes,No,No,3,3,6,2,0
+CUST-0420,59,Male,Married,Yes,Karachi,Month-to-Month,Cash,2835.32,38,No,Yes,Yes,1,3,3,349,0
+CUST-0421,19,Male,Married,Yes,Islamabad,One Year,Bank Transfer,7038.48,29,No,Yes,No,3,3,10,7,1
+CUST-0422,43,Female,Married,No,Karachi,Month-to-Month,Credit Card,1669.11,67,No,No,Yes,3,4,6,12,1
+CUST-0423,34,Male,Married,Yes,Peshawar,Two Year,Credit Card,2048.34,71,Yes,Yes,No,5,4,10,340,0
+CUST-0424,57,Male,Single,Yes,Quetta,One Year,Cash,5655.29,36,Yes,Yes,No,2,5,7,57,1
+CUST-0425,50,Female,Single,Yes,Quetta,Month-to-Month,Cash,3143.27,29,No,No,No,4,5,10,78,0
+CUST-0426,26,Male,Single,Yes,Peshawar,One Year,Credit Card,5847.63,37,No,No,Yes,1,4,2,74,1
+CUST-0427,60,Female,Single,Yes,Lahore,Two Year,Credit Card,1682.78,45,No,No,Yes,2,0,1,233,0
+CUST-0428,65,Female,Single,No,Lahore,One Year,Bank Transfer,2392.02,16,No,Yes,No,5,2,4,279,0
+CUST-0429,56,Female,Single,No,Quetta,Month-to-Month,Credit Card,1674.86,31,Yes,No,No,2,0,1,30,1
+CUST-0430,46,Male,Married,Yes,Quetta,Month-to-Month,Cash,7646.83,34,Yes,Yes,No,3,5,9,314,1
+CUST-0431,59,Female,Married,Yes,Peshawar,Two Year,Credit Card,3540.53,50,No,No,No,3,4,4,95,0
+CUST-0432,43,Female,Single,Yes,Lahore,One Year,Cash,3029.15,65,Yes,No,Yes,4,0,9,308,0
+CUST-0433,52,Male,Single,No,Quetta,One Year,Cash,606.52,62,Yes,No,Yes,1,2,5,56,0
+CUST-0434,67,Female,Married,No,Lahore,Two Year,Bank Transfer,1650.63,43,Yes,No,No,1,3,7,10,0
+CUST-0435,42,Female,Married,Yes,Quetta,Two Year,Bank Transfer,3658.52,56,No,Yes,Yes,5,1,5,147,0
+CUST-0436,41,Female,Married,Yes,Karachi,Two Year,Bank Transfer,1013.77,15,No,Yes,Yes,4,4,3,364,0
+CUST-0437,30,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,4330.54,48,Yes,No,No,1,4,2,87,0
+CUST-0438,24,Female,Single,Yes,Karachi,One Year,Credit Card,3912.62,49,Yes,Yes,No,3,2,1,253,0
+CUST-0439,53,Male,Single,No,Quetta,One Year,Bank Transfer,6253.76,44,No,No,No,4,3,0,187,0
+CUST-0440,62,Female,Single,No,Islamabad,One Year,Credit Card,5448.52,10,No,No,Yes,2,3,1,233,1
+CUST-0441,37,Female,Single,Yes,Islamabad,One Year,Bank Transfer,3844.6,20,No,Yes,No,4,1,1,253,0
+CUST-0442,18,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,2184.96,70,Yes,Yes,Yes,4,3,4,224,1
+CUST-0443,25,Male,Married,Yes,Quetta,One Year,Cash,5951.48,8,Yes,No,No,1,2,8,340,1
+CUST-0444,63,Male,Single,Yes,Lahore,One Year,Credit Card,5808.97,45,Yes,No,No,5,5,0,4,0
+CUST-0445,33,Female,Married,Yes,Quetta,Month-to-Month,Cash,1649.72,34,No,No,Yes,5,3,3,353,0
+CUST-0446,31,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,7360.64,51,No,Yes,Yes,1,5,9,112,0
+CUST-0447,29,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,983.04,4,No,No,Yes,1,5,6,193,1
+CUST-0448,68,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,912.78,39,No,No,Yes,1,2,10,141,0
+CUST-0449,40,Male,Single,No,Quetta,Month-to-Month,Cash,1905.13,24,No,No,Yes,5,4,9,323,1
+CUST-0450,32,Male,Single,No,Lahore,Month-to-Month,Credit Card,7320.96,55,Yes,No,Yes,1,4,2,140,0
+CUST-0451,45,Female,Married,No,Peshawar,One Year,Cash,4399.99,26,Yes,No,No,2,4,7,349,0
+CUST-0452,51,Male,Married,No,Karachi,One Year,Bank Transfer,6409.56,25,Yes,No,Yes,2,0,2,95,1
+CUST-0453,19,Female,Married,Yes,Peshawar,One Year,Bank Transfer,2208.82,36,No,Yes,Yes,3,4,7,41,0
+CUST-0454,49,Male,Single,No,Lahore,Two Year,Bank Transfer,4176.66,71,Yes,No,No,2,2,1,2,0
+CUST-0455,40,Male,Single,No,Peshawar,Month-to-Month,Credit Card,3187.17,58,No,No,Yes,4,1,4,278,0
+CUST-0456,39,Male,Married,No,Quetta,Month-to-Month,Cash,6708.71,12,Yes,Yes,Yes,3,3,3,150,1
+CUST-0457,68,Female,Single,Yes,Quetta,Two Year,Cash,669.53,1,Yes,Yes,No,2,4,10,41,0
+CUST-0458,42,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,2328.82,50,No,No,No,4,0,8,351,0
+CUST-0459,39,Female,Married,Yes,Islamabad,Two Year,Cash,1644.31,25,Yes,Yes,No,2,5,2,116,0
+CUST-0460,39,Female,Single,No,Quetta,Two Year,Credit Card,6943.92,5,Yes,No,Yes,4,0,10,120,0
+CUST-0461,66,Female,Married,Yes,Karachi,One Year,Bank Transfer,4006.58,68,Yes,Yes,No,1,2,4,237,0
+CUST-0462,69,Female,Single,Yes,Lahore,Two Year,Bank Transfer,3531.65,6,Yes,Yes,Yes,4,1,9,270,0
+CUST-0463,59,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,3871.12,26,Yes,No,No,1,4,8,349,0
+CUST-0464,23,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,7789.43,55,Yes,Yes,Yes,4,4,5,291,0
+CUST-0465,32,Female,Single,Yes,Karachi,One Year,Bank Transfer,6877.01,39,Yes,No,No,4,0,1,9,0
+CUST-0466,60,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,5797.77,9,No,Yes,No,2,2,0,239,0
+CUST-0467,54,Female,Single,No,Lahore,Two Year,Bank Transfer,2678.59,45,Yes,No,No,4,0,10,118,0
+CUST-0468,50,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,1738.8,14,No,Yes,Yes,2,0,0,352,1
+CUST-0469,25,Female,Married,Yes,Quetta,One Year,Cash,7410.75,55,Yes,No,Yes,4,1,6,315,1
+CUST-0470,70,Male,Single,Yes,Lahore,One Year,Bank Transfer,3673.07,9,No,No,No,5,2,1,312,1
+CUST-0471,61,Female,Married,Yes,Peshawar,One Year,Credit Card,2590.67,15,No,No,No,3,1,6,10,0
+CUST-0472,61,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,4031.91,37,Yes,No,No,2,2,0,25,0
+CUST-0473,22,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,7383.86,50,No,Yes,No,2,4,3,173,1
+CUST-0474,56,Female,Single,Yes,Lahore,Two Year,Cash,3403.0,72,No,No,Yes,1,3,9,225,0
+CUST-0475,21,Male,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,4719.81,21,Yes,Yes,No,5,5,10,11,1
+CUST-0476,23,Male,Married,Yes,Lahore,Two Year,Cash,6522.25,57,No,Yes,No,1,3,3,101,0
+CUST-0477,62,Male,Single,Yes,Islamabad,One Year,Credit Card,3703.49,19,Yes,No,Yes,5,2,4,265,1
+CUST-0478,49,Male,Married,Yes,Peshawar,One Year,Cash,2251.56,58,No,No,Yes,5,3,9,327,0
+CUST-0479,69,Female,Single,Yes,Quetta,One Year,Bank Transfer,7958.94,6,No,Yes,No,4,0,0,83,1
+CUST-0480,47,Female,Single,No,Islamabad,Month-to-Month,Credit Card,7674.28,4,No,Yes,No,1,4,6,276,1
+CUST-0481,64,Male,Single,No,Islamabad,One Year,Bank Transfer,6826.09,43,No,Yes,Yes,3,5,10,345,0
+CUST-0482,52,Female,Single,No,Peshawar,Two Year,Cash,5662.8,42,Yes,No,Yes,5,5,1,261,1
+CUST-0483,57,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,2711.49,3,Yes,No,No,5,5,10,221,0
+CUST-0484,69,Male,Married,Yes,Karachi,Two Year,Credit Card,7350.6,1,Yes,Yes,Yes,2,4,10,311,0
+CUST-0485,33,Female,Married,No,Peshawar,Month-to-Month,Cash,2566.68,55,Yes,Yes,Yes,4,3,1,219,0
+CUST-0486,30,Female,Married,Yes,Karachi,Month-to-Month,Cash,6506.07,15,Yes,Yes,No,3,5,7,89,1
+CUST-0487,67,Female,Single,No,Peshawar,Month-to-Month,Credit Card,7386.94,47,No,No,No,5,5,8,15,1
+CUST-0488,59,Female,Married,Yes,Islamabad,Two Year,Credit Card,5022.53,46,Yes,Yes,Yes,2,2,5,246,0
+CUST-0489,47,Female,Married,Yes,Karachi,Month-to-Month,Cash,6522.92,58,No,Yes,No,1,0,10,176,0
+CUST-0490,36,Female,Single,No,Islamabad,Two Year,Bank Transfer,6437.71,71,Yes,Yes,No,5,2,0,4,0
+CUST-0491,34,Female,Single,No,Peshawar,Two Year,Credit Card,1948.68,39,Yes,Yes,No,2,3,0,334,0
+CUST-0492,36,Male,Single,No,Islamabad,Month-to-Month,Cash,5509.43,3,Yes,No,No,1,4,10,21,1
+CUST-0493,45,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,1201.01,30,Yes,Yes,No,4,4,6,208,1
+CUST-0494,43,Male,Married,No,Karachi,One Year,Credit Card,4308.88,35,No,No,Yes,1,2,7,137,1
+CUST-0495,54,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,1716.77,57,Yes,No,Yes,5,1,2,322,0
+CUST-0496,43,Male,Single,Yes,Lahore,One Year,Cash,3622.62,29,No,Yes,No,3,2,8,363,0
+CUST-0497,70,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,6747.37,50,No,No,No,1,1,3,216,0
+CUST-0498,40,Male,Single,No,Peshawar,Month-to-Month,Credit Card,7903.76,62,Yes,Yes,No,3,2,3,117,1
+CUST-0499,26,Male,Married,No,Islamabad,One Year,Bank Transfer,2884.7,52,No,Yes,Yes,3,1,2,179,1
+CUST-0500,29,Male,Married,No,Lahore,Month-to-Month,Bank Transfer,4489.67,14,No,Yes,Yes,1,1,7,246,0
+CUST-0501,70,Male,Single,No,Karachi,Month-to-Month,Credit Card,4334.74,35,Yes,Yes,Yes,4,5,8,128,0
+CUST-0502,18,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,7658.01,28,No,Yes,Yes,1,5,0,358,1
+CUST-0503,18,Male,Married,No,Quetta,Month-to-Month,Credit Card,4089.38,58,Yes,No,No,2,1,1,78,1
+CUST-0504,64,Male,Single,Yes,Islamabad,One Year,Bank Transfer,5743.3,30,Yes,No,No,3,1,0,229,0
+CUST-0505,51,Female,Single,Yes,Lahore,Two Year,Credit Card,7413.42,7,No,Yes,Yes,5,0,3,293,0
+CUST-0506,49,Female,Married,Yes,Lahore,Month-to-Month,Cash,3300.34,39,No,No,Yes,3,1,9,262,0
+CUST-0507,65,Male,Single,Yes,Peshawar,One Year,Credit Card,7265.92,69,No,Yes,No,5,5,6,82,1
+CUST-0508,42,Female,Married,Yes,Karachi,One Year,Credit Card,7380.92,35,No,No,No,2,1,6,342,0
+CUST-0509,57,Female,Single,No,Lahore,Month-to-Month,Credit Card,7479.97,52,No,No,No,2,4,5,338,0
+CUST-0510,62,Female,Single,No,Quetta,Month-to-Month,Bank Transfer,2528.35,14,No,Yes,No,2,0,10,307,0
+CUST-0511,70,Female,Married,No,Karachi,Two Year,Cash,3502.67,63,No,No,No,1,1,4,66,0
+CUST-0512,18,Male,Married,No,Karachi,One Year,Bank Transfer,7027.97,36,Yes,No,Yes,3,5,10,96,1
+CUST-0513,33,Female,Single,No,Islamabad,One Year,Bank Transfer,3193.71,24,Yes,No,No,5,5,3,145,0
+CUST-0514,56,Female,Married,No,Lahore,One Year,Credit Card,5001.9,40,Yes,Yes,Yes,2,3,7,65,1
+CUST-0515,22,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,1385.41,29,No,No,Yes,2,5,6,9,0
+CUST-0516,39,Male,Single,No,Lahore,One Year,Credit Card,922.06,53,No,No,No,5,0,10,357,0
+CUST-0517,46,Male,Married,No,Peshawar,One Year,Cash,3589.95,22,No,No,Yes,3,5,10,186,0
+CUST-0518,20,Male,Single,No,Islamabad,One Year,Bank Transfer,4841.87,72,Yes,No,Yes,3,4,9,158,0
+CUST-0519,29,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,3445.24,15,Yes,No,No,5,2,0,31,0
+CUST-0520,43,Male,Married,Yes,Quetta,Month-to-Month,Bank Transfer,4833.02,69,Yes,No,Yes,4,4,5,151,1
+CUST-0521,33,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,4363.13,64,No,No,No,3,4,1,319,0
+CUST-0522,68,Male,Single,No,Lahore,Two Year,Credit Card,5642.8,4,Yes,No,No,5,0,3,242,0
+CUST-0523,54,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,5371.49,18,Yes,No,Yes,5,0,4,156,0
+CUST-0524,39,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,3681.84,42,No,Yes,No,2,3,7,59,0
+CUST-0525,46,Female,Married,No,Islamabad,Month-to-Month,Cash,3687.46,30,Yes,No,No,5,5,5,10,0
+CUST-0526,31,Male,Married,No,Peshawar,Month-to-Month,Cash,1555.84,15,Yes,No,Yes,1,3,10,345,0
+CUST-0527,45,Male,Single,No,Islamabad,One Year,Cash,4349.29,70,Yes,No,No,2,0,1,124,0
+CUST-0528,22,Male,Single,No,Karachi,One Year,Cash,4903.84,55,No,No,Yes,2,5,4,356,0
+CUST-0529,64,Male,Single,No,Quetta,One Year,Cash,4073.67,53,Yes,No,Yes,3,0,4,346,0
+CUST-0530,66,Male,Married,Yes,Karachi,Month-to-Month,Credit Card,2942.81,16,No,Yes,No,4,0,5,282,0
+CUST-0531,47,Female,Married,No,Quetta,One Year,Cash,5912.36,34,No,Yes,Yes,3,2,0,237,0
+CUST-0532,63,Female,Married,No,Peshawar,Month-to-Month,Cash,1059.96,27,Yes,Yes,No,1,4,7,333,1
+CUST-0533,69,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,7358.3,13,Yes,Yes,Yes,2,3,2,17,0
+CUST-0534,22,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,654.83,27,No,No,No,2,3,4,324,0
+CUST-0535,29,Male,Married,No,Islamabad,Month-to-Month,Cash,7717.63,69,No,No,No,5,1,6,23,1
+CUST-0536,33,Male,Married,No,Quetta,Month-to-Month,Cash,3967.67,31,No,No,Yes,4,2,2,9,0
+CUST-0537,43,Female,Single,No,Islamabad,One Year,Cash,3595.02,3,No,Yes,Yes,4,0,9,207,0
+CUST-0538,43,Male,Single,Yes,Karachi,One Year,Bank Transfer,2423.33,30,No,Yes,No,5,0,5,45,0
+CUST-0539,65,Male,Married,No,Islamabad,Two Year,Bank Transfer,575.53,21,Yes,Yes,No,1,2,4,331,0
+CUST-0540,38,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,2560.93,6,No,Yes,Yes,4,5,6,27,0
+CUST-0541,56,Male,Married,No,Karachi,Month-to-Month,Cash,1320.5,32,Yes,No,No,2,3,9,188,0
+CUST-0542,53,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,5448.66,42,No,No,No,1,0,10,140,1
+CUST-0543,50,Male,Single,No,Islamabad,Two Year,Cash,2893.06,62,Yes,Yes,Yes,3,1,2,9,0
+CUST-0544,47,Male,Married,No,Lahore,One Year,Credit Card,6253.84,32,No,No,Yes,3,3,1,234,0
+CUST-0545,54,Female,Married,No,Quetta,One Year,Cash,2051.87,39,Yes,Yes,No,1,4,3,92,0
+CUST-0546,40,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,7251.76,64,Yes,Yes,Yes,2,2,2,77,0
+CUST-0547,27,Female,Single,No,Lahore,One Year,Credit Card,4422.36,30,No,Yes,Yes,3,3,3,340,0
+CUST-0548,22,Male,Single,No,Peshawar,Month-to-Month,Cash,1358.8,63,No,Yes,No,2,4,6,244,0
+CUST-0549,53,Male,Single,No,Quetta,One Year,Credit Card,3506.34,31,Yes,No,Yes,5,1,4,333,0
+CUST-0550,51,Female,Married,Yes,Karachi,Two Year,Credit Card,2050.7,40,Yes,No,Yes,4,5,3,155,0
+CUST-0551,69,Female,Single,Yes,Islamabad,Two Year,Credit Card,1997.64,33,Yes,Yes,No,1,2,5,218,0
+CUST-0552,48,Female,Single,No,Karachi,One Year,Cash,4297.77,63,No,Yes,Yes,4,5,6,285,0
+CUST-0553,27,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,5539.19,25,No,No,No,5,0,10,150,1
+CUST-0554,36,Female,Single,Yes,Quetta,Two Year,Cash,7337.14,36,No,No,Yes,3,5,4,329,0
+CUST-0555,49,Female,Single,Yes,Islamabad,One Year,Bank Transfer,4266.22,24,No,Yes,Yes,2,0,6,88,0
+CUST-0556,18,Male,Single,No,Peshawar,Month-to-Month,Cash,7743.79,58,Yes,Yes,No,2,4,2,106,1
+CUST-0557,22,Male,Married,No,Islamabad,Month-to-Month,Cash,7562.26,39,No,Yes,Yes,5,3,6,294,0
+CUST-0558,62,Male,Single,Yes,Peshawar,Month-to-Month,Cash,6987.97,46,No,Yes,Yes,1,1,2,95,1
+CUST-0559,21,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,4249.83,10,No,Yes,Yes,4,4,5,253,1
+CUST-0560,33,Female,Married,Yes,Quetta,Month-to-Month,Cash,1556.78,32,No,No,Yes,3,1,7,39,0
+CUST-0561,41,Female,Single,No,Karachi,One Year,Credit Card,2134.28,36,No,No,Yes,1,5,5,255,0
+CUST-0562,33,Female,Single,No,Peshawar,Month-to-Month,Cash,5357.53,28,Yes,Yes,Yes,5,1,9,54,0
+CUST-0563,19,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,3663.16,16,No,Yes,No,5,5,10,243,0
+CUST-0564,66,Female,Single,Yes,Lahore,One Year,Bank Transfer,1601.01,16,Yes,Yes,Yes,2,1,2,110,0
+CUST-0565,45,Male,Married,Yes,Lahore,Two Year,Bank Transfer,4092.45,18,No,Yes,Yes,3,2,4,254,0
+CUST-0566,49,Male,Single,Yes,Lahore,One Year,Cash,630.73,8,No,No,No,1,4,8,112,0
+CUST-0567,44,Female,Single,No,Islamabad,Month-to-Month,Cash,6004.22,70,No,No,No,2,2,7,174,1
+CUST-0568,37,Male,Single,Yes,Lahore,Two Year,Cash,1051.86,1,No,Yes,No,3,3,5,189,0
+CUST-0569,41,Female,Married,No,Peshawar,Two Year,Credit Card,5218.35,62,Yes,No,Yes,4,3,8,221,0
+CUST-0570,29,Male,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,6447.58,38,Yes,Yes,No,4,0,1,249,1
+CUST-0571,67,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,1494.83,45,No,Yes,No,2,0,10,52,0
+CUST-0572,52,Female,Married,Yes,Karachi,One Year,Credit Card,4389.79,58,Yes,No,Yes,1,0,8,162,0
+CUST-0573,50,Male,Married,Yes,Lahore,Two Year,Cash,6343.01,1,Yes,Yes,No,3,3,9,35,0
+CUST-0574,50,Male,Single,Yes,Quetta,Two Year,Cash,2454.75,32,No,No,Yes,4,1,9,37,0
+CUST-0575,68,Female,Single,No,Peshawar,Two Year,Credit Card,1721.87,8,Yes,Yes,Yes,4,5,5,334,0
+CUST-0576,60,Female,Single,Yes,Karachi,One Year,Credit Card,3026.14,40,Yes,Yes,Yes,1,1,8,317,0
+CUST-0577,54,Male,Single,Yes,Quetta,One Year,Cash,4660.24,56,No,Yes,Yes,2,4,3,111,0
+CUST-0578,29,Male,Single,Yes,Karachi,Month-to-Month,Cash,4814.6,63,No,Yes,Yes,5,3,4,177,0
+CUST-0579,20,Female,Married,No,Lahore,Month-to-Month,Credit Card,1481.57,36,Yes,No,No,3,5,1,9,0
+CUST-0580,18,Male,Married,No,Peshawar,Month-to-Month,Cash,3931.77,57,No,Yes,Yes,4,5,2,275,0
+CUST-0581,50,Female,Single,No,Karachi,One Year,Cash,2512.12,45,No,No,No,5,5,0,121,1
+CUST-0582,57,Female,Single,No,Quetta,One Year,Credit Card,6815.18,2,No,No,Yes,1,0,3,105,0
+CUST-0583,27,Female,Married,Yes,Lahore,One Year,Credit Card,2851.81,68,Yes,Yes,No,2,5,1,156,0
+CUST-0584,60,Female,Single,Yes,Lahore,Month-to-Month,Bank Transfer,6790.28,50,No,No,Yes,3,5,1,336,0
+CUST-0585,61,Male,Single,Yes,Quetta,One Year,Credit Card,3714.23,29,No,Yes,Yes,1,3,0,26,0
+CUST-0586,46,Male,Single,No,Quetta,Month-to-Month,Cash,5949.39,10,Yes,No,Yes,2,1,9,296,1
+CUST-0587,30,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,4325.45,27,Yes,No,No,1,1,1,25,0
+CUST-0588,29,Male,Single,Yes,Islamabad,One Year,Credit Card,5164.72,15,Yes,Yes,No,4,2,3,355,1
+CUST-0589,48,Male,Married,No,Lahore,One Year,Credit Card,3465.17,60,Yes,Yes,No,4,2,5,69,0
+CUST-0590,63,Male,Single,No,Karachi,Two Year,Bank Transfer,6261.55,31,Yes,No,Yes,5,4,6,327,0
+CUST-0591,19,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,3688.92,21,No,Yes,Yes,1,3,6,151,1
+CUST-0592,68,Female,Single,Yes,Karachi,Month-to-Month,Cash,3930.96,60,Yes,Yes,No,4,2,6,345,1
+CUST-0593,67,Male,Married,Yes,Quetta,Month-to-Month,Bank Transfer,4382.59,58,No,No,Yes,2,2,3,65,0
+CUST-0594,52,Male,Married,No,Peshawar,Month-to-Month,Credit Card,6738.68,41,Yes,No,No,5,3,4,150,0
+CUST-0595,40,Female,Married,Yes,Quetta,Two Year,Bank Transfer,5445.34,46,No,Yes,Yes,3,1,10,320,0
+CUST-0596,34,Male,Married,No,Quetta,One Year,Credit Card,3118.7,45,No,No,No,1,4,2,245,0
+CUST-0597,43,Male,Single,No,Quetta,Two Year,Bank Transfer,5527.4,26,Yes,Yes,No,4,4,0,58,1
+CUST-0598,25,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,5318.2,51,Yes,Yes,Yes,2,4,7,156,0
+CUST-0599,46,Male,Single,No,Quetta,Two Year,Bank Transfer,7482.64,36,Yes,No,No,1,2,9,112,1
+CUST-0600,43,Male,Single,No,Lahore,Month-to-Month,Credit Card,6810.62,52,Yes,Yes,Yes,2,1,10,123,1
+CUST-0601,27,Male,Married,No,Lahore,Two Year,Bank Transfer,5355.85,51,Yes,No,Yes,5,4,6,353,0
+CUST-0602,43,Female,Married,Yes,Karachi,Month-to-Month,Credit Card,3061.3,3,Yes,Yes,Yes,4,3,8,362,1
+CUST-0603,51,Male,Married,No,Islamabad,Month-to-Month,Credit Card,6346.82,14,No,Yes,No,4,4,9,203,0
+CUST-0604,68,Male,Married,No,Karachi,One Year,Cash,4814.06,49,No,Yes,No,5,0,3,4,0
+CUST-0605,58,Female,Married,No,Lahore,Two Year,Bank Transfer,7889.52,1,No,No,No,2,1,4,129,1
+CUST-0606,24,Male,Single,No,Lahore,Month-to-Month,Cash,2356.3,57,No,No,Yes,1,0,4,26,0
+CUST-0607,21,Female,Married,No,Peshawar,Month-to-Month,Cash,1097.42,17,No,Yes,Yes,2,1,6,289,1
+CUST-0608,70,Female,Married,No,Quetta,Two Year,Credit Card,1024.19,50,Yes,No,No,1,5,8,27,0
+CUST-0609,67,Male,Married,No,Lahore,Month-to-Month,Bank Transfer,5300.23,14,Yes,No,Yes,5,3,7,42,0
+CUST-0610,62,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,7544.45,59,No,Yes,Yes,3,5,6,71,0
+CUST-0611,28,Female,Married,Yes,Karachi,Month-to-Month,Credit Card,514.49,3,No,No,No,1,2,0,64,1
+CUST-0612,46,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,5943.28,40,Yes,No,No,4,2,9,25,0
+CUST-0613,53,Female,Married,Yes,Quetta,Two Year,Credit Card,5427.99,66,Yes,No,Yes,4,5,5,72,0
+CUST-0614,42,Female,Married,Yes,Peshawar,One Year,Bank Transfer,5992.28,34,Yes,Yes,Yes,4,1,9,361,1
+CUST-0615,38,Male,Single,No,Islamabad,One Year,Bank Transfer,3165.54,9,Yes,Yes,No,2,4,8,268,1
+CUST-0616,53,Male,Married,Yes,Karachi,Two Year,Credit Card,6653.72,21,No,No,No,2,0,6,314,0
+CUST-0617,27,Male,Single,No,Quetta,Month-to-Month,Credit Card,835.3,25,No,Yes,Yes,2,3,0,95,0
+CUST-0618,54,Female,Single,No,Karachi,Month-to-Month,Cash,6165.73,44,Yes,No,Yes,4,4,8,357,1
+CUST-0619,26,Male,Single,No,Quetta,Month-to-Month,Credit Card,2503.04,25,Yes,Yes,Yes,1,2,2,364,1
+CUST-0620,41,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,4076.28,9,No,No,No,4,4,8,315,1
+CUST-0621,52,Female,Married,No,Karachi,Month-to-Month,Cash,6669.77,62,No,Yes,Yes,1,5,3,117,0
+CUST-0622,66,Female,Married,Yes,Lahore,Two Year,Bank Transfer,2535.19,26,No,No,Yes,2,5,8,164,1
+CUST-0623,52,Female,Single,No,Karachi,One Year,Cash,1889.06,57,Yes,Yes,Yes,3,0,7,365,0
+CUST-0624,65,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,5609.85,37,No,No,Yes,2,2,6,278,1
+CUST-0625,53,Female,Single,No,Peshawar,One Year,Credit Card,4500.46,16,Yes,Yes,Yes,5,1,3,65,0
+CUST-0626,35,Female,Married,No,Lahore,One Year,Credit Card,4358.03,37,Yes,Yes,Yes,1,3,8,306,0
+CUST-0627,66,Male,Single,No,Quetta,Two Year,Bank Transfer,2425.77,24,Yes,Yes,No,3,5,3,260,0
+CUST-0628,56,Male,Single,Yes,Islamabad,Two Year,Cash,761.6,26,No,No,No,2,3,0,228,0
+CUST-0629,49,Female,Single,No,Karachi,One Year,Bank Transfer,3577.02,20,No,No,No,3,2,5,200,0
+CUST-0630,41,Female,Married,No,Lahore,One Year,Cash,1299.2,9,Yes,No,Yes,4,1,3,220,0
+CUST-0631,40,Male,Single,No,Karachi,One Year,Credit Card,7294.92,29,No,Yes,No,1,5,9,180,1
+CUST-0632,49,Female,Single,No,Karachi,One Year,Bank Transfer,809.38,31,Yes,No,Yes,5,0,2,358,1
+CUST-0633,54,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,3737.38,19,No,Yes,Yes,4,3,4,228,0
+CUST-0634,29,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,891.84,20,Yes,Yes,Yes,3,2,2,252,0
+CUST-0635,66,Male,Single,Yes,Peshawar,One Year,Credit Card,1216.58,27,Yes,Yes,Yes,2,3,10,299,0
+CUST-0636,30,Female,Single,No,Quetta,Month-to-Month,Bank Transfer,5441.5,44,No,No,Yes,1,1,8,361,1
+CUST-0637,40,Female,Married,Yes,Lahore,Month-to-Month,Bank Transfer,5353.33,35,No,Yes,No,5,0,5,4,1
+CUST-0638,42,Male,Married,Yes,Islamabad,One Year,Cash,747.89,71,Yes,No,No,2,1,2,141,0
+CUST-0639,52,Male,Single,No,Islamabad,Month-to-Month,Credit Card,508.49,22,No,No,No,5,5,4,166,1
+CUST-0640,58,Male,Married,No,Islamabad,One Year,Cash,1091.14,15,Yes,Yes,Yes,1,4,7,254,1
+CUST-0641,47,Male,Married,Yes,Karachi,One Year,Cash,6222.49,13,Yes,No,No,3,1,7,153,1
+CUST-0642,34,Male,Single,No,Peshawar,Two Year,Credit Card,4884.32,4,Yes,Yes,Yes,5,1,5,67,0
+CUST-0643,66,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,785.89,56,Yes,Yes,No,1,3,4,55,1
+CUST-0644,37,Male,Single,No,Karachi,Month-to-Month,Cash,4160.73,23,Yes,No,No,5,1,4,96,0
+CUST-0645,65,Female,Married,Yes,Peshawar,One Year,Credit Card,5840.22,34,Yes,Yes,No,2,2,0,167,0
+CUST-0646,42,Male,Single,No,Peshawar,Two Year,Bank Transfer,7017.14,17,Yes,Yes,No,5,5,1,321,1
+CUST-0647,39,Female,Married,No,Lahore,Two Year,Cash,7505.27,28,Yes,Yes,No,2,3,10,331,0
+CUST-0648,30,Female,Single,No,Lahore,Month-to-Month,Cash,2955.8,14,No,No,No,2,3,3,342,0
+CUST-0649,36,Female,Married,Yes,Lahore,Month-to-Month,Cash,1518.74,34,No,No,Yes,1,4,5,62,0
+CUST-0650,66,Female,Single,No,Karachi,Two Year,Bank Transfer,2276.94,57,Yes,No,Yes,4,5,10,174,0
+CUST-0651,53,Female,Single,Yes,Quetta,Month-to-Month,Cash,6321.29,55,Yes,Yes,Yes,5,2,6,253,1
+CUST-0652,29,Female,Married,No,Lahore,One Year,Bank Transfer,7786.13,66,Yes,Yes,Yes,3,5,0,112,0
+CUST-0653,58,Male,Married,Yes,Quetta,Month-to-Month,Cash,3997.95,37,No,No,Yes,2,1,7,215,0
+CUST-0654,36,Female,Married,No,Karachi,Month-to-Month,Credit Card,2790.15,68,Yes,No,No,4,4,0,239,1
+CUST-0655,29,Male,Married,No,Quetta,Month-to-Month,Cash,3718.93,26,Yes,No,Yes,2,2,8,227,0
+CUST-0656,26,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,2786.1,61,Yes,No,Yes,4,4,3,230,0
+CUST-0657,24,Female,Married,Yes,Quetta,One Year,Credit Card,2423.66,67,No,No,Yes,4,5,6,233,0
+CUST-0658,45,Male,Single,Yes,Lahore,Two Year,Credit Card,4953.13,52,No,Yes,Yes,3,0,10,163,0
+CUST-0659,31,Female,Married,No,Karachi,Month-to-Month,Bank Transfer,618.02,18,No,No,Yes,4,5,5,126,0
+CUST-0660,48,Male,Single,No,Lahore,Two Year,Credit Card,2446.64,53,Yes,Yes,Yes,3,1,8,253,0
+CUST-0661,69,Male,Single,No,Islamabad,Month-to-Month,Cash,5460.37,63,Yes,Yes,Yes,1,4,1,333,0
+CUST-0662,36,Male,Married,No,Lahore,One Year,Bank Transfer,740.47,53,No,Yes,Yes,2,0,10,199,0
+CUST-0663,64,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,1124.01,27,Yes,Yes,Yes,3,1,6,197,1
+CUST-0664,33,Female,Married,No,Lahore,Two Year,Bank Transfer,2700.47,31,No,No,No,2,4,10,122,0
+CUST-0665,70,Female,Married,No,Peshawar,One Year,Bank Transfer,7083.54,1,No,Yes,Yes,5,4,4,264,0
+CUST-0666,22,Male,Single,No,Islamabad,One Year,Bank Transfer,6236.65,6,Yes,No,Yes,1,5,6,54,1
+CUST-0667,52,Female,Single,No,Lahore,Two Year,Cash,666.17,11,Yes,Yes,No,5,4,0,135,0
+CUST-0668,29,Female,Married,No,Lahore,One Year,Credit Card,4262.85,34,Yes,No,No,5,4,10,339,0
+CUST-0669,42,Male,Married,No,Lahore,Two Year,Bank Transfer,2560.16,63,Yes,No,Yes,4,3,10,359,1
+CUST-0670,69,Female,Single,No,Karachi,One Year,Bank Transfer,5364.84,53,No,Yes,Yes,4,4,9,151,0
+CUST-0671,38,Male,Single,Yes,Peshawar,Two Year,Bank Transfer,5911.65,18,No,No,Yes,5,5,8,100,0
+CUST-0672,53,Male,Single,No,Karachi,One Year,Credit Card,6971.47,21,No,Yes,No,4,3,0,234,0
+CUST-0673,70,Female,Single,No,Peshawar,Month-to-Month,Bank Transfer,4065.62,19,No,No,Yes,2,3,4,32,1
+CUST-0674,40,Female,Married,No,Lahore,One Year,Bank Transfer,7958.38,4,No,Yes,No,4,0,7,62,0
+CUST-0675,33,Female,Married,No,Islamabad,Month-to-Month,Cash,7849.9,29,No,Yes,No,5,1,0,196,0
+CUST-0676,56,Male,Married,Yes,Quetta,One Year,Credit Card,7116.25,25,Yes,No,No,4,3,6,30,1
+CUST-0677,62,Male,Married,Yes,Quetta,Month-to-Month,Cash,4811.52,56,No,No,No,4,2,1,243,0
+CUST-0678,70,Female,Single,Yes,Lahore,One Year,Credit Card,3485.05,63,Yes,Yes,No,3,3,6,106,0
+CUST-0679,59,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,3232.9,27,Yes,Yes,Yes,3,2,6,295,0
+CUST-0680,56,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,590.94,60,No,No,Yes,5,0,8,133,0
+CUST-0681,31,Female,Married,Yes,Peshawar,Month-to-Month,Cash,2368.81,49,No,Yes,No,2,2,5,22,0
+CUST-0682,48,Male,Married,No,Lahore,Two Year,Cash,5891.06,65,Yes,Yes,No,1,0,3,156,0
+CUST-0683,22,Female,Married,Yes,Islamabad,Month-to-Month,Cash,5027.24,38,Yes,Yes,No,1,0,6,214,1
+CUST-0684,52,Male,Married,Yes,Islamabad,Month-to-Month,Cash,7373.17,52,No,No,No,5,0,6,226,1
+CUST-0685,40,Male,Married,No,Peshawar,One Year,Bank Transfer,875.17,1,No,Yes,Yes,2,2,3,285,1
+CUST-0686,46,Female,Married,Yes,Islamabad,One Year,Bank Transfer,1664.57,40,Yes,Yes,No,2,2,1,171,0
+CUST-0687,60,Female,Married,No,Karachi,Month-to-Month,Bank Transfer,6419.33,21,No,No,No,2,0,10,42,1
+CUST-0688,28,Female,Married,No,Karachi,Month-to-Month,Credit Card,3188.81,15,No,Yes,Yes,3,0,8,60,1
+CUST-0689,35,Male,Single,Yes,Karachi,Month-to-Month,Bank Transfer,1387.59,50,No,Yes,Yes,5,1,7,77,1
+CUST-0690,64,Female,Married,No,Islamabad,Two Year,Credit Card,7973.38,48,No,Yes,Yes,1,0,4,202,1
+CUST-0691,29,Female,Single,Yes,Karachi,Month-to-Month,Cash,6404.38,32,No,Yes,Yes,2,4,4,220,0
+CUST-0692,26,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,3565.56,49,Yes,No,No,5,1,0,187,0
+CUST-0693,27,Female,Married,No,Islamabad,Month-to-Month,Credit Card,6675.11,68,No,Yes,No,1,1,10,96,0
+CUST-0694,61,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,5604.53,45,No,Yes,No,3,1,8,342,1
+CUST-0695,34,Female,Single,Yes,Islamabad,One Year,Cash,6424.81,32,Yes,Yes,No,4,4,10,212,0
+CUST-0696,55,Male,Single,No,Peshawar,Month-to-Month,Cash,6614.05,4,Yes,Yes,No,1,1,9,340,1
+CUST-0697,24,Female,Married,No,Quetta,Month-to-Month,Bank Transfer,1135.47,65,No,Yes,No,1,1,10,262,0
+CUST-0698,63,Female,Single,Yes,Islamabad,Month-to-Month,Cash,5172.3,71,No,No,No,1,2,7,329,1
+CUST-0699,30,Male,Married,Yes,Karachi,Month-to-Month,Cash,550.89,65,Yes,No,No,4,5,4,77,0
+CUST-0700,57,Male,Married,No,Lahore,Month-to-Month,Cash,825.92,18,No,Yes,No,2,2,9,31,0
+CUST-0701,59,Female,Married,Yes,Lahore,Two Year,Bank Transfer,7279.85,54,No,Yes,Yes,4,0,5,39,0
+CUST-0702,26,Male,Single,Yes,Karachi,One Year,Cash,4456.73,47,No,No,No,1,0,9,306,0
+CUST-0703,67,Male,Single,Yes,Lahore,Two Year,Credit Card,6019.26,6,Yes,No,Yes,3,3,10,334,0
+CUST-0704,44,Male,Married,Yes,Lahore,Two Year,Credit Card,6788.76,66,No,No,Yes,1,5,9,214,1
+CUST-0705,19,Male,Single,Yes,Karachi,One Year,Cash,7621.9,9,No,Yes,Yes,3,4,7,126,0
+CUST-0706,22,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,7020.15,68,Yes,Yes,Yes,5,2,5,165,1
+CUST-0707,46,Female,Single,Yes,Islamabad,One Year,Bank Transfer,4124.84,23,No,Yes,No,3,0,9,246,0
+CUST-0708,54,Male,Single,No,Islamabad,Two Year,Bank Transfer,3019.78,43,No,Yes,Yes,1,4,3,109,1
+CUST-0709,55,Male,Single,Yes,Karachi,One Year,Cash,1658.7,51,No,Yes,Yes,4,1,2,88,0
+CUST-0710,36,Male,Single,No,Peshawar,One Year,Cash,3502.41,72,No,Yes,No,1,4,6,200,0
+CUST-0711,25,Male,Single,No,Lahore,Month-to-Month,Credit Card,3248.7,25,Yes,No,Yes,1,2,1,271,0
+CUST-0712,65,Female,Married,No,Islamabad,Two Year,Bank Transfer,4696.81,35,Yes,No,No,5,5,6,51,0
+CUST-0713,62,Female,Single,Yes,Lahore,One Year,Credit Card,5491.32,17,No,Yes,No,2,3,0,198,1
+CUST-0714,18,Male,Single,Yes,Quetta,Two Year,Credit Card,7837.44,18,No,Yes,No,1,2,9,23,0
+CUST-0715,39,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,5962.9,27,No,Yes,No,5,5,4,153,1
+CUST-0716,69,Male,Single,Yes,Peshawar,Month-to-Month,Cash,5328.11,15,No,No,Yes,4,0,8,223,1
+CUST-0717,34,Female,Single,No,Quetta,Month-to-Month,Cash,3013.19,69,Yes,No,No,5,0,0,221,1
+CUST-0718,24,Male,Single,Yes,Quetta,One Year,Credit Card,758.78,15,Yes,No,Yes,5,4,7,151,0
+CUST-0719,42,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,2660.94,42,Yes,No,Yes,3,2,8,266,0
+CUST-0720,62,Male,Single,No,Karachi,Month-to-Month,Credit Card,6263.36,34,No,Yes,No,2,0,8,73,1
+CUST-0721,21,Female,Married,No,Islamabad,Two Year,Credit Card,2039.54,48,No,No,Yes,2,1,7,77,0
+CUST-0722,53,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,5841.41,8,No,No,No,4,1,3,32,0
+CUST-0723,23,Female,Single,Yes,Islamabad,Two Year,Credit Card,4848.35,10,Yes,Yes,Yes,5,3,6,65,0
+CUST-0724,48,Male,Single,No,Quetta,Month-to-Month,Credit Card,1788.93,5,Yes,Yes,Yes,4,4,0,357,0
+CUST-0725,36,Male,Single,Yes,Quetta,Two Year,Cash,2462.19,48,Yes,Yes,Yes,4,0,6,18,0
+CUST-0726,61,Male,Married,Yes,Peshawar,One Year,Cash,4222.28,26,Yes,No,Yes,2,3,5,164,1
+CUST-0727,56,Female,Married,Yes,Islamabad,Two Year,Cash,3637.81,23,Yes,Yes,No,2,1,4,287,0
+CUST-0728,44,Male,Married,No,Quetta,Two Year,Bank Transfer,6339.23,62,No,No,No,2,3,0,54,1
+CUST-0729,27,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,6008.03,13,No,No,Yes,1,3,7,63,0
+CUST-0730,43,Female,Married,No,Peshawar,Month-to-Month,Cash,4809.31,9,No,No,Yes,5,0,9,257,1
+CUST-0731,36,Male,Married,Yes,Karachi,Month-to-Month,Cash,6667.06,20,Yes,No,Yes,4,0,0,239,0
+CUST-0732,56,Male,Married,Yes,Peshawar,One Year,Credit Card,4720.02,57,No,Yes,Yes,5,0,0,9,0
+CUST-0733,20,Male,Married,No,Lahore,Two Year,Credit Card,7732.92,24,No,Yes,No,4,4,2,120,1
+CUST-0734,62,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,2129.18,33,Yes,No,Yes,4,3,7,348,1
+CUST-0735,30,Male,Married,Yes,Karachi,One Year,Bank Transfer,5855.99,20,Yes,Yes,Yes,4,3,7,90,0
+CUST-0736,67,Female,Married,No,Karachi,Month-to-Month,Credit Card,3274.58,60,Yes,No,Yes,4,4,6,312,0
+CUST-0737,45,Female,Married,No,Islamabad,Two Year,Cash,2592.25,48,No,No,No,3,1,4,175,0
+CUST-0738,37,Male,Married,No,Peshawar,Two Year,Credit Card,1852.91,64,Yes,Yes,Yes,3,2,7,3,1
+CUST-0739,45,Male,Married,Yes,Quetta,Month-to-Month,Bank Transfer,4643.78,30,No,Yes,No,1,1,1,130,0
+CUST-0740,25,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,2116.02,17,No,No,No,2,4,7,54,0
+CUST-0741,58,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,2002.63,14,Yes,Yes,Yes,4,3,10,293,0
+CUST-0742,56,Male,Single,Yes,Quetta,One Year,Credit Card,7928.99,19,No,No,Yes,5,3,1,184,0
+CUST-0743,18,Male,Married,Yes,Peshawar,One Year,Credit Card,6513.11,71,Yes,Yes,Yes,3,0,9,353,1
+CUST-0744,20,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,6112.08,59,Yes,No,No,2,0,4,224,0
+CUST-0745,30,Female,Married,Yes,Lahore,Month-to-Month,Cash,6455.45,67,No,No,No,1,3,10,12,0
+CUST-0746,45,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,7766.92,44,No,Yes,Yes,2,3,3,195,1
+CUST-0747,66,Male,Single,Yes,Lahore,One Year,Bank Transfer,4799.58,32,No,Yes,No,4,5,0,247,0
+CUST-0748,42,Female,Married,No,Quetta,One Year,Bank Transfer,2151.83,11,Yes,No,Yes,2,0,4,154,0
+CUST-0749,50,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,6966.57,2,No,Yes,Yes,4,0,6,78,1
+CUST-0750,55,Female,Single,No,Quetta,One Year,Credit Card,6070.48,68,Yes,Yes,Yes,3,1,0,140,0
+CUST-0751,70,Female,Single,Yes,Peshawar,One Year,Credit Card,3607.31,17,Yes,No,Yes,3,3,1,90,0
+CUST-0752,23,Female,Married,No,Karachi,Month-to-Month,Cash,4051.77,40,No,No,Yes,4,3,8,144,0
+CUST-0753,61,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,3584.39,46,No,Yes,Yes,5,4,4,72,1
+CUST-0754,62,Male,Married,No,Karachi,One Year,Credit Card,7474.57,4,No,Yes,No,3,1,6,177,1
+CUST-0755,49,Female,Single,Yes,Quetta,Two Year,Bank Transfer,3076.49,38,No,No,No,5,2,1,348,0
+CUST-0756,62,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,7726.13,63,Yes,No,No,4,2,6,263,0
+CUST-0757,64,Female,Married,Yes,Islamabad,Month-to-Month,Cash,7327.04,29,No,No,Yes,4,2,6,271,0
+CUST-0758,38,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,5228.91,19,Yes,No,Yes,3,5,6,105,1
+CUST-0759,33,Male,Married,No,Quetta,One Year,Credit Card,4848.66,29,No,No,Yes,5,0,4,72,0
+CUST-0760,38,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,3275.67,35,No,No,No,4,2,8,74,0
+CUST-0761,28,Male,Married,No,Lahore,Month-to-Month,Bank Transfer,637.54,70,No,No,Yes,3,4,1,143,0
+CUST-0762,54,Male,Single,Yes,Quetta,One Year,Cash,1457.17,23,Yes,No,No,4,0,3,62,0
+CUST-0763,53,Female,Single,No,Peshawar,One Year,Cash,6156.73,46,No,Yes,Yes,2,0,1,146,0
+CUST-0764,52,Male,Single,No,Islamabad,Month-to-Month,Cash,4036.55,44,Yes,Yes,No,2,2,7,46,0
+CUST-0765,36,Male,Married,No,Lahore,Month-to-Month,Cash,1623.79,48,No,Yes,Yes,3,0,10,229,1
+CUST-0766,37,Female,Single,Yes,Karachi,One Year,Cash,2479.71,52,No,No,Yes,4,1,0,105,0
+CUST-0767,35,Male,Single,No,Peshawar,Month-to-Month,Cash,7608.78,8,Yes,Yes,No,3,1,8,109,0
+CUST-0768,64,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,3253.5,55,Yes,No,No,1,2,4,317,0
+CUST-0769,58,Female,Single,No,Islamabad,Two Year,Cash,7307.61,66,No,Yes,No,3,4,10,121,1
+CUST-0770,66,Male,Single,Yes,Karachi,Month-to-Month,Bank Transfer,2784.77,40,No,No,Yes,3,0,2,43,0
+CUST-0771,31,Male,Married,Yes,Quetta,One Year,Bank Transfer,4574.15,31,Yes,No,No,2,3,10,99,1
+CUST-0772,32,Female,Single,No,Quetta,Two Year,Credit Card,653.58,48,No,Yes,No,2,2,3,194,0
+CUST-0773,48,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,4414.06,61,Yes,No,Yes,4,5,0,311,0
+CUST-0774,18,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,5277.07,52,No,Yes,Yes,3,0,2,214,0
+CUST-0775,70,Male,Married,No,Karachi,One Year,Cash,2257.29,38,Yes,Yes,No,3,2,10,229,0
+CUST-0776,20,Female,Married,No,Quetta,Two Year,Bank Transfer,4842.03,36,Yes,Yes,Yes,4,2,7,185,0
+CUST-0777,33,Male,Married,Yes,Lahore,Two Year,Cash,5353.76,55,Yes,Yes,No,5,4,1,112,0
+CUST-0778,40,Female,Single,No,Islamabad,One Year,Cash,5651.65,13,Yes,Yes,No,4,3,1,347,0
+CUST-0779,28,Male,Single,No,Islamabad,Month-to-Month,Cash,6323.02,37,Yes,Yes,No,2,0,8,272,1
+CUST-0780,29,Female,Married,Yes,Quetta,One Year,Credit Card,2835.04,47,No,Yes,Yes,2,2,4,313,0
+CUST-0781,27,Female,Married,No,Lahore,Month-to-Month,Cash,4758.33,71,No,Yes,No,3,2,4,102,0
+CUST-0782,49,Female,Married,No,Karachi,Month-to-Month,Bank Transfer,7861.84,22,No,Yes,No,2,0,0,210,0
+CUST-0783,33,Female,Single,Yes,Karachi,Month-to-Month,Cash,7236.08,39,No,No,Yes,4,2,5,227,0
+CUST-0784,25,Male,Married,No,Karachi,Month-to-Month,Cash,7644.99,58,No,No,No,3,2,7,281,0
+CUST-0785,55,Female,Single,No,Islamabad,One Year,Cash,3396.02,30,No,Yes,No,4,2,5,22,0
+CUST-0786,29,Female,Married,No,Lahore,Month-to-Month,Credit Card,6401.96,18,No,No,No,4,1,6,248,1
+CUST-0787,41,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,5149.23,18,No,No,Yes,3,1,3,159,0
+CUST-0788,45,Female,Married,No,Islamabad,Month-to-Month,Credit Card,1120.51,39,No,Yes,No,5,3,1,229,0
+CUST-0789,70,Male,Single,Yes,Karachi,Two Year,Bank Transfer,6679.85,26,Yes,Yes,Yes,2,4,0,343,0
+CUST-0790,25,Female,Married,No,Karachi,One Year,Credit Card,5578.26,71,Yes,No,Yes,1,0,5,187,1
+CUST-0791,45,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,1991.88,7,No,Yes,No,1,4,8,143,0
+CUST-0792,53,Female,Single,No,Peshawar,Month-to-Month,Credit Card,1098.04,69,Yes,Yes,No,1,4,9,338,1
+CUST-0793,43,Male,Single,Yes,Lahore,Month-to-Month,Cash,6777.67,65,No,Yes,Yes,2,1,4,358,0
+CUST-0794,25,Female,Single,Yes,Lahore,Two Year,Credit Card,1091.76,46,Yes,No,No,5,3,1,24,0
+CUST-0795,67,Female,Single,Yes,Lahore,One Year,Credit Card,1185.15,18,Yes,Yes,No,4,4,0,141,0
+CUST-0796,45,Female,Single,Yes,Peshawar,One Year,Cash,3705.56,13,Yes,No,Yes,3,4,2,240,0
+CUST-0797,45,Male,Single,Yes,Quetta,One Year,Cash,1510.98,25,No,Yes,No,5,2,3,292,0
+CUST-0798,54,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,7352.52,8,No,Yes,No,1,0,6,305,0
+CUST-0799,58,Female,Married,No,Karachi,Two Year,Bank Transfer,4027.13,32,No,No,Yes,2,3,8,82,1
+CUST-0800,53,Male,Married,No,Karachi,One Year,Bank Transfer,4768.63,17,No,Yes,No,2,0,7,48,0
+CUST-0801,44,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,7460.8,48,Yes,No,Yes,3,1,8,353,0
+CUST-0802,34,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,4476.97,63,No,No,Yes,4,4,6,358,0
+CUST-0803,26,Female,Single,Yes,Lahore,One Year,Credit Card,3151.93,40,Yes,Yes,No,5,4,9,171,1
+CUST-0804,50,Female,Single,Yes,Islamabad,Two Year,Credit Card,6478.66,15,No,Yes,Yes,5,5,7,262,0
+CUST-0805,70,Female,Single,No,Peshawar,Month-to-Month,Bank Transfer,3821.38,6,Yes,No,No,5,0,7,68,0
+CUST-0806,37,Female,Single,Yes,Karachi,Two Year,Bank Transfer,2888.52,63,Yes,No,No,4,1,0,14,0
+CUST-0807,30,Female,Single,No,Islamabad,One Year,Credit Card,5924.22,8,Yes,Yes,Yes,4,5,8,30,1
+CUST-0808,45,Male,Married,No,Peshawar,Month-to-Month,Cash,6512.04,32,Yes,Yes,Yes,4,5,1,110,1
+CUST-0809,65,Male,Married,Yes,Karachi,Month-to-Month,Cash,6437.87,45,No,Yes,Yes,3,2,10,212,1
+CUST-0810,46,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,7832.56,52,No,Yes,Yes,2,5,6,264,1
+CUST-0811,30,Male,Married,No,Lahore,One Year,Bank Transfer,6400.0,13,Yes,Yes,Yes,1,5,9,322,1
+CUST-0812,63,Male,Single,No,Lahore,Month-to-Month,Credit Card,6274.5,24,No,No,Yes,4,2,9,202,1
+CUST-0813,52,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,6931.14,40,No,No,No,2,4,4,84,0
+CUST-0814,23,Male,Single,Yes,Peshawar,One Year,Bank Transfer,501.39,14,Yes,No,No,4,4,3,53,1
+CUST-0815,35,Female,Married,Yes,Lahore,One Year,Cash,3218.24,70,No,No,Yes,1,3,0,355,0
+CUST-0816,68,Female,Single,No,Quetta,Month-to-Month,Credit Card,6032.02,62,No,Yes,No,4,5,0,256,1
+CUST-0817,22,Female,Married,No,Karachi,Month-to-Month,Cash,4997.89,61,No,No,Yes,2,0,2,74,1
+CUST-0818,64,Female,Single,Yes,Peshawar,Month-to-Month,Cash,1831.79,1,Yes,Yes,Yes,3,4,0,220,0
+CUST-0819,42,Male,Single,No,Lahore,One Year,Bank Transfer,2778.0,66,No,Yes,No,1,1,7,143,1
+CUST-0820,19,Male,Married,No,Karachi,Two Year,Credit Card,3025.94,32,Yes,Yes,No,2,0,2,100,0
+CUST-0821,27,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,4758.71,13,Yes,Yes,Yes,5,3,10,129,1
+CUST-0822,47,Female,Single,Yes,Lahore,Two Year,Cash,6736.99,33,Yes,Yes,Yes,5,5,9,219,1
+CUST-0823,67,Male,Married,No,Karachi,One Year,Cash,7493.69,32,No,No,Yes,5,2,1,271,0
+CUST-0824,62,Female,Single,No,Quetta,One Year,Bank Transfer,6125.69,56,No,Yes,No,3,3,5,22,0
+CUST-0825,22,Female,Married,Yes,Islamabad,One Year,Cash,6822.13,24,No,Yes,Yes,4,0,3,178,0
+CUST-0826,50,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,4025.72,4,Yes,Yes,Yes,4,2,10,48,1
+CUST-0827,18,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,3423.31,23,No,No,No,4,1,10,117,1
+CUST-0828,35,Male,Single,Yes,Quetta,One Year,Bank Transfer,3445.31,29,Yes,Yes,No,3,2,3,329,0
+CUST-0829,49,Female,Single,Yes,Karachi,One Year,Cash,5120.29,21,No,Yes,No,5,2,1,179,1
+CUST-0830,64,Female,Single,No,Karachi,One Year,Credit Card,1431.78,30,Yes,Yes,Yes,4,1,1,273,0
+CUST-0831,66,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,4846.21,20,No,No,Yes,3,4,10,362,0
+CUST-0832,28,Male,Single,No,Karachi,Two Year,Credit Card,5488.5,16,No,Yes,No,3,4,5,339,0
+CUST-0833,38,Female,Single,No,Lahore,One Year,Bank Transfer,3791.82,67,No,No,Yes,2,2,4,360,0
+CUST-0834,43,Male,Married,Yes,Karachi,Month-to-Month,Cash,7648.75,49,Yes,No,Yes,4,2,8,347,0
+CUST-0835,42,Female,Married,Yes,Peshawar,Month-to-Month,Cash,5061.6,58,Yes,Yes,No,5,3,3,179,0
+CUST-0836,39,Female,Single,Yes,Karachi,One Year,Credit Card,2150.0,44,No,No,No,1,4,4,49,0
+CUST-0837,44,Male,Single,No,Peshawar,One Year,Credit Card,4094.12,25,Yes,No,Yes,3,1,0,315,0
+CUST-0838,66,Female,Married,No,Karachi,Month-to-Month,Credit Card,5565.53,23,Yes,Yes,No,2,5,1,255,1
+CUST-0839,30,Female,Single,No,Karachi,Two Year,Bank Transfer,2927.22,59,Yes,Yes,No,1,5,2,30,0
+CUST-0840,50,Female,Single,Yes,Quetta,Month-to-Month,Cash,1097.31,1,No,Yes,Yes,3,2,4,85,0
+CUST-0841,51,Female,Married,No,Lahore,Month-to-Month,Credit Card,4875.77,15,No,Yes,Yes,2,2,4,277,1
+CUST-0842,58,Male,Single,Yes,Lahore,Two Year,Credit Card,7609.03,52,No,No,Yes,4,5,3,34,0
+CUST-0843,52,Male,Single,Yes,Islamabad,Two Year,Credit Card,4138.04,58,Yes,No,Yes,2,3,9,329,0
+CUST-0844,18,Female,Married,Yes,Quetta,One Year,Bank Transfer,7295.82,41,No,Yes,Yes,3,3,2,98,1
+CUST-0845,38,Male,Single,Yes,Quetta,Two Year,Credit Card,6762.68,44,Yes,Yes,Yes,4,3,8,76,0
+CUST-0846,65,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,1605.6,4,Yes,Yes,No,5,0,0,175,0
+CUST-0847,23,Female,Married,Yes,Quetta,Two Year,Bank Transfer,5811.27,68,No,No,No,2,1,5,341,0
+CUST-0848,45,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,3765.99,7,No,Yes,No,1,0,6,249,0
+CUST-0849,34,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,2376.85,46,No,No,Yes,4,2,9,340,0
+CUST-0850,22,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,5652.04,9,Yes,No,Yes,4,3,3,134,1
+CUST-0851,48,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,6069.96,33,Yes,No,Yes,5,3,9,178,1
+CUST-0852,22,Female,Married,Yes,Lahore,Month-to-Month,Cash,1849.22,33,No,No,Yes,2,5,2,365,1
+CUST-0853,55,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,7358.34,4,Yes,Yes,Yes,1,5,7,228,0
+CUST-0854,20,Male,Single,No,Quetta,Month-to-Month,Cash,6133.6,65,No,Yes,No,5,3,8,63,0
+CUST-0855,70,Female,Married,No,Quetta,Month-to-Month,Credit Card,7500.32,34,No,Yes,Yes,2,4,0,268,1
+CUST-0856,40,Female,Married,Yes,Lahore,One Year,Credit Card,2878.05,64,No,No,No,1,5,10,258,0
+CUST-0857,54,Female,Single,Yes,Karachi,Month-to-Month,Cash,7545.01,25,No,No,Yes,1,1,9,144,1
+CUST-0858,70,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,3263.88,55,No,Yes,No,3,0,8,303,1
+CUST-0859,54,Female,Single,Yes,Karachi,One Year,Credit Card,904.77,9,No,No,No,1,1,6,52,0
+CUST-0860,27,Male,Married,Yes,Quetta,Two Year,Cash,6222.27,17,Yes,No,No,2,5,0,303,0
+CUST-0861,27,Female,Married,No,Peshawar,One Year,Bank Transfer,5776.31,21,Yes,No,No,5,3,6,99,1
+CUST-0862,36,Female,Married,No,Lahore,Month-to-Month,Cash,4984.33,60,No,Yes,No,5,2,4,306,0
+CUST-0863,34,Male,Married,Yes,Islamabad,One Year,Bank Transfer,4174.2,13,No,Yes,No,3,4,9,45,0
+CUST-0864,38,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,741.24,3,Yes,Yes,No,2,5,6,42,1
+CUST-0865,31,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,5184.48,68,Yes,No,Yes,1,1,8,327,1
+CUST-0866,26,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,3626.26,4,No,Yes,Yes,3,2,7,57,0
+CUST-0867,63,Female,Married,Yes,Karachi,Two Year,Cash,4701.57,7,No,Yes,No,4,5,5,33,1
+CUST-0868,18,Male,Single,Yes,Quetta,Month-to-Month,Cash,3719.91,26,Yes,Yes,Yes,2,3,1,114,1
+CUST-0869,68,Male,Single,Yes,Islamabad,Month-to-Month,Cash,7745.42,24,No,No,Yes,3,3,7,300,0
+CUST-0870,62,Female,Single,No,Peshawar,Month-to-Month,Cash,5030.82,10,Yes,No,No,5,3,3,114,1
+CUST-0871,30,Male,Married,Yes,Quetta,Two Year,Cash,6119.27,13,No,No,Yes,3,3,7,56,0
+CUST-0872,21,Male,Single,No,Islamabad,One Year,Bank Transfer,7522.6,44,Yes,No,No,4,5,6,44,1
+CUST-0873,18,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,4936.99,39,No,No,Yes,2,4,3,212,0
+CUST-0874,66,Male,Married,Yes,Peshawar,One Year,Credit Card,590.47,19,No,Yes,No,3,4,7,352,0
+CUST-0875,57,Male,Single,No,Lahore,One Year,Cash,757.19,51,No,Yes,Yes,1,1,10,329,0
+CUST-0876,49,Male,Married,Yes,Karachi,One Year,Cash,5767.54,19,Yes,No,No,2,5,10,34,1
+CUST-0877,51,Female,Married,No,Lahore,Month-to-Month,Credit Card,2593.14,52,No,No,Yes,3,3,10,270,0
+CUST-0878,45,Female,Single,Yes,Lahore,Two Year,Bank Transfer,4845.35,47,Yes,Yes,Yes,3,4,1,196,0
+CUST-0879,48,Male,Single,Yes,Peshawar,Month-to-Month,Cash,2017.08,30,Yes,No,Yes,2,5,8,125,1
+CUST-0880,25,Female,Married,No,Karachi,One Year,Bank Transfer,2526.87,46,Yes,No,No,5,2,5,79,0
+CUST-0881,56,Female,Single,No,Lahore,Month-to-Month,Credit Card,4284.81,21,Yes,No,No,1,4,6,255,0
+CUST-0882,43,Female,Married,No,Quetta,Month-to-Month,Credit Card,7816.77,48,No,No,Yes,2,4,9,145,1
+CUST-0883,51,Male,Married,Yes,Islamabad,Month-to-Month,Cash,5122.03,62,No,No,Yes,1,1,0,83,1
+CUST-0884,20,Female,Married,Yes,Lahore,One Year,Bank Transfer,7521.11,58,No,Yes,No,1,4,2,230,1
+CUST-0885,67,Male,Single,Yes,Karachi,Month-to-Month,Cash,7695.35,18,Yes,Yes,Yes,2,2,9,137,1
+CUST-0886,29,Female,Married,No,Lahore,One Year,Credit Card,2060.82,59,No,No,Yes,3,3,4,27,0
+CUST-0887,18,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,2833.95,48,Yes,No,No,5,0,6,177,1
+CUST-0888,61,Male,Single,No,Karachi,One Year,Cash,6274.94,63,Yes,Yes,No,1,1,0,207,0
+CUST-0889,22,Female,Single,Yes,Peshawar,Two Year,Cash,7000.73,12,Yes,No,Yes,1,2,8,306,0
+CUST-0890,47,Female,Single,Yes,Karachi,One Year,Cash,4394.2,34,No,Yes,No,3,1,4,311,0
+CUST-0891,47,Male,Married,No,Peshawar,One Year,Credit Card,7949.2,61,Yes,No,Yes,2,5,2,213,0
+CUST-0892,34,Female,Single,Yes,Karachi,One Year,Cash,586.79,53,No,Yes,Yes,5,3,6,354,0
+CUST-0893,65,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,2746.94,25,No,Yes,No,1,4,9,37,0
+CUST-0894,64,Female,Married,Yes,Islamabad,Two Year,Cash,5173.71,62,No,No,Yes,1,5,7,293,0
+CUST-0895,40,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,4019.67,4,Yes,No,No,2,4,9,179,0
+CUST-0896,32,Male,Married,No,Lahore,One Year,Cash,1374.52,13,No,Yes,No,3,2,9,160,0
+CUST-0897,54,Female,Married,Yes,Islamabad,One Year,Credit Card,3258.4,42,Yes,No,Yes,4,3,2,12,0
+CUST-0898,38,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,690.85,49,Yes,Yes,No,3,0,6,169,1
+CUST-0899,31,Female,Married,No,Peshawar,Month-to-Month,Bank Transfer,5320.6,56,Yes,No,Yes,1,0,6,312,0
+CUST-0900,19,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,7195.57,47,Yes,No,No,1,4,3,80,0
+CUST-0901,28,Male,Married,Yes,Peshawar,Two Year,Cash,7136.56,8,No,No,Yes,5,5,9,14,1
+CUST-0902,68,Female,Married,No,Quetta,Two Year,Credit Card,5746.58,55,No,Yes,No,3,3,8,54,0
+CUST-0903,56,Female,Single,Yes,Karachi,One Year,Credit Card,3993.28,18,No,Yes,Yes,4,3,0,254,0
+CUST-0904,55,Female,Married,No,Karachi,One Year,Bank Transfer,4340.24,35,No,No,Yes,5,2,0,65,0
+CUST-0905,51,Female,Married,Yes,Karachi,Two Year,Bank Transfer,1526.89,32,Yes,Yes,No,4,5,4,58,0
+CUST-0906,55,Female,Married,Yes,Lahore,Month-to-Month,Cash,3057.63,24,Yes,No,Yes,5,0,2,96,0
+CUST-0907,67,Female,Married,No,Lahore,Month-to-Month,Credit Card,1907.96,7,Yes,Yes,Yes,3,2,9,21,1
+CUST-0908,51,Male,Single,Yes,Quetta,One Year,Bank Transfer,6659.0,13,Yes,No,Yes,1,1,8,260,0
+CUST-0909,35,Female,Married,Yes,Peshawar,Two Year,Cash,7360.65,69,No,Yes,Yes,4,3,4,73,0
+CUST-0910,47,Male,Single,No,Peshawar,Two Year,Credit Card,4526.92,42,No,Yes,Yes,3,0,6,248,0
+CUST-0911,32,Female,Married,No,Karachi,Month-to-Month,Credit Card,5958.23,31,Yes,Yes,Yes,4,2,0,127,0
+CUST-0912,44,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,1410.99,26,Yes,Yes,No,3,4,1,46,0
+CUST-0913,68,Male,Single,No,Lahore,Month-to-Month,Cash,5064.01,32,Yes,Yes,No,5,1,10,268,0
+CUST-0914,51,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,5770.93,52,Yes,Yes,No,3,2,3,128,0
+CUST-0915,69,Male,Single,Yes,Karachi,Month-to-Month,Cash,3895.76,20,No,No,No,5,4,8,30,1
+CUST-0916,55,Male,Single,Yes,Lahore,One Year,Credit Card,2324.55,40,Yes,No,Yes,1,0,4,94,0
+CUST-0917,50,Female,Married,No,Karachi,Month-to-Month,Cash,7080.31,59,No,Yes,Yes,5,0,4,224,1
+CUST-0918,41,Male,Married,No,Quetta,Two Year,Cash,6071.82,14,No,No,No,2,1,8,316,1
+CUST-0919,32,Female,Married,No,Peshawar,Month-to-Month,Cash,7248.93,44,Yes,Yes,Yes,1,4,7,100,1
+CUST-0920,47,Male,Single,Yes,Islamabad,One Year,Cash,6638.02,48,Yes,No,No,3,3,1,71,0
+CUST-0921,59,Female,Married,Yes,Peshawar,Month-to-Month,Cash,7927.81,43,No,No,Yes,3,0,6,81,0
+CUST-0922,68,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,1941.3,16,No,No,Yes,2,5,0,300,0
+CUST-0923,34,Female,Single,Yes,Quetta,Month-to-Month,Cash,1150.61,35,Yes,No,No,3,3,9,108,0
+CUST-0924,22,Female,Married,Yes,Lahore,Two Year,Cash,3027.52,53,No,Yes,Yes,1,3,10,102,0
+CUST-0925,46,Female,Married,Yes,Islamabad,Two Year,Credit Card,1467.53,34,Yes,No,No,1,2,10,91,0
+CUST-0926,21,Female,Single,Yes,Lahore,Month-to-Month,Cash,4423.48,3,Yes,No,No,5,2,8,365,1
+CUST-0927,27,Male,Single,No,Peshawar,Month-to-Month,Credit Card,5247.72,68,No,No,No,4,0,2,16,0
+CUST-0928,34,Female,Married,No,Karachi,Two Year,Bank Transfer,4837.16,5,No,Yes,Yes,3,3,1,110,0
+CUST-0929,27,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,2444.3,10,Yes,No,Yes,2,2,3,263,0
+CUST-0930,34,Male,Married,Yes,Lahore,Month-to-Month,Cash,7316.18,52,Yes,Yes,No,1,4,3,160,0
+CUST-0931,37,Female,Married,Yes,Peshawar,One Year,Bank Transfer,658.79,29,No,Yes,Yes,1,4,2,253,0
+CUST-0932,41,Male,Single,No,Karachi,Two Year,Cash,3110.1,31,No,No,No,1,4,1,89,0
+CUST-0933,22,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,5892.44,66,No,Yes,No,4,4,4,95,0
+CUST-0934,51,Male,Married,No,Lahore,Month-to-Month,Cash,6251.97,69,No,No,Yes,4,3,3,272,0
+CUST-0935,23,Female,Married,No,Peshawar,Two Year,Cash,3620.89,37,Yes,No,No,3,4,4,247,0
+CUST-0936,70,Male,Single,No,Lahore,Month-to-Month,Credit Card,626.82,27,Yes,No,Yes,2,3,7,361,1
+CUST-0937,19,Female,Single,No,Quetta,Month-to-Month,Credit Card,5135.33,33,Yes,No,Yes,4,0,10,206,0
+CUST-0938,30,Female,Single,No,Peshawar,One Year,Credit Card,973.21,68,No,No,Yes,5,0,1,345,0
+CUST-0939,60,Female,Single,Yes,Peshawar,Two Year,Credit Card,1308.92,59,No,No,No,4,4,8,318,0
+CUST-0940,60,Female,Married,Yes,Lahore,Month-to-Month,Cash,5376.88,64,Yes,No,No,1,4,9,286,0
+CUST-0941,65,Male,Single,No,Lahore,Two Year,Bank Transfer,2843.66,44,No,Yes,Yes,2,4,0,248,0
+CUST-0942,28,Female,Married,Yes,Karachi,One Year,Cash,3110.23,49,No,Yes,Yes,3,0,7,67,0
+CUST-0943,68,Male,Married,No,Quetta,Month-to-Month,Credit Card,4151.05,53,No,No,No,4,2,4,46,0
+CUST-0944,64,Male,Married,No,Karachi,Two Year,Credit Card,7839.34,49,No,No,Yes,1,0,1,43,1
+CUST-0945,40,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,7740.82,66,No,Yes,Yes,5,4,7,229,0
+CUST-0946,33,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,3621.96,63,No,No,No,5,2,4,301,1
+CUST-0947,48,Male,Single,Yes,Peshawar,One Year,Cash,2491.24,25,Yes,Yes,No,3,2,9,234,0
+CUST-0948,28,Male,Single,Yes,Peshawar,Month-to-Month,Cash,2769.44,4,Yes,Yes,No,3,1,9,199,0
+CUST-0949,33,Male,Married,Yes,Islamabad,Month-to-Month,Cash,2515.86,51,Yes,No,Yes,4,3,2,336,0
+CUST-0950,25,Female,Married,No,Islamabad,Month-to-Month,Cash,4491.84,11,Yes,No,No,3,4,6,32,0
+CUST-0951,21,Female,Married,Yes,Peshawar,Month-to-Month,Cash,5051.45,17,No,Yes,No,1,3,3,264,1
+CUST-0952,57,Male,Married,Yes,Lahore,Two Year,Bank Transfer,4165.85,66,Yes,Yes,No,1,1,10,113,0
+CUST-0953,21,Female,Married,Yes,Peshawar,One Year,Cash,3559.96,70,Yes,No,No,1,3,10,318,0
+CUST-0954,42,Female,Single,No,Islamabad,Two Year,Credit Card,2084.64,69,Yes,No,No,4,4,9,276,0
+CUST-0955,20,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,4118.79,29,Yes,Yes,No,4,1,5,146,0
+CUST-0956,49,Male,Single,No,Peshawar,Month-to-Month,Credit Card,3058.27,72,No,Yes,No,3,3,9,357,1
+CUST-0957,20,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,4561.97,20,No,Yes,Yes,4,0,7,6,0
+CUST-0958,44,Male,Married,Yes,Quetta,Month-to-Month,Bank Transfer,5563.92,27,Yes,No,No,1,2,0,340,1
+CUST-0959,46,Female,Single,No,Peshawar,Month-to-Month,Credit Card,5249.84,8,Yes,No,Yes,2,1,1,108,1
+CUST-0960,49,Female,Single,Yes,Lahore,One Year,Bank Transfer,3968.68,61,No,No,Yes,1,0,7,260,1
+CUST-0961,67,Female,Married,Yes,Peshawar,Two Year,Credit Card,4670.39,28,No,Yes,No,2,4,6,71,1
+CUST-0962,68,Female,Married,No,Peshawar,Two Year,Bank Transfer,2636.42,70,Yes,Yes,Yes,3,2,9,340,1
+CUST-0963,36,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,681.8,3,No,No,No,5,1,8,162,0
+CUST-0964,38,Female,Married,No,Quetta,Two Year,Bank Transfer,5187.65,69,No,Yes,Yes,4,2,1,100,0
+CUST-0965,22,Male,Single,No,Islamabad,Month-to-Month,Credit Card,2394.26,7,Yes,Yes,No,4,5,7,327,1
+CUST-0966,35,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,5517.15,60,No,Yes,Yes,1,5,5,33,0
+CUST-0967,45,Female,Single,No,Peshawar,Two Year,Cash,6102.56,4,Yes,Yes,No,1,1,0,143,1
+CUST-0968,59,Female,Married,No,Islamabad,One Year,Cash,7369.46,5,Yes,Yes,No,2,1,3,244,0
+CUST-0969,39,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,7685.92,11,No,No,Yes,4,3,1,224,0
+CUST-0970,38,Male,Single,Yes,Islamabad,Month-to-Month,Cash,578.95,15,No,No,Yes,3,2,6,214,0
+CUST-0971,23,Female,Married,Yes,Quetta,Month-to-Month,Cash,7927.81,64,No,No,No,1,5,8,120,0
+CUST-0972,18,Male,Single,No,Islamabad,One Year,Cash,5622.64,13,No,No,Yes,4,5,5,168,0
+CUST-0973,22,Female,Married,No,Quetta,Month-to-Month,Credit Card,5326.43,7,No,No,No,5,2,3,349,1
+CUST-0974,58,Female,Single,No,Islamabad,Two Year,Credit Card,614.1,6,No,Yes,Yes,2,5,4,217,0
+CUST-0975,29,Male,Married,No,Islamabad,Month-to-Month,Cash,6959.25,56,Yes,Yes,No,1,0,10,355,1
+CUST-0976,43,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,1591.19,64,No,Yes,Yes,1,5,0,322,1
+CUST-0977,63,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,6779.98,50,Yes,No,No,3,5,3,217,0
+CUST-0978,51,Female,Married,No,Quetta,One Year,Cash,616.72,30,No,Yes,Yes,1,4,9,54,0
+CUST-0979,66,Female,Single,No,Quetta,Month-to-Month,Credit Card,5344.73,22,No,Yes,No,4,0,2,208,0
+CUST-0980,31,Male,Single,Yes,Karachi,One Year,Credit Card,3761.01,25,No,Yes,Yes,4,3,8,80,0
+CUST-0981,43,Male,Single,No,Islamabad,Two Year,Cash,2005.75,28,No,No,No,4,1,5,151,0
+CUST-0982,62,Male,Single,No,Quetta,Two Year,Credit Card,1306.71,39,No,Yes,Yes,5,5,3,55,0
+CUST-0983,44,Male,Married,No,Karachi,Two Year,Cash,3800.96,67,Yes,Yes,Yes,5,3,2,5,0
+CUST-0984,26,Male,Single,Yes,Lahore,Two Year,Credit Card,1424.79,5,Yes,No,No,1,3,3,35,0
+CUST-0985,43,Male,Married,Yes,Quetta,One Year,Bank Transfer,4148.35,65,Yes,No,Yes,5,0,7,349,0
+CUST-0986,64,Female,Single,No,Quetta,Two Year,Cash,5189.13,15,No,Yes,Yes,5,1,4,119,0
+CUST-0987,39,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,6705.38,67,No,No,No,3,4,10,197,1
+CUST-0988,64,Male,Married,No,Islamabad,Month-to-Month,Cash,5589.87,40,No,Yes,No,5,3,0,54,1
+CUST-0989,47,Female,Married,No,Lahore,Month-to-Month,Credit Card,989.0,69,Yes,No,No,2,4,4,259,0
+CUST-0990,60,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,2805.74,43,Yes,Yes,No,2,1,7,262,0
+CUST-0991,65,Male,Single,No,Islamabad,Month-to-Month,Credit Card,2659.84,1,No,Yes,Yes,2,1,10,343,0
+CUST-0992,34,Female,Single,No,Lahore,Two Year,Cash,7362.74,22,Yes,No,Yes,1,0,3,312,0
+CUST-0993,43,Male,Married,Yes,Peshawar,Month-to-Month,Cash,7008.37,62,No,No,Yes,4,2,1,2,0
+CUST-0994,53,Male,Single,No,Peshawar,Month-to-Month,Cash,3276.11,26,No,No,No,3,5,2,82,0
+CUST-0995,18,Female,Single,No,Lahore,One Year,Cash,1033.66,18,Yes,No,Yes,1,0,10,350,0
+CUST-0996,25,Male,Married,No,Karachi,Month-to-Month,Cash,7205.8,48,Yes,Yes,Yes,4,4,8,5,1
+CUST-0997,66,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,7161.42,9,Yes,No,No,3,0,6,174,1
+CUST-0998,52,Male,Single,No,Lahore,Month-to-Month,Cash,6910.6,1,Yes,Yes,Yes,3,1,2,139,0
+CUST-0999,69,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,6838.11,9,No,Yes,Yes,3,3,4,193,1
+CUST-1000,32,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,4101.91,23,No,Yes,No,2,5,2,138,0
+CUST-1001,64,Male,Single,No,Islamabad,One Year,Credit Card,1830.74,45,Yes,No,Yes,2,5,9,297,1
+CUST-1002,39,Male,Married,No,Islamabad,One Year,Cash,4081.16,2,Yes,Yes,No,2,2,3,116,0
+CUST-1003,31,Male,Single,No,Karachi,Month-to-Month,Credit Card,4209.48,14,Yes,Yes,No,3,1,7,44,0
+CUST-1004,43,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,4174.49,38,Yes,No,Yes,3,5,2,346,0
+CUST-1005,45,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,4540.79,40,No,Yes,Yes,2,5,2,289,0
+CUST-1006,40,Female,Married,No,Lahore,One Year,Bank Transfer,2432.43,63,No,Yes,Yes,3,3,10,219,0
+CUST-1007,31,Male,Married,No,Quetta,Month-to-Month,Credit Card,3246.81,16,No,Yes,No,2,4,10,56,1
+CUST-1008,41,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,3756.4,6,No,No,No,2,4,7,242,0
+CUST-1009,19,Female,Married,No,Lahore,One Year,Credit Card,1483.41,3,No,Yes,Yes,2,4,9,258,1
+CUST-1010,62,Female,Single,No,Quetta,Month-to-Month,Cash,3915.23,14,No,Yes,Yes,4,0,9,1,0
+CUST-1011,43,Female,Married,No,Karachi,Month-to-Month,Cash,6578.52,66,No,Yes,No,3,4,6,289,0
+CUST-1012,31,Male,Married,No,Peshawar,Month-to-Month,Credit Card,6710.45,67,Yes,No,Yes,1,4,6,103,1
+CUST-1013,68,Female,Single,No,Lahore,Two Year,Bank Transfer,3586.73,31,No,No,Yes,2,0,9,292,0
+CUST-1014,24,Female,Single,Yes,Quetta,Two Year,Credit Card,4391.06,33,Yes,No,No,1,3,1,149,0
+CUST-1015,20,Male,Single,Yes,Islamabad,One Year,Credit Card,752.38,1,Yes,Yes,Yes,4,1,6,84,1
+CUST-1016,64,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,5558.24,44,Yes,Yes,Yes,3,5,9,26,1
+CUST-1017,40,Male,Married,No,Peshawar,One Year,Cash,3534.54,15,No,Yes,Yes,2,2,10,175,1
+CUST-1018,63,Male,Married,No,Karachi,Two Year,Credit Card,3841.08,37,No,Yes,Yes,2,5,9,223,0
+CUST-1019,60,Male,Married,No,Lahore,Two Year,Cash,7052.55,27,No,Yes,No,2,4,2,129,1
+CUST-1020,64,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,3963.76,48,No,No,No,1,4,6,142,0
+CUST-1021,62,Female,Single,No,Quetta,Two Year,Cash,658.94,27,Yes,Yes,No,4,5,3,346,0
+CUST-1022,35,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,2206.18,12,No,Yes,No,3,5,7,302,1
+CUST-1023,55,Female,Single,No,Islamabad,Month-to-Month,Credit Card,4067.15,67,Yes,No,Yes,4,4,7,298,0
+CUST-1024,52,Female,Married,Yes,Karachi,One Year,Bank Transfer,3682.97,30,No,No,Yes,2,0,5,135,0
+CUST-1025,68,Female,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,6952.78,66,No,Yes,Yes,4,0,2,55,1
+CUST-1026,32,Female,Married,Yes,Karachi,Two Year,Credit Card,4566.03,7,Yes,No,Yes,1,0,5,56,0
+CUST-1027,42,Male,Married,No,Lahore,Month-to-Month,Credit Card,5672.27,34,Yes,No,No,5,2,5,76,0
+CUST-1028,54,Female,Married,Yes,Lahore,One Year,Credit Card,4019.92,32,Yes,No,Yes,5,1,2,319,0
+CUST-1029,45,Male,Single,No,Islamabad,Two Year,Credit Card,3797.42,39,No,Yes,Yes,3,4,10,339,0
+CUST-1030,27,Male,Single,No,Peshawar,Two Year,Bank Transfer,3847.15,43,No,No,No,3,3,3,355,0
+CUST-1031,56,Female,Single,No,Quetta,Month-to-Month,Cash,3581.91,43,Yes,Yes,No,4,5,1,132,0
+CUST-1032,34,Male,Married,No,Peshawar,Month-to-Month,Credit Card,4539.38,3,No,No,No,3,5,0,42,0
+CUST-1033,56,Female,Married,No,Lahore,One Year,Bank Transfer,2378.33,46,Yes,Yes,Yes,1,4,1,352,0
+CUST-1034,39,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,7182.91,32,No,Yes,No,2,4,6,110,0
+CUST-1035,43,Male,Married,No,Peshawar,Two Year,Credit Card,2998.14,43,Yes,Yes,Yes,2,4,9,70,1
+CUST-1036,61,Male,Single,No,Peshawar,Two Year,Cash,1606.43,3,Yes,No,Yes,4,5,4,284,0
+CUST-1037,42,Male,Single,No,Quetta,Month-to-Month,Credit Card,1224.13,63,No,No,No,2,4,8,126,1
+CUST-1038,34,Male,Married,No,Lahore,Month-to-Month,Credit Card,600.67,40,Yes,No,No,4,5,2,348,0
+CUST-1039,30,Female,Married,No,Peshawar,Month-to-Month,Cash,3671.42,18,No,Yes,No,3,1,1,296,0
+CUST-1040,37,Female,Married,Yes,Quetta,Two Year,Cash,1907.08,67,No,No,Yes,3,3,3,179,0
+CUST-1041,42,Female,Single,Yes,Lahore,Month-to-Month,Cash,662.36,62,Yes,No,Yes,1,0,1,298,0
+CUST-1042,21,Male,Single,No,Quetta,Month-to-Month,Cash,4400.15,10,Yes,Yes,Yes,2,3,10,197,1
+CUST-1043,27,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,5599.84,52,No,No,No,1,4,6,261,1
+CUST-1044,20,Male,Married,Yes,Peshawar,One Year,Bank Transfer,1143.13,46,No,Yes,Yes,5,3,9,101,0
+CUST-1045,58,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,3956.91,55,Yes,No,Yes,1,4,5,61,1
+CUST-1046,62,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,6077.22,46,Yes,Yes,Yes,4,3,7,183,1
+CUST-1047,35,Female,Married,No,Karachi,Two Year,Cash,7893.55,60,Yes,Yes,Yes,4,2,4,297,0
+CUST-1048,64,Male,Single,Yes,Karachi,Two Year,Cash,5503.93,26,No,No,No,1,3,1,9,1
+CUST-1049,53,Female,Married,Yes,Lahore,One Year,Bank Transfer,2336.3,27,No,Yes,Yes,3,0,3,206,0
+CUST-1050,64,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,5874.15,38,No,No,No,5,0,0,318,1
+CUST-1051,39,Male,Married,No,Peshawar,Month-to-Month,Credit Card,4984.47,22,Yes,No,No,1,3,1,54,0
+CUST-1052,51,Male,Single,Yes,Peshawar,One Year,Credit Card,2088.49,26,Yes,No,Yes,3,5,3,180,1
+CUST-1053,64,Female,Single,Yes,Lahore,Month-to-Month,Bank Transfer,6883.33,69,No,No,Yes,1,5,5,104,0
+CUST-1054,25,Female,Single,No,Lahore,Two Year,Credit Card,3705.53,35,No,Yes,No,2,5,3,126,1
+CUST-1055,57,Male,Single,No,Karachi,One Year,Credit Card,7714.83,66,Yes,Yes,Yes,4,3,3,34,0
+CUST-1056,66,Male,Single,Yes,Islamabad,Month-to-Month,Credit Card,5921.76,51,No,Yes,No,2,5,10,165,0
+CUST-1057,61,Female,Single,No,Lahore,Two Year,Cash,5334.22,18,Yes,No,Yes,2,1,9,298,1
+CUST-1058,36,Male,Married,Yes,Islamabad,Two Year,Bank Transfer,5962.65,43,Yes,No,Yes,5,3,9,270,1
+CUST-1059,59,Female,Married,Yes,Lahore,Month-to-Month,Cash,4085.73,12,Yes,Yes,No,3,0,1,289,0
+CUST-1060,58,Female,Married,No,Quetta,One Year,Cash,4289.2,3,No,Yes,Yes,4,5,8,118,0
+CUST-1061,54,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,6884.06,7,No,No,No,2,2,9,354,1
+CUST-1062,23,Male,Single,No,Karachi,Month-to-Month,Cash,5606.96,6,Yes,No,No,4,5,7,92,1
+CUST-1063,69,Male,Married,Yes,Karachi,Month-to-Month,Credit Card,7229.32,45,Yes,No,Yes,3,0,7,100,0
+CUST-1064,43,Male,Single,No,Islamabad,One Year,Credit Card,7181.2,39,No,Yes,No,1,1,4,87,0
+CUST-1065,51,Male,Single,Yes,Lahore,Two Year,Credit Card,7823.68,51,Yes,No,Yes,2,3,2,234,0
+CUST-1066,62,Female,Single,No,Peshawar,One Year,Credit Card,5751.61,9,No,Yes,Yes,3,5,5,124,0
+CUST-1067,23,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,4267.26,23,No,No,Yes,4,2,8,203,1
+CUST-1068,54,Male,Single,No,Peshawar,One Year,Cash,1747.34,12,No,Yes,No,3,0,7,32,1
+CUST-1069,50,Male,Married,Yes,Peshawar,Month-to-Month,Cash,5790.35,62,Yes,No,Yes,1,2,6,357,0
+CUST-1070,70,Male,Married,No,Lahore,Two Year,Credit Card,2686.83,40,Yes,Yes,Yes,3,4,10,39,0
+CUST-1071,39,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,2622.11,54,Yes,Yes,No,4,0,7,94,0
+CUST-1072,38,Male,Married,No,Lahore,Month-to-Month,Cash,2287.16,7,Yes,Yes,No,2,4,3,10,1
+CUST-1073,23,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,7063.42,17,No,No,No,2,2,5,215,1
+CUST-1074,23,Female,Single,Yes,Peshawar,One Year,Cash,7009.73,50,Yes,Yes,No,5,3,4,100,0
+CUST-1075,65,Female,Single,No,Lahore,Month-to-Month,Credit Card,5232.28,24,No,Yes,Yes,4,3,1,244,0
+CUST-1076,21,Male,Single,Yes,Lahore,One Year,Credit Card,4047.36,2,Yes,No,Yes,5,3,7,58,0
+CUST-1077,47,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,5540.86,33,Yes,Yes,Yes,5,4,2,357,0
+CUST-1078,28,Male,Married,No,Karachi,Month-to-Month,Cash,5054.22,21,Yes,Yes,Yes,1,3,4,320,1
+CUST-1079,47,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,3618.01,53,Yes,No,No,4,1,7,19,0
+CUST-1080,48,Male,Married,No,Lahore,Two Year,Bank Transfer,3347.23,46,Yes,Yes,No,2,0,10,357,0
+CUST-1081,41,Male,Single,No,Karachi,Two Year,Credit Card,3370.96,45,No,No,Yes,4,0,8,117,0
+CUST-1082,26,Male,Married,Yes,Peshawar,Month-to-Month,Cash,4918.5,9,Yes,Yes,No,1,2,8,136,0
+CUST-1083,20,Female,Single,No,Quetta,Month-to-Month,Credit Card,5357.52,6,Yes,No,No,4,5,4,327,1
+CUST-1084,68,Female,Married,Yes,Karachi,Month-to-Month,Cash,3888.06,51,Yes,Yes,No,4,4,1,296,0
+CUST-1085,48,Male,Married,Yes,Quetta,One Year,Credit Card,7765.19,35,Yes,Yes,No,5,0,6,13,0
+CUST-1086,57,Male,Single,No,Lahore,Month-to-Month,Credit Card,1128.84,53,Yes,Yes,No,4,4,10,101,0
+CUST-1087,54,Female,Single,No,Lahore,Two Year,Cash,3102.85,19,No,No,Yes,5,2,10,155,0
+CUST-1088,53,Female,Married,Yes,Karachi,Two Year,Cash,3643.06,69,Yes,Yes,Yes,5,3,6,82,0
+CUST-1089,41,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,626.91,25,No,Yes,No,3,5,7,88,1
+CUST-1090,48,Female,Single,No,Lahore,Month-to-Month,Cash,3237.18,11,Yes,No,No,1,2,7,105,1
+CUST-1091,23,Female,Married,No,Peshawar,Two Year,Credit Card,2552.82,17,No,No,Yes,5,1,4,130,0
+CUST-1092,19,Female,Married,No,Islamabad,Two Year,Cash,4295.27,36,Yes,No,Yes,4,3,0,272,0
+CUST-1093,37,Female,Single,No,Islamabad,Month-to-Month,Credit Card,3023.08,21,Yes,Yes,No,5,3,10,14,0
+CUST-1094,45,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,5946.37,18,No,Yes,No,5,3,3,128,1
+CUST-1095,28,Female,Single,No,Quetta,Month-to-Month,Credit Card,4324.49,60,Yes,Yes,No,5,2,3,60,0
+CUST-1096,21,Male,Married,Yes,Lahore,Month-to-Month,Bank Transfer,1473.22,18,No,No,Yes,2,1,10,227,0
+CUST-1097,32,Male,Single,Yes,Quetta,Month-to-Month,Cash,6125.46,1,Yes,No,No,2,5,2,17,1
+CUST-1098,23,Male,Married,No,Peshawar,Month-to-Month,Credit Card,1244.22,14,No,Yes,No,2,4,7,45,0
+CUST-1099,66,Female,Single,Yes,Quetta,One Year,Bank Transfer,6792.87,8,No,Yes,No,2,2,2,38,0
+CUST-1100,47,Male,Married,No,Lahore,Month-to-Month,Credit Card,7485.67,66,No,No,No,3,0,4,124,0
+CUST-1101,55,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,2918.34,51,Yes,No,No,5,0,1,360,0
+CUST-1102,68,Female,Married,No,Karachi,Month-to-Month,Credit Card,7446.07,60,No,No,No,3,2,5,64,0
+CUST-1103,19,Male,Married,Yes,Islamabad,Two Year,Credit Card,6447.56,34,Yes,Yes,No,4,4,5,253,0
+CUST-1104,32,Female,Married,Yes,Lahore,Two Year,Bank Transfer,7418.27,36,No,No,No,1,0,7,262,0
+CUST-1105,28,Male,Married,No,Lahore,Month-to-Month,Bank Transfer,5497.03,62,No,No,Yes,3,4,7,112,1
+CUST-1106,25,Male,Married,No,Lahore,Month-to-Month,Cash,2267.33,1,No,No,Yes,2,3,0,102,1
+CUST-1107,43,Male,Married,Yes,Peshawar,Two Year,Cash,7208.92,42,Yes,No,Yes,2,2,4,49,1
+CUST-1108,68,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,1881.99,1,Yes,Yes,No,4,3,1,277,1
+CUST-1109,62,Male,Married,No,Quetta,Month-to-Month,Cash,2097.95,54,Yes,No,Yes,5,0,9,227,1
+CUST-1110,61,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,2532.97,47,No,Yes,Yes,1,4,4,23,1
+CUST-1111,22,Male,Single,No,Peshawar,Month-to-Month,Cash,2781.85,39,Yes,Yes,Yes,3,3,9,332,1
+CUST-1112,23,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,4358.6,30,Yes,No,Yes,5,0,8,185,1
+CUST-1113,43,Male,Married,No,Islamabad,Two Year,Cash,5850.93,7,No,No,Yes,5,1,3,64,0
+CUST-1114,21,Female,Single,Yes,Lahore,One Year,Credit Card,7446.56,22,No,Yes,No,3,3,7,157,0
+CUST-1115,36,Female,Married,No,Quetta,Month-to-Month,Credit Card,1163.28,50,Yes,No,Yes,3,1,0,283,0
+CUST-1116,37,Female,Married,No,Islamabad,Two Year,Cash,7657.77,45,Yes,Yes,No,3,1,7,149,1
+CUST-1117,50,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,7409.92,72,Yes,No,No,3,5,5,327,1
+CUST-1118,37,Male,Married,No,Islamabad,Month-to-Month,Credit Card,904.99,10,No,Yes,Yes,2,0,7,363,0
+CUST-1119,66,Female,Married,Yes,Karachi,One Year,Credit Card,3202.41,14,No,Yes,No,5,2,5,169,0
+CUST-1120,29,Female,Single,No,Peshawar,One Year,Cash,6598.58,46,No,Yes,Yes,5,4,10,133,0
+CUST-1121,64,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,5086.82,6,No,No,No,2,0,2,314,1
+CUST-1122,18,Female,Married,No,Quetta,Month-to-Month,Bank Transfer,6343.2,21,No,Yes,No,5,5,10,132,1
+CUST-1123,43,Female,Single,Yes,Karachi,One Year,Cash,5892.75,62,Yes,Yes,Yes,3,5,7,197,0
+CUST-1124,31,Female,Single,No,Lahore,One Year,Bank Transfer,4225.78,19,Yes,No,No,1,3,4,135,0
+CUST-1125,55,Male,Married,Yes,Karachi,One Year,Cash,809.14,62,Yes,No,No,5,4,9,35,0
+CUST-1126,54,Female,Single,No,Quetta,Month-to-Month,Cash,4882.01,53,No,Yes,No,1,5,4,220,0
+CUST-1127,28,Male,Single,Yes,Lahore,Month-to-Month,Cash,864.25,24,No,Yes,No,1,2,6,185,1
+CUST-1128,53,Male,Married,Yes,Quetta,Month-to-Month,Credit Card,5027.95,56,Yes,No,No,2,0,5,5,0
+CUST-1129,30,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,6503.08,62,Yes,Yes,No,4,2,8,71,1
+CUST-1130,60,Female,Single,No,Quetta,Two Year,Credit Card,4887.44,34,Yes,No,No,5,3,6,342,0
+CUST-1131,20,Male,Married,Yes,Islamabad,Month-to-Month,Cash,7977.66,22,No,No,No,2,0,2,241,0
+CUST-1132,50,Female,Married,No,Lahore,Month-to-Month,Credit Card,3919.0,68,No,No,Yes,2,3,10,351,0
+CUST-1133,23,Female,Married,Yes,Islamabad,One Year,Credit Card,6116.21,57,No,Yes,No,1,4,10,297,1
+CUST-1134,67,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,5504.1,10,No,No,Yes,5,4,4,331,0
+CUST-1135,27,Male,Married,Yes,Lahore,Month-to-Month,Cash,7935.74,66,No,Yes,Yes,2,2,8,193,0
+CUST-1136,22,Male,Married,Yes,Peshawar,Two Year,Cash,5849.14,8,Yes,Yes,No,3,2,10,168,0
+CUST-1137,40,Female,Single,No,Lahore,Two Year,Cash,1730.23,38,Yes,No,No,2,4,9,339,0
+CUST-1138,27,Male,Married,Yes,Islamabad,One Year,Credit Card,7666.38,62,No,No,Yes,3,1,1,236,0
+CUST-1139,61,Female,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,5508.33,28,No,No,Yes,4,4,0,294,0
+CUST-1140,19,Male,Married,No,Peshawar,One Year,Credit Card,945.04,10,Yes,No,Yes,3,0,10,298,0
+CUST-1141,30,Male,Married,Yes,Lahore,One Year,Credit Card,5431.76,45,No,Yes,No,3,3,7,248,0
+CUST-1142,57,Male,Single,Yes,Quetta,Month-to-Month,Cash,7123.4,65,No,Yes,No,1,4,7,165,0
+CUST-1143,19,Female,Married,Yes,Quetta,Month-to-Month,Cash,4827.81,67,Yes,No,No,2,4,1,312,0
+CUST-1144,37,Female,Married,Yes,Peshawar,Two Year,Credit Card,3155.15,9,No,Yes,Yes,4,5,7,71,1
+CUST-1145,18,Male,Single,No,Lahore,Month-to-Month,Credit Card,6656.82,5,No,No,No,2,3,4,231,0
+CUST-1146,54,Male,Married,No,Quetta,One Year,Bank Transfer,6368.84,10,Yes,Yes,No,3,5,1,55,1
+CUST-1147,26,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,4581.37,12,No,Yes,No,3,3,6,182,0
+CUST-1148,34,Female,Single,No,Lahore,Month-to-Month,Cash,1657.71,58,No,Yes,No,2,0,6,22,0
+CUST-1149,26,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,2382.4,21,Yes,No,Yes,4,3,2,283,1
+CUST-1150,28,Female,Married,Yes,Peshawar,Two Year,Bank Transfer,6038.63,21,Yes,Yes,No,4,2,0,105,0
+CUST-1151,32,Male,Single,No,Karachi,Month-to-Month,Cash,6545.62,65,No,Yes,No,1,4,10,175,1
+CUST-1152,41,Male,Single,Yes,Quetta,One Year,Bank Transfer,2594.49,3,Yes,Yes,Yes,3,3,3,294,0
+CUST-1153,55,Male,Single,No,Quetta,One Year,Credit Card,3259.89,69,Yes,Yes,No,3,0,1,39,0
+CUST-1154,52,Male,Married,No,Quetta,One Year,Bank Transfer,1082.24,64,No,No,Yes,1,3,3,60,0
+CUST-1155,47,Male,Married,No,Islamabad,Two Year,Cash,5850.96,49,Yes,Yes,Yes,2,4,7,300,0
+CUST-1156,48,Male,Married,Yes,Lahore,One Year,Credit Card,526.83,72,No,No,No,3,1,1,299,0
+CUST-1157,66,Female,Married,No,Peshawar,Month-to-Month,Bank Transfer,849.06,17,Yes,No,Yes,2,3,0,212,0
+CUST-1158,22,Male,Married,Yes,Quetta,Two Year,Credit Card,532.58,32,Yes,Yes,No,4,2,10,155,0
+CUST-1159,61,Female,Married,Yes,Karachi,One Year,Credit Card,5339.9,70,No,Yes,Yes,5,4,2,173,1
+CUST-1160,67,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,3630.4,21,No,No,Yes,1,0,9,23,0
+CUST-1161,31,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,2731.6,7,No,No,No,3,4,6,240,0
+CUST-1162,70,Female,Single,No,Lahore,Two Year,Cash,7345.26,7,Yes,No,Yes,1,5,5,209,0
+CUST-1163,28,Male,Single,Yes,Peshawar,Month-to-Month,Cash,1946.02,27,No,Yes,No,4,1,5,122,0
+CUST-1164,26,Female,Single,Yes,Islamabad,One Year,Credit Card,3420.26,8,No,Yes,No,4,0,6,253,0
+CUST-1165,51,Female,Married,No,Peshawar,Month-to-Month,Cash,7552.34,28,Yes,No,No,4,1,7,141,0
+CUST-1166,29,Male,Single,No,Quetta,Month-to-Month,Credit Card,3703.3,66,Yes,No,No,4,1,2,340,0
+CUST-1167,52,Female,Single,No,Karachi,One Year,Credit Card,4660.2,71,Yes,No,Yes,5,2,2,362,0
+CUST-1168,52,Female,Single,No,Peshawar,Month-to-Month,Cash,1102.53,47,No,Yes,No,2,3,9,320,0
+CUST-1169,18,Male,Single,Yes,Islamabad,Month-to-Month,Cash,6426.25,10,Yes,Yes,Yes,2,2,7,153,1
+CUST-1170,57,Female,Married,Yes,Peshawar,One Year,Cash,3670.69,33,Yes,No,No,5,2,6,214,0
+CUST-1171,39,Male,Married,Yes,Lahore,Month-to-Month,Bank Transfer,6503.86,7,No,Yes,Yes,2,5,9,308,1
+CUST-1172,46,Male,Married,No,Quetta,One Year,Credit Card,2403.48,3,Yes,No,Yes,4,2,4,48,0
+CUST-1173,25,Male,Single,Yes,Quetta,Two Year,Credit Card,3668.59,14,Yes,Yes,Yes,2,0,3,317,0
+CUST-1174,28,Male,Married,No,Quetta,One Year,Credit Card,6399.12,44,No,No,Yes,1,3,5,17,1
+CUST-1175,58,Female,Single,Yes,Quetta,Month-to-Month,Cash,7804.08,46,Yes,Yes,No,2,3,8,296,1
+CUST-1176,54,Male,Married,No,Quetta,Month-to-Month,Cash,947.19,61,No,Yes,No,1,0,5,331,0
+CUST-1177,31,Male,Married,Yes,Quetta,One Year,Cash,6593.42,36,No,Yes,Yes,3,2,7,345,0
+CUST-1178,47,Female,Married,Yes,Karachi,Two Year,Cash,2755.17,13,No,Yes,Yes,1,2,0,69,0
+CUST-1179,52,Male,Married,No,Islamabad,Two Year,Cash,4630.57,16,No,Yes,No,1,1,5,85,0
+CUST-1180,38,Male,Married,Yes,Quetta,Two Year,Bank Transfer,2675.69,5,No,Yes,Yes,4,1,1,282,0
+CUST-1181,54,Female,Single,No,Islamabad,Month-to-Month,Cash,5100.84,38,Yes,Yes,Yes,4,5,2,208,1
+CUST-1182,22,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,3153.52,50,No,No,No,4,4,5,40,0
+CUST-1183,36,Female,Single,Yes,Peshawar,Month-to-Month,Cash,3002.11,38,No,No,Yes,1,1,1,96,0
+CUST-1184,31,Female,Single,No,Quetta,Month-to-Month,Credit Card,784.54,56,No,No,Yes,5,3,3,250,0
+CUST-1185,43,Female,Single,No,Lahore,Month-to-Month,Cash,1602.2,63,No,Yes,No,4,0,5,136,0
+CUST-1186,21,Female,Single,Yes,Karachi,Two Year,Cash,7378.09,48,Yes,Yes,Yes,4,2,4,73,0
+CUST-1187,42,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,7987.08,59,Yes,Yes,No,1,4,5,301,0
+CUST-1188,62,Male,Married,Yes,Peshawar,Month-to-Month,Credit Card,6353.9,44,Yes,No,No,3,1,5,273,1
+CUST-1189,59,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,2651.09,55,No,No,No,3,4,7,169,0
+CUST-1190,42,Female,Married,Yes,Quetta,Two Year,Credit Card,3518.34,55,Yes,No,No,2,0,8,333,0
+CUST-1191,35,Female,Married,Yes,Karachi,One Year,Bank Transfer,6046.28,1,Yes,No,Yes,3,0,4,198,0
+CUST-1192,57,Male,Single,No,Peshawar,One Year,Credit Card,7763.85,8,No,No,No,4,4,5,347,0
+CUST-1193,25,Male,Married,No,Karachi,Two Year,Cash,3916.03,4,No,No,No,5,4,5,106,0
+CUST-1194,56,Female,Married,No,Peshawar,Month-to-Month,Cash,6721.42,53,Yes,Yes,Yes,2,5,5,101,1
+CUST-1195,57,Female,Single,Yes,Quetta,One Year,Bank Transfer,7813.02,58,Yes,No,No,5,4,1,359,1
+CUST-1196,31,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,7051.05,37,Yes,Yes,Yes,5,2,3,235,1
+CUST-1197,49,Male,Married,Yes,Peshawar,Month-to-Month,Cash,2203.62,49,Yes,No,No,4,3,0,280,0
+CUST-1198,68,Male,Married,No,Islamabad,Two Year,Bank Transfer,560.24,67,No,No,No,1,1,0,329,0
+CUST-1199,55,Female,Single,No,Quetta,One Year,Cash,4190.61,19,No,Yes,No,1,1,0,106,1
+CUST-1200,50,Male,Married,Yes,Lahore,Month-to-Month,Bank Transfer,4485.21,1,No,Yes,No,1,1,6,35,0
+CUST-1201,40,Female,Married,Yes,Lahore,Month-to-Month,Bank Transfer,2009.38,29,No,Yes,Yes,3,4,0,157,1
+CUST-1202,32,Male,Married,No,Quetta,One Year,Credit Card,2635.06,33,No,No,Yes,1,4,5,273,0
+CUST-1203,50,Male,Married,No,Lahore,Month-to-Month,Bank Transfer,6238.65,52,Yes,No,Yes,4,5,1,240,0
+CUST-1204,42,Female,Single,No,Quetta,Month-to-Month,Cash,4027.6,41,No,Yes,No,3,4,5,207,0
+CUST-1205,34,Female,Single,Yes,Lahore,Month-to-Month,Cash,2880.16,23,No,No,No,1,5,5,245,1
+CUST-1206,50,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,5169.7,5,Yes,Yes,No,5,5,10,93,1
+CUST-1207,64,Female,Married,Yes,Lahore,Two Year,Credit Card,5395.7,71,No,No,Yes,4,2,2,109,0
+CUST-1208,19,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,6270.47,57,Yes,No,No,4,2,7,306,1
+CUST-1209,31,Male,Married,No,Quetta,Month-to-Month,Credit Card,1675.32,6,No,No,Yes,2,2,10,114,1
+CUST-1210,70,Male,Married,Yes,Karachi,One Year,Cash,6061.38,49,No,Yes,Yes,4,2,3,24,0
+CUST-1211,57,Female,Married,Yes,Karachi,Two Year,Cash,4995.71,22,No,No,Yes,5,0,6,293,0
+CUST-1212,57,Male,Single,No,Quetta,Month-to-Month,Credit Card,931.79,4,Yes,Yes,No,4,2,3,252,0
+CUST-1213,68,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,6330.84,72,No,Yes,No,2,2,0,267,0
+CUST-1214,56,Male,Married,No,Lahore,Month-to-Month,Credit Card,3373.1,64,Yes,Yes,No,4,2,5,355,0
+CUST-1215,68,Female,Single,No,Islamabad,One Year,Bank Transfer,2977.86,37,No,Yes,No,4,5,4,209,0
+CUST-1216,23,Female,Married,Yes,Karachi,One Year,Bank Transfer,3860.56,31,No,Yes,Yes,2,1,8,55,0
+CUST-1217,23,Male,Single,No,Quetta,Two Year,Cash,3096.31,37,Yes,Yes,Yes,4,1,8,27,0
+CUST-1218,20,Female,Single,Yes,Quetta,Two Year,Bank Transfer,3037.14,45,Yes,Yes,No,3,1,10,323,0
+CUST-1219,24,Female,Single,No,Islamabad,One Year,Bank Transfer,6560.58,8,No,Yes,No,4,3,7,2,0
+CUST-1220,68,Male,Single,No,Islamabad,One Year,Bank Transfer,1433.79,40,Yes,Yes,No,1,0,6,68,0
+CUST-1221,25,Female,Single,Yes,Lahore,Month-to-Month,Bank Transfer,7779.5,5,No,No,Yes,1,5,1,148,0
+CUST-1222,59,Female,Married,No,Peshawar,Month-to-Month,Cash,4661.99,28,No,Yes,No,3,4,7,319,0
+CUST-1223,69,Female,Single,Yes,Peshawar,Two Year,Credit Card,1871.93,9,Yes,No,Yes,4,5,2,328,0
+CUST-1224,32,Male,Single,Yes,Lahore,Month-to-Month,Cash,1484.12,2,Yes,Yes,Yes,5,2,5,130,0
+CUST-1225,64,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,4936.32,63,Yes,No,Yes,4,1,9,83,0
+CUST-1226,46,Female,Married,Yes,Karachi,One Year,Credit Card,5247.5,51,No,No,Yes,1,5,6,42,1
+CUST-1227,50,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,897.69,31,Yes,No,Yes,2,0,5,156,0
+CUST-1228,69,Female,Married,Yes,Lahore,One Year,Credit Card,2322.51,7,No,No,Yes,3,2,4,157,0
+CUST-1229,47,Female,Married,Yes,Peshawar,One Year,Cash,6465.96,30,Yes,No,Yes,2,3,3,107,1
+CUST-1230,56,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,872.18,58,Yes,No,No,5,4,1,284,0
+CUST-1231,44,Female,Single,Yes,Islamabad,Two Year,Cash,6913.16,3,Yes,Yes,No,4,2,8,188,0
+CUST-1232,53,Female,Married,No,Karachi,Month-to-Month,Cash,5436.22,51,Yes,Yes,No,5,4,6,105,1
+CUST-1233,46,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,3758.17,56,Yes,Yes,Yes,2,5,6,112,1
+CUST-1234,55,Female,Single,No,Quetta,One Year,Bank Transfer,3098.25,10,No,Yes,Yes,4,2,3,133,1
+CUST-1235,50,Male,Married,No,Lahore,One Year,Credit Card,644.37,61,Yes,Yes,No,5,3,4,271,0
+CUST-1236,54,Male,Single,Yes,Islamabad,One Year,Credit Card,6689.11,50,Yes,Yes,Yes,1,5,5,110,1
+CUST-1237,44,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,1570.41,47,No,No,Yes,1,0,10,73,0
+CUST-1238,50,Female,Single,No,Karachi,One Year,Cash,2821.56,1,No,Yes,Yes,3,4,1,346,1
+CUST-1239,21,Male,Single,Yes,Lahore,Month-to-Month,Cash,4768.3,57,No,No,Yes,1,4,3,293,1
+CUST-1240,39,Male,Single,Yes,Karachi,Two Year,Bank Transfer,2344.94,38,No,No,Yes,1,0,3,143,0
+CUST-1241,19,Male,Married,Yes,Peshawar,Month-to-Month,Cash,4228.55,62,Yes,No,Yes,2,4,3,260,0
+CUST-1242,27,Female,Married,No,Quetta,One Year,Bank Transfer,6570.07,70,Yes,No,Yes,1,5,6,245,0
+CUST-1243,22,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,4029.03,65,No,No,Yes,1,1,6,340,1
+CUST-1244,27,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,7617.33,62,Yes,No,Yes,2,0,6,155,1
+CUST-1245,50,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,6856.25,56,No,Yes,Yes,1,3,6,149,1
+CUST-1246,55,Female,Single,No,Peshawar,Two Year,Bank Transfer,2997.79,67,No,No,Yes,1,2,1,60,0
+CUST-1247,30,Male,Single,No,Lahore,One Year,Credit Card,3499.72,17,Yes,No,Yes,3,2,4,86,0
+CUST-1248,48,Female,Single,No,Peshawar,Two Year,Bank Transfer,3674.95,8,Yes,Yes,No,1,0,9,192,0
+CUST-1249,64,Female,Single,No,Peshawar,Month-to-Month,Cash,5196.35,60,No,Yes,Yes,1,1,1,327,1
+CUST-1250,53,Female,Married,Yes,Quetta,Month-to-Month,Cash,2650.97,40,Yes,Yes,Yes,3,5,4,182,0
+CUST-1251,62,Female,Married,No,Lahore,Month-to-Month,Cash,7769.37,62,No,Yes,No,2,3,5,287,1
+CUST-1252,41,Female,Single,No,Lahore,Two Year,Cash,5065.13,41,No,Yes,No,1,2,2,273,0
+CUST-1253,69,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,3495.51,12,No,Yes,No,5,2,5,255,0
+CUST-1254,32,Female,Single,No,Lahore,Two Year,Cash,5337.57,54,No,Yes,Yes,2,5,4,7,0
+CUST-1255,46,Female,Married,Yes,Karachi,Two Year,Cash,3465.54,11,Yes,No,Yes,2,1,3,126,0
+CUST-1256,25,Male,Single,Yes,Islamabad,Two Year,Cash,6633.47,60,No,Yes,No,1,4,9,83,0
+CUST-1257,22,Female,Married,No,Islamabad,One Year,Cash,4758.81,68,No,No,No,3,0,8,28,0
+CUST-1258,46,Male,Single,No,Islamabad,One Year,Bank Transfer,814.78,46,No,Yes,No,2,1,10,266,1
+CUST-1259,64,Female,Single,Yes,Lahore,One Year,Cash,1825.68,38,Yes,Yes,Yes,3,1,7,283,0
+CUST-1260,21,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,6987.45,61,No,No,Yes,5,1,6,251,1
+CUST-1261,29,Male,Married,No,Karachi,One Year,Credit Card,4721.75,17,No,Yes,No,3,1,10,188,0
+CUST-1262,62,Female,Single,No,Peshawar,Month-to-Month,Credit Card,7627.58,66,Yes,Yes,Yes,4,4,0,299,1
+CUST-1263,19,Female,Married,Yes,Karachi,Month-to-Month,Credit Card,1043.17,72,No,Yes,Yes,3,5,8,69,1
+CUST-1264,44,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,2714.45,36,No,Yes,No,2,3,8,319,0
+CUST-1265,48,Male,Married,Yes,Karachi,Month-to-Month,Credit Card,1951.58,7,No,Yes,No,3,1,5,326,0
+CUST-1266,68,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,4653.8,16,No,Yes,No,3,1,6,99,0
+CUST-1267,68,Male,Single,Yes,Lahore,Month-to-Month,Credit Card,3370.95,14,Yes,Yes,Yes,4,0,2,193,0
+CUST-1268,53,Female,Married,Yes,Karachi,One Year,Cash,1679.55,25,Yes,No,Yes,4,2,4,227,0
+CUST-1269,53,Male,Married,No,Islamabad,Month-to-Month,Credit Card,5320.64,4,Yes,Yes,Yes,1,4,6,182,1
+CUST-1270,43,Male,Single,Yes,Islamabad,One Year,Bank Transfer,4522.24,29,No,No,Yes,2,1,0,327,0
+CUST-1271,60,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,2560.52,56,Yes,No,Yes,1,3,0,93,1
+CUST-1272,44,Male,Single,Yes,Karachi,One Year,Cash,4098.29,6,Yes,No,No,4,3,4,143,1
+CUST-1273,22,Male,Single,Yes,Peshawar,One Year,Cash,6093.04,1,No,No,Yes,3,3,8,203,0
+CUST-1274,37,Female,Single,No,Lahore,One Year,Bank Transfer,2039.54,39,Yes,No,Yes,4,0,6,132,0
+CUST-1275,28,Male,Single,No,Karachi,One Year,Bank Transfer,2696.79,1,Yes,No,No,5,3,0,267,0
+CUST-1276,27,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,3095.83,63,Yes,No,No,3,5,4,134,1
+CUST-1277,57,Female,Married,No,Islamabad,One Year,Bank Transfer,6100.45,57,No,Yes,No,1,0,7,179,0
+CUST-1278,55,Female,Single,No,Peshawar,Month-to-Month,Credit Card,6851.92,67,No,Yes,No,3,4,7,186,0
+CUST-1279,23,Female,Single,No,Peshawar,Month-to-Month,Credit Card,3322.91,65,Yes,Yes,Yes,5,3,1,18,0
+CUST-1280,25,Female,Married,No,Peshawar,One Year,Cash,2724.66,65,Yes,No,Yes,4,2,6,323,0
+CUST-1281,40,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,7170.85,21,No,Yes,No,2,1,9,97,1
+CUST-1282,64,Male,Married,No,Karachi,One Year,Bank Transfer,7995.24,30,No,No,Yes,2,4,4,34,0
+CUST-1283,43,Female,Single,Yes,Lahore,One Year,Credit Card,5527.65,33,No,No,No,2,5,8,300,0
+CUST-1284,63,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,7924.85,48,No,Yes,Yes,4,2,2,351,0
+CUST-1285,60,Male,Single,Yes,Lahore,Month-to-Month,Cash,5449.75,22,Yes,No,Yes,2,4,0,187,0
+CUST-1286,29,Female,Married,Yes,Peshawar,Month-to-Month,Cash,6000.95,54,No,No,Yes,5,5,3,347,0
+CUST-1287,43,Female,Single,Yes,Karachi,Two Year,Bank Transfer,3414.92,4,Yes,Yes,No,4,3,6,111,0
+CUST-1288,30,Female,Married,No,Peshawar,One Year,Cash,3747.26,55,No,No,No,2,4,0,247,1
+CUST-1289,57,Male,Single,Yes,Quetta,Month-to-Month,Cash,1581.02,44,No,Yes,Yes,1,4,1,71,1
+CUST-1290,35,Male,Married,Yes,Peshawar,Month-to-Month,Credit Card,6670.63,12,No,No,Yes,4,4,4,309,1
+CUST-1291,42,Female,Single,No,Peshawar,One Year,Cash,7482.94,52,No,No,No,4,0,8,327,0
+CUST-1292,50,Female,Single,No,Lahore,Two Year,Bank Transfer,5175.79,65,Yes,Yes,No,3,2,0,212,0
+CUST-1293,64,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,3077.35,65,Yes,Yes,Yes,2,5,3,309,0
+CUST-1294,57,Male,Married,No,Peshawar,Month-to-Month,Cash,1655.12,10,Yes,Yes,Yes,1,3,2,108,0
+CUST-1295,60,Female,Married,No,Peshawar,Two Year,Bank Transfer,2488.67,18,No,No,No,5,1,4,177,0
+CUST-1296,29,Female,Single,No,Quetta,Month-to-Month,Credit Card,2415.58,47,Yes,No,Yes,4,3,4,228,0
+CUST-1297,61,Male,Single,No,Quetta,Month-to-Month,Cash,5101.46,66,No,Yes,No,5,3,9,19,0
+CUST-1298,53,Male,Single,Yes,Karachi,Two Year,Cash,7587.78,49,No,Yes,No,5,0,1,322,0
+CUST-1299,65,Male,Married,No,Lahore,One Year,Cash,862.04,72,Yes,Yes,Yes,5,0,4,248,0
+CUST-1300,21,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,507.67,22,No,No,Yes,3,4,8,209,1
+CUST-1301,22,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,5001.36,26,No,No,Yes,5,3,4,216,0
+CUST-1302,54,Female,Single,No,Islamabad,Month-to-Month,Cash,2630.45,9,Yes,Yes,No,2,2,10,201,1
+CUST-1303,25,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,7104.11,21,No,Yes,No,2,0,9,257,1
+CUST-1304,59,Male,Married,No,Lahore,Two Year,Bank Transfer,2954.38,63,No,Yes,No,1,5,1,106,0
+CUST-1305,66,Male,Married,Yes,Peshawar,Month-to-Month,Cash,2673.03,6,Yes,No,Yes,1,0,6,311,0
+CUST-1306,45,Male,Single,No,Peshawar,One Year,Cash,2521.33,14,Yes,Yes,Yes,5,2,5,271,0
+CUST-1307,48,Female,Single,No,Peshawar,Two Year,Bank Transfer,1586.4,33,No,Yes,No,5,0,6,271,0
+CUST-1308,26,Female,Married,No,Peshawar,Month-to-Month,Cash,4861.48,71,Yes,Yes,No,3,2,7,121,0
+CUST-1309,68,Male,Married,No,Islamabad,Month-to-Month,Cash,1761.6,24,No,No,Yes,5,1,9,245,0
+CUST-1310,46,Female,Single,No,Quetta,One Year,Cash,3684.73,51,Yes,No,No,5,2,4,66,0
+CUST-1311,31,Male,Married,Yes,Peshawar,Two Year,Cash,3957.29,2,No,Yes,Yes,5,1,1,228,0
+CUST-1312,57,Male,Married,No,Karachi,Two Year,Bank Transfer,653.69,15,Yes,No,Yes,4,5,6,137,0
+CUST-1313,58,Male,Single,No,Peshawar,Month-to-Month,Cash,626.05,35,Yes,Yes,No,4,4,6,194,0
+CUST-1314,39,Male,Married,No,Quetta,One Year,Credit Card,4401.6,36,No,Yes,No,3,4,7,194,0
+CUST-1315,28,Female,Married,Yes,Peshawar,One Year,Cash,5720.26,39,Yes,Yes,No,3,0,6,146,0
+CUST-1316,40,Male,Single,No,Islamabad,Two Year,Credit Card,7566.07,4,Yes,Yes,No,2,2,9,145,1
+CUST-1317,18,Male,Single,Yes,Lahore,Month-to-Month,Cash,1843.39,64,No,No,No,3,0,6,72,0
+CUST-1318,63,Female,Married,Yes,Lahore,One Year,Credit Card,1274.44,6,Yes,Yes,Yes,2,2,8,354,1
+CUST-1319,54,Male,Single,No,Quetta,Two Year,Credit Card,890.66,57,Yes,Yes,No,5,0,7,192,0
+CUST-1320,38,Male,Married,No,Lahore,Month-to-Month,Cash,3770.31,30,Yes,No,Yes,3,4,1,44,0
+CUST-1321,43,Male,Single,No,Lahore,Month-to-Month,Cash,5173.61,67,No,Yes,No,3,5,1,157,1
+CUST-1322,63,Female,Married,Yes,Karachi,Month-to-Month,Cash,6804.15,15,Yes,No,No,3,4,6,16,0
+CUST-1323,53,Male,Single,Yes,Quetta,Month-to-Month,Credit Card,5619.84,17,No,Yes,No,2,0,9,78,1
+CUST-1324,40,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,2062.71,18,No,Yes,No,2,2,10,52,0
+CUST-1325,18,Male,Married,Yes,Lahore,Two Year,Bank Transfer,3963.28,19,Yes,Yes,No,1,3,9,2,0
+CUST-1326,68,Male,Married,Yes,Lahore,Month-to-Month,Cash,7327.6,69,No,Yes,No,2,5,2,232,1
+CUST-1327,57,Female,Single,Yes,Lahore,Month-to-Month,Bank Transfer,2950.56,24,No,No,Yes,2,2,0,61,0
+CUST-1328,32,Male,Single,No,Islamabad,One Year,Bank Transfer,4240.48,48,No,Yes,No,4,0,8,132,0
+CUST-1329,38,Male,Married,No,Peshawar,Month-to-Month,Cash,7689.24,30,No,No,No,3,2,2,52,1
+CUST-1330,64,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,6010.31,15,Yes,No,No,2,1,0,297,1
+CUST-1331,26,Female,Single,No,Quetta,One Year,Cash,6108.05,47,Yes,No,No,3,2,5,180,1
+CUST-1332,70,Female,Single,No,Karachi,Two Year,Bank Transfer,2392.51,44,Yes,Yes,Yes,3,4,3,31,0
+CUST-1333,26,Female,Single,Yes,Peshawar,One Year,Credit Card,3610.24,27,No,No,Yes,4,4,0,155,0
+CUST-1334,27,Female,Single,Yes,Karachi,One Year,Bank Transfer,1117.57,64,No,No,Yes,3,1,3,121,0
+CUST-1335,69,Male,Single,No,Quetta,Month-to-Month,Credit Card,5048.94,41,Yes,No,Yes,2,5,7,51,1
+CUST-1336,70,Female,Single,Yes,Quetta,Two Year,Bank Transfer,1277.98,68,No,Yes,Yes,3,2,10,95,0
+CUST-1337,43,Male,Married,Yes,Karachi,Month-to-Month,Cash,6769.32,5,Yes,Yes,Yes,1,5,6,176,0
+CUST-1338,58,Male,Single,No,Karachi,One Year,Bank Transfer,6609.15,53,No,No,No,1,3,0,11,0
+CUST-1339,52,Male,Married,Yes,Karachi,Month-to-Month,Bank Transfer,4502.04,8,Yes,No,No,4,2,9,12,0
+CUST-1340,69,Female,Single,No,Quetta,Two Year,Credit Card,1558.75,22,Yes,Yes,Yes,2,4,8,355,1
+CUST-1341,42,Female,Single,No,Lahore,One Year,Bank Transfer,691.84,7,Yes,No,No,4,4,5,45,0
+CUST-1342,43,Male,Married,No,Karachi,One Year,Cash,6475.32,22,No,No,No,1,5,1,290,0
+CUST-1343,28,Female,Married,No,Peshawar,Month-to-Month,Cash,5001.05,46,Yes,No,No,2,0,2,205,1
+CUST-1344,55,Female,Single,No,Quetta,Month-to-Month,Cash,5831.97,30,No,Yes,No,3,4,6,219,0
+CUST-1345,19,Female,Married,Yes,Islamabad,One Year,Credit Card,2778.55,16,No,No,No,2,0,2,328,0
+CUST-1346,24,Female,Married,Yes,Islamabad,One Year,Credit Card,4321.12,5,Yes,No,Yes,5,4,2,256,0
+CUST-1347,35,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,6103.81,67,Yes,Yes,Yes,2,4,4,248,0
+CUST-1348,44,Male,Married,Yes,Lahore,Two Year,Bank Transfer,3969.22,23,No,No,Yes,3,3,2,21,0
+CUST-1349,51,Female,Single,No,Karachi,Two Year,Bank Transfer,5010.38,61,No,Yes,Yes,5,0,2,41,0
+CUST-1350,44,Male,Married,No,Quetta,Month-to-Month,Credit Card,6422.96,5,Yes,Yes,Yes,4,0,10,278,1
+CUST-1351,34,Female,Single,Yes,Karachi,Two Year,Credit Card,2114.15,23,Yes,Yes,Yes,2,4,4,277,0
+CUST-1352,60,Female,Single,No,Quetta,One Year,Bank Transfer,994.47,25,No,No,No,4,0,4,195,0
+CUST-1353,61,Male,Single,Yes,Islamabad,Month-to-Month,Credit Card,4488.68,8,Yes,No,Yes,2,4,8,71,0
+CUST-1354,68,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,965.94,21,Yes,No,No,1,4,0,270,0
+CUST-1355,41,Male,Married,Yes,Peshawar,One Year,Cash,6249.18,2,Yes,No,No,1,5,0,335,1
+CUST-1356,42,Female,Married,No,Lahore,One Year,Cash,5894.09,22,Yes,No,Yes,3,2,10,73,0
+CUST-1357,24,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,7112.85,72,No,No,Yes,1,0,8,308,1
+CUST-1358,69,Female,Single,No,Lahore,One Year,Bank Transfer,5296.72,72,No,No,Yes,5,1,4,199,0
+CUST-1359,23,Male,Single,No,Karachi,One Year,Cash,1003.98,68,Yes,No,No,5,5,3,76,0
+CUST-1360,70,Male,Single,Yes,Karachi,One Year,Credit Card,2398.64,64,Yes,Yes,Yes,2,0,1,275,0
+CUST-1361,41,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,6559.49,19,No,No,Yes,4,0,8,283,0
+CUST-1362,50,Female,Single,No,Islamabad,Two Year,Bank Transfer,1753.49,53,No,No,Yes,5,3,5,146,0
+CUST-1363,66,Female,Married,No,Quetta,Month-to-Month,Bank Transfer,5738.6,52,No,Yes,No,2,1,8,13,1
+CUST-1364,46,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,6351.94,47,No,No,Yes,4,1,4,363,1
+CUST-1365,60,Female,Single,Yes,Peshawar,Month-to-Month,Cash,2975.84,54,No,Yes,Yes,1,3,3,129,1
+CUST-1366,39,Female,Single,No,Peshawar,Month-to-Month,Bank Transfer,2917.23,44,Yes,No,No,2,3,6,230,0
+CUST-1367,43,Female,Single,No,Karachi,Two Year,Cash,4683.52,7,Yes,No,No,4,0,4,85,0
+CUST-1368,45,Female,Married,No,Peshawar,Month-to-Month,Cash,6959.65,1,No,Yes,No,3,2,7,162,0
+CUST-1369,67,Male,Married,No,Quetta,One Year,Credit Card,2179.3,63,No,Yes,Yes,3,3,7,365,0
+CUST-1370,38,Female,Married,Yes,Quetta,Month-to-Month,Credit Card,7559.44,39,Yes,No,Yes,5,1,1,51,0
+CUST-1371,66,Female,Single,No,Lahore,Month-to-Month,Credit Card,4993.39,19,No,Yes,No,4,1,4,215,0
+CUST-1372,24,Male,Single,No,Karachi,Two Year,Credit Card,7940.95,31,No,No,Yes,3,0,9,1,0
+CUST-1373,34,Female,Married,No,Quetta,One Year,Credit Card,1172.1,24,Yes,No,No,5,2,7,123,0
+CUST-1374,37,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,1449.22,69,Yes,No,No,2,4,2,288,0
+CUST-1375,58,Male,Single,Yes,Karachi,One Year,Bank Transfer,6699.81,65,Yes,No,No,2,3,6,200,1
+CUST-1376,66,Female,Single,No,Karachi,Month-to-Month,Cash,6985.67,33,Yes,No,No,4,3,2,183,0
+CUST-1377,37,Male,Married,No,Quetta,Month-to-Month,Credit Card,3840.94,59,No,No,No,4,0,5,216,0
+CUST-1378,39,Female,Single,No,Islamabad,One Year,Bank Transfer,5855.53,33,Yes,Yes,Yes,4,5,1,240,0
+CUST-1379,45,Male,Single,No,Lahore,One Year,Cash,7006.68,32,No,Yes,Yes,4,5,5,349,0
+CUST-1380,57,Male,Married,No,Quetta,Month-to-Month,Credit Card,823.46,59,No,Yes,Yes,3,2,5,68,0
+CUST-1381,66,Male,Single,Yes,Islamabad,Two Year,Credit Card,4804.63,41,No,No,Yes,3,1,7,319,0
+CUST-1382,24,Female,Married,Yes,Karachi,One Year,Bank Transfer,6901.1,12,No,Yes,No,5,1,4,82,0
+CUST-1383,18,Female,Single,Yes,Islamabad,Month-to-Month,Cash,3486.16,11,Yes,No,Yes,3,4,0,142,0
+CUST-1384,49,Male,Married,No,Karachi,One Year,Credit Card,2767.88,19,No,Yes,No,2,1,7,41,0
+CUST-1385,30,Male,Single,Yes,Quetta,One Year,Cash,6467.8,54,No,No,No,5,5,8,239,0
+CUST-1386,47,Female,Married,Yes,Quetta,One Year,Bank Transfer,3018.4,57,No,No,Yes,3,5,0,3,0
+CUST-1387,40,Female,Married,Yes,Peshawar,Month-to-Month,Credit Card,523.81,42,Yes,No,Yes,4,3,4,94,0
+CUST-1388,68,Male,Married,No,Peshawar,One Year,Cash,7696.79,71,Yes,No,No,3,4,5,59,0
+CUST-1389,36,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,4940.92,31,Yes,No,Yes,1,2,3,228,0
+CUST-1390,49,Female,Single,Yes,Quetta,Two Year,Bank Transfer,6646.38,52,Yes,Yes,Yes,5,4,10,18,0
+CUST-1391,47,Female,Single,No,Lahore,One Year,Credit Card,6689.76,2,Yes,No,Yes,3,2,1,239,1
+CUST-1392,46,Female,Married,Yes,Quetta,Month-to-Month,Cash,998.08,38,No,Yes,Yes,3,5,4,360,0
+CUST-1393,66,Female,Single,Yes,Islamabad,One Year,Credit Card,1781.45,32,Yes,No,No,2,1,3,74,0
+CUST-1394,62,Female,Single,Yes,Quetta,Two Year,Credit Card,2833.41,10,No,No,No,4,0,6,332,0
+CUST-1395,46,Male,Single,Yes,Quetta,Two Year,Cash,2905.24,8,Yes,No,Yes,4,4,5,169,1
+CUST-1396,47,Female,Single,No,Karachi,Month-to-Month,Cash,5440.9,20,No,Yes,No,2,4,2,264,1
+CUST-1397,33,Male,Single,No,Karachi,Month-to-Month,Cash,5173.5,20,Yes,No,No,2,3,8,160,0
+CUST-1398,57,Female,Married,No,Karachi,One Year,Bank Transfer,4209.42,9,No,Yes,Yes,1,3,3,337,1
+CUST-1399,36,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,2084.48,72,Yes,No,Yes,5,5,10,169,0
+CUST-1400,35,Female,Married,Yes,Lahore,Two Year,Cash,3364.88,15,No,Yes,No,4,2,4,206,0
+CUST-1401,18,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,4576.95,63,No,Yes,No,2,0,2,357,0
+CUST-1402,31,Male,Single,Yes,Islamabad,Month-to-Month,Credit Card,4009.89,21,No,Yes,No,2,3,7,9,0
+CUST-1403,68,Male,Single,No,Lahore,Month-to-Month,Cash,1454.69,5,No,No,Yes,5,3,10,346,0
+CUST-1404,64,Female,Married,No,Lahore,Month-to-Month,Credit Card,5371.33,35,No,No,No,2,1,6,304,0
+CUST-1405,67,Female,Single,No,Islamabad,One Year,Cash,1047.89,68,No,Yes,No,1,1,10,115,0
+CUST-1406,19,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,3336.46,48,Yes,No,Yes,5,5,10,152,0
+CUST-1407,45,Female,Married,Yes,Karachi,Month-to-Month,Cash,5825.22,62,Yes,No,No,1,5,6,87,1
+CUST-1408,66,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,650.18,35,No,No,Yes,3,3,7,95,0
+CUST-1409,67,Male,Married,Yes,Islamabad,One Year,Cash,4774.87,70,No,Yes,Yes,4,2,6,231,0
+CUST-1410,47,Male,Married,No,Lahore,Month-to-Month,Cash,3008.91,21,No,Yes,No,2,0,2,186,0
+CUST-1411,55,Female,Single,Yes,Peshawar,One Year,Bank Transfer,566.24,39,No,No,Yes,5,3,2,114,0
+CUST-1412,68,Male,Single,Yes,Islamabad,One Year,Credit Card,1927.87,34,No,Yes,Yes,1,2,1,274,0
+CUST-1413,21,Male,Married,No,Karachi,One Year,Bank Transfer,7557.1,15,No,No,No,4,2,0,29,0
+CUST-1414,18,Male,Married,No,Quetta,Two Year,Credit Card,4408.62,6,No,No,Yes,4,3,4,203,0
+CUST-1415,25,Female,Single,Yes,Lahore,Two Year,Bank Transfer,7979.2,66,Yes,Yes,No,2,2,3,2,0
+CUST-1416,46,Male,Married,No,Quetta,Two Year,Cash,4436.13,56,No,Yes,Yes,4,4,10,78,0
+CUST-1417,56,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,4579.52,49,No,No,Yes,2,2,1,324,0
+CUST-1418,20,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,3438.82,1,Yes,No,No,3,3,0,231,0
+CUST-1419,49,Female,Single,Yes,Peshawar,Month-to-Month,Cash,2825.3,65,Yes,No,No,2,2,2,98,0
+CUST-1420,27,Male,Married,Yes,Quetta,Two Year,Bank Transfer,2386.59,28,No,Yes,No,1,3,5,117,0
+CUST-1421,27,Female,Single,Yes,Peshawar,Two Year,Cash,3075.65,20,Yes,Yes,Yes,4,1,1,110,0
+CUST-1422,36,Female,Married,Yes,Karachi,Two Year,Credit Card,3948.88,48,Yes,No,No,4,3,9,167,0
+CUST-1423,63,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,1939.94,72,Yes,No,Yes,4,2,6,297,1
+CUST-1424,51,Female,Married,No,Peshawar,Two Year,Cash,2186.56,65,No,Yes,No,2,3,10,337,0
+CUST-1425,50,Female,Single,Yes,Peshawar,Month-to-Month,Cash,2536.59,51,No,No,Yes,5,0,6,87,0
+CUST-1426,40,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,3869.45,43,Yes,Yes,No,2,3,10,22,0
+CUST-1427,45,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,5396.1,49,No,Yes,Yes,1,3,2,210,0
+CUST-1428,49,Female,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,6921.1,25,No,No,No,2,0,0,305,1
+CUST-1429,67,Female,Married,Yes,Islamabad,One Year,Cash,2653.49,41,No,No,Yes,4,0,8,272,0
+CUST-1430,24,Female,Married,No,Quetta,Month-to-Month,Credit Card,1877.96,71,Yes,Yes,Yes,3,0,10,324,0
+CUST-1431,46,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,3341.36,64,Yes,No,Yes,1,5,4,278,0
+CUST-1432,25,Male,Married,Yes,Lahore,One Year,Cash,7207.87,61,Yes,Yes,Yes,3,4,1,139,0
+CUST-1433,18,Male,Single,No,Karachi,Two Year,Bank Transfer,573.96,12,Yes,Yes,No,1,5,7,341,1
+CUST-1434,20,Female,Married,Yes,Islamabad,One Year,Credit Card,5584.01,69,No,Yes,Yes,1,3,9,232,0
+CUST-1435,41,Female,Single,No,Peshawar,Month-to-Month,Credit Card,4078.7,14,No,No,No,4,5,9,233,1
+CUST-1436,40,Male,Single,No,Lahore,Two Year,Credit Card,1707.85,34,No,No,Yes,2,5,3,80,0
+CUST-1437,25,Male,Single,Yes,Karachi,Two Year,Credit Card,2907.66,48,Yes,No,No,4,0,10,55,0
+CUST-1438,64,Male,Married,No,Islamabad,Month-to-Month,Credit Card,2187.13,61,Yes,Yes,Yes,4,0,9,291,0
+CUST-1439,54,Female,Married,No,Islamabad,One Year,Bank Transfer,7083.74,35,No,Yes,Yes,4,1,6,34,0
+CUST-1440,20,Male,Married,Yes,Karachi,Month-to-Month,Credit Card,4114.05,65,Yes,Yes,No,3,5,4,329,0
+CUST-1441,68,Female,Single,Yes,Karachi,Month-to-Month,Credit Card,4723.21,59,Yes,Yes,No,1,4,2,333,0
+CUST-1442,50,Female,Single,No,Peshawar,One Year,Cash,4952.66,36,No,No,Yes,5,3,9,252,0
+CUST-1443,45,Male,Married,No,Karachi,Two Year,Credit Card,5297.13,19,Yes,No,No,2,2,7,125,1
+CUST-1444,64,Female,Married,No,Peshawar,Month-to-Month,Cash,4216.67,42,Yes,No,No,4,4,1,11,0
+CUST-1445,25,Female,Married,Yes,Peshawar,Two Year,Cash,634.05,69,No,Yes,No,1,4,0,317,0
+CUST-1446,51,Female,Single,No,Quetta,Two Year,Cash,3010.42,19,Yes,Yes,Yes,2,1,4,122,0
+CUST-1447,52,Female,Single,No,Islamabad,Two Year,Bank Transfer,1879.05,39,No,No,No,5,3,10,35,0
+CUST-1448,49,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,5601.07,69,No,Yes,Yes,5,3,3,69,1
+CUST-1449,41,Male,Single,Yes,Islamabad,Two Year,Cash,925.28,52,Yes,No,No,4,0,10,313,0
+CUST-1450,31,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,4728.53,12,No,Yes,No,5,0,9,139,0
+CUST-1451,49,Female,Married,Yes,Peshawar,One Year,Credit Card,2079.74,47,Yes,Yes,Yes,5,4,6,12,0
+CUST-1452,63,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,7616.34,36,Yes,Yes,No,2,1,8,125,0
+CUST-1453,60,Female,Single,No,Karachi,Month-to-Month,Credit Card,3016.56,63,Yes,Yes,No,2,3,5,299,0
+CUST-1454,33,Male,Single,Yes,Quetta,One Year,Credit Card,2939.16,51,Yes,Yes,No,4,1,10,147,0
+CUST-1455,21,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,7425.39,43,Yes,No,No,1,2,0,77,0
+CUST-1456,69,Female,Single,No,Quetta,Month-to-Month,Bank Transfer,3630.11,34,Yes,No,No,4,3,7,68,0
+CUST-1457,54,Male,Married,No,Karachi,Month-to-Month,Cash,7721.47,49,Yes,No,No,3,0,1,206,1
+CUST-1458,38,Male,Single,No,Lahore,One Year,Bank Transfer,681.28,18,Yes,Yes,No,5,4,3,236,0
+CUST-1459,31,Male,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,2797.58,61,Yes,No,Yes,1,1,2,59,0
+CUST-1460,48,Male,Single,Yes,Islamabad,Two Year,Bank Transfer,5496.45,57,No,No,Yes,2,0,5,258,0
+CUST-1461,65,Female,Married,Yes,Peshawar,Month-to-Month,Credit Card,7181.43,5,No,Yes,Yes,3,4,1,254,0
+CUST-1462,35,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,2423.04,24,Yes,Yes,Yes,3,0,4,243,0
+CUST-1463,24,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,7478.58,64,Yes,No,Yes,5,3,10,277,1
+CUST-1464,27,Male,Single,No,Peshawar,Month-to-Month,Cash,4955.91,59,Yes,No,No,2,1,8,220,0
+CUST-1465,24,Male,Married,Yes,Lahore,Month-to-Month,Cash,6507.56,38,No,No,Yes,1,2,2,225,0
+CUST-1466,50,Female,Single,Yes,Islamabad,Month-to-Month,Cash,3479.05,33,No,No,Yes,2,5,1,101,0
+CUST-1467,40,Male,Single,Yes,Karachi,Two Year,Credit Card,2091.35,10,Yes,No,No,5,0,1,342,0
+CUST-1468,38,Male,Married,Yes,Quetta,One Year,Bank Transfer,7334.27,37,Yes,Yes,Yes,3,5,8,122,1
+CUST-1469,36,Male,Single,No,Lahore,Month-to-Month,Cash,7498.52,11,Yes,No,No,5,1,5,218,1
+CUST-1470,65,Male,Single,No,Peshawar,Month-to-Month,Cash,4231.81,24,No,No,No,4,3,1,75,0
+CUST-1471,36,Female,Single,No,Lahore,Two Year,Credit Card,548.71,71,Yes,No,Yes,3,0,2,331,0
+CUST-1472,53,Female,Married,No,Peshawar,Month-to-Month,Cash,1323.37,21,No,No,Yes,5,3,0,237,0
+CUST-1473,46,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,4797.71,20,No,No,No,1,2,1,339,1
+CUST-1474,35,Male,Single,Yes,Peshawar,One Year,Credit Card,678.33,10,Yes,No,No,1,2,1,240,0
+CUST-1475,19,Male,Married,No,Islamabad,One Year,Credit Card,3476.84,47,No,Yes,Yes,1,4,10,165,1
+CUST-1476,18,Female,Single,No,Karachi,One Year,Bank Transfer,2775.27,47,Yes,Yes,No,4,4,1,334,0
+CUST-1477,64,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,5857.61,15,No,Yes,Yes,2,4,6,157,1
+CUST-1478,22,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,916.84,44,No,No,Yes,1,3,2,211,0
+CUST-1479,37,Female,Single,Yes,Islamabad,One Year,Cash,4165.48,62,Yes,No,Yes,4,4,10,277,0
+CUST-1480,28,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,4843.36,6,Yes,Yes,Yes,1,1,3,216,0
+CUST-1481,59,Male,Single,Yes,Lahore,One Year,Credit Card,5129.68,66,No,No,No,4,5,1,218,0
+CUST-1482,19,Male,Single,Yes,Quetta,One Year,Bank Transfer,3538.68,4,No,No,No,1,5,4,233,0
+CUST-1483,20,Female,Single,No,Peshawar,Month-to-Month,Credit Card,2782.76,23,No,No,Yes,2,3,8,12,1
+CUST-1484,40,Male,Married,Yes,Peshawar,Two Year,Credit Card,5618.7,13,Yes,Yes,Yes,5,3,8,83,1
+CUST-1485,29,Female,Married,Yes,Peshawar,Two Year,Cash,6856.77,31,Yes,Yes,No,1,4,6,113,1
+CUST-1486,37,Female,Married,Yes,Karachi,One Year,Bank Transfer,5702.13,16,Yes,Yes,No,5,5,7,271,0
+CUST-1487,22,Male,Married,No,Peshawar,Month-to-Month,Cash,7490.77,41,Yes,No,No,1,5,4,195,1
+CUST-1488,54,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,5879.48,1,No,Yes,No,2,4,4,141,1
+CUST-1489,55,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,6234.64,12,No,Yes,No,5,3,2,124,1
+CUST-1490,47,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,1759.27,56,No,Yes,Yes,4,2,5,141,0
+CUST-1491,26,Female,Single,No,Peshawar,Two Year,Bank Transfer,3646.55,50,No,No,Yes,1,2,0,208,0
+CUST-1492,51,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,4137.91,20,No,Yes,Yes,1,4,2,115,1
+CUST-1493,70,Male,Married,Yes,Peshawar,Month-to-Month,Credit Card,2422.2,66,Yes,Yes,Yes,4,2,10,206,0
+CUST-1494,61,Female,Married,Yes,Karachi,Month-to-Month,Credit Card,4464.05,36,Yes,No,No,2,1,1,288,1
+CUST-1495,52,Male,Single,No,Karachi,One Year,Bank Transfer,2680.94,38,No,Yes,No,3,1,6,355,0
+CUST-1496,69,Female,Single,No,Karachi,Month-to-Month,Credit Card,5656.27,22,No,No,Yes,1,1,8,343,1
+CUST-1497,39,Female,Single,No,Peshawar,Month-to-Month,Cash,4027.16,61,No,No,Yes,4,3,3,149,0
+CUST-1498,61,Male,Married,No,Lahore,Month-to-Month,Cash,3941.05,50,No,Yes,No,3,3,6,210,1
+CUST-1499,41,Male,Single,Yes,Quetta,Two Year,Cash,7877.32,59,No,Yes,Yes,1,3,7,112,1
+CUST-1500,34,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,3443.34,20,No,Yes,Yes,5,3,9,142,0
+CUST-1501,27,Male,Single,Yes,Lahore,Two Year,Bank Transfer,3217.22,36,No,No,No,4,3,1,24,0
+CUST-1502,47,Female,Married,No,Lahore,Two Year,Credit Card,2889.53,15,No,Yes,No,5,4,6,49,0
+CUST-1503,63,Female,Single,No,Peshawar,Month-to-Month,Credit Card,7210.62,62,Yes,Yes,No,2,2,2,288,1
+CUST-1504,40,Female,Married,No,Peshawar,One Year,Credit Card,4225.43,3,No,Yes,Yes,3,4,7,331,0
+CUST-1505,49,Male,Married,Yes,Lahore,Month-to-Month,Cash,5000.11,5,No,No,No,4,2,5,365,1
+CUST-1506,34,Female,Married,Yes,Lahore,Two Year,Cash,1856.14,56,Yes,No,No,1,4,2,11,0
+CUST-1507,67,Male,Married,Yes,Lahore,One Year,Cash,4557.07,31,Yes,No,Yes,1,1,7,188,0
+CUST-1508,68,Male,Married,Yes,Peshawar,Month-to-Month,Cash,2559.86,35,No,Yes,No,3,0,10,68,0
+CUST-1509,34,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,5979.78,71,Yes,Yes,Yes,5,3,2,90,0
+CUST-1510,31,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,6743.96,70,Yes,No,Yes,5,0,8,110,1
+CUST-1511,26,Male,Single,Yes,Peshawar,Two Year,Bank Transfer,5861.08,26,No,Yes,Yes,4,0,10,164,0
+CUST-1512,57,Male,Single,Yes,Karachi,Month-to-Month,Cash,5976.83,1,Yes,Yes,Yes,4,1,2,206,0
+CUST-1513,19,Female,Married,Yes,Islamabad,One Year,Bank Transfer,4343.56,7,No,No,No,5,0,0,32,0
+CUST-1514,62,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,5840.89,36,No,No,Yes,4,0,1,327,0
+CUST-1515,42,Female,Married,No,Islamabad,Two Year,Bank Transfer,3670.15,25,No,No,No,5,1,3,74,0
+CUST-1516,56,Female,Married,Yes,Lahore,Month-to-Month,Cash,5386.17,59,Yes,Yes,No,3,2,10,251,0
+CUST-1517,26,Male,Married,No,Lahore,One Year,Credit Card,2442.79,61,Yes,Yes,No,4,4,1,355,0
+CUST-1518,39,Male,Single,No,Quetta,Month-to-Month,Credit Card,1023.18,29,No,Yes,No,5,5,3,21,1
+CUST-1519,60,Male,Married,No,Lahore,One Year,Bank Transfer,3601.05,18,No,No,No,4,0,3,296,0
+CUST-1520,63,Female,Married,Yes,Islamabad,Month-to-Month,Credit Card,3963.34,41,Yes,No,Yes,1,3,3,298,1
+CUST-1521,21,Male,Single,No,Lahore,Month-to-Month,Credit Card,2423.05,19,No,Yes,No,1,1,0,328,0
+CUST-1522,43,Female,Single,Yes,Peshawar,Month-to-Month,Cash,5957.82,4,Yes,No,Yes,2,0,8,302,0
+CUST-1523,46,Male,Married,Yes,Lahore,One Year,Cash,1051.63,65,Yes,No,Yes,5,5,9,338,0
+CUST-1524,62,Male,Married,Yes,Quetta,Month-to-Month,Bank Transfer,2170.61,41,Yes,Yes,Yes,2,2,10,73,1
+CUST-1525,51,Female,Single,Yes,Lahore,One Year,Bank Transfer,6114.24,15,Yes,No,No,5,2,6,41,1
+CUST-1526,40,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,3778.43,54,Yes,Yes,No,4,5,1,94,0
+CUST-1527,54,Male,Single,No,Islamabad,Two Year,Cash,5789.63,64,Yes,No,No,5,3,2,132,0
+CUST-1528,28,Female,Married,No,Lahore,Two Year,Credit Card,4756.14,72,No,Yes,No,1,0,7,99,0
+CUST-1529,23,Female,Single,Yes,Islamabad,One Year,Cash,7630.35,15,No,No,Yes,4,3,6,53,1
+CUST-1530,35,Female,Single,No,Islamabad,Month-to-Month,Cash,4983.47,50,Yes,Yes,No,1,2,3,229,0
+CUST-1531,38,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,611.52,22,Yes,No,No,4,2,3,128,0
+CUST-1532,59,Female,Married,No,Peshawar,Month-to-Month,Credit Card,3146.58,18,No,No,Yes,5,4,8,212,0
+CUST-1533,53,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,1572.96,2,No,No,Yes,5,2,4,285,1
+CUST-1534,58,Male,Single,No,Karachi,One Year,Credit Card,7434.75,36,No,No,Yes,1,1,10,279,0
+CUST-1535,55,Female,Single,No,Quetta,One Year,Credit Card,1280.09,20,No,No,Yes,3,4,4,341,0
+CUST-1536,51,Male,Single,No,Lahore,Two Year,Credit Card,3407.8,16,No,Yes,Yes,5,3,6,159,0
+CUST-1537,34,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,2195.74,67,No,Yes,Yes,3,2,0,352,0
+CUST-1538,54,Female,Married,Yes,Lahore,One Year,Bank Transfer,6850.41,30,No,Yes,Yes,4,5,2,233,0
+CUST-1539,42,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,2814.25,55,No,No,No,3,1,1,71,0
+CUST-1540,55,Female,Married,Yes,Peshawar,One Year,Credit Card,7939.2,66,Yes,Yes,No,1,4,10,205,1
+CUST-1541,29,Female,Single,No,Islamabad,Month-to-Month,Credit Card,789.62,26,No,No,Yes,2,1,9,189,1
+CUST-1542,40,Male,Married,Yes,Quetta,Month-to-Month,Bank Transfer,1462.08,57,Yes,No,Yes,2,4,5,151,0
+CUST-1543,70,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,2184.79,69,No,Yes,No,1,4,10,8,0
+CUST-1544,59,Female,Married,No,Karachi,One Year,Credit Card,6583.3,2,No,Yes,Yes,2,4,5,332,1
+CUST-1545,39,Female,Single,No,Islamabad,Two Year,Cash,7088.88,56,No,No,Yes,1,5,9,100,1
+CUST-1546,38,Female,Single,Yes,Quetta,Month-to-Month,Bank Transfer,1035.89,62,No,No,Yes,5,3,0,16,0
+CUST-1547,44,Female,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,743.45,34,No,Yes,Yes,3,4,5,154,0
+CUST-1548,48,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,6084.18,56,Yes,Yes,Yes,2,4,9,157,1
+CUST-1549,23,Male,Single,No,Peshawar,One Year,Credit Card,1500.14,55,No,No,No,5,1,1,93,0
+CUST-1550,44,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,1497.49,20,Yes,No,Yes,2,4,10,262,0
+CUST-1551,57,Female,Married,Yes,Islamabad,One Year,Bank Transfer,667.75,50,Yes,Yes,Yes,4,3,3,37,0
+CUST-1552,51,Male,Single,Yes,Islamabad,Two Year,Credit Card,873.56,25,No,No,Yes,1,5,5,161,0
+CUST-1553,29,Female,Married,Yes,Peshawar,Two Year,Credit Card,2477.57,25,Yes,No,No,1,5,2,351,0
+CUST-1554,62,Male,Single,Yes,Karachi,Month-to-Month,Bank Transfer,987.54,53,No,Yes,No,5,1,2,174,0
+CUST-1555,70,Female,Married,No,Quetta,Two Year,Credit Card,3266.59,14,No,Yes,Yes,4,4,2,317,0
+CUST-1556,24,Female,Married,Yes,Islamabad,One Year,Cash,6745.81,60,No,No,Yes,3,1,3,18,0
+CUST-1557,27,Female,Single,No,Peshawar,Month-to-Month,Credit Card,2947.4,43,Yes,No,Yes,4,5,8,351,1
+CUST-1558,62,Female,Married,No,Karachi,One Year,Credit Card,5958.76,62,No,Yes,Yes,4,3,3,16,0
+CUST-1559,34,Female,Married,Yes,Quetta,Two Year,Bank Transfer,1204.32,69,Yes,No,No,3,1,3,360,0
+CUST-1560,43,Female,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,5445.31,63,No,Yes,No,3,3,3,270,0
+CUST-1561,38,Female,Single,No,Quetta,Month-to-Month,Cash,2875.6,2,No,No,Yes,4,2,6,359,0
+CUST-1562,45,Male,Single,Yes,Islamabad,Month-to-Month,Credit Card,6123.15,54,Yes,Yes,Yes,2,4,4,68,1
+CUST-1563,63,Male,Single,No,Karachi,One Year,Cash,1521.89,16,Yes,No,No,2,3,1,30,0
+CUST-1564,19,Male,Married,Yes,Peshawar,Month-to-Month,Cash,7234.13,55,Yes,No,No,4,4,6,316,1
+CUST-1565,60,Female,Single,Yes,Karachi,Two Year,Bank Transfer,2319.33,43,Yes,No,Yes,2,3,2,309,0
+CUST-1566,18,Female,Married,Yes,Islamabad,One Year,Credit Card,3148.53,61,Yes,Yes,Yes,3,0,10,225,0
+CUST-1567,68,Female,Married,No,Karachi,One Year,Bank Transfer,7626.36,38,Yes,Yes,Yes,3,0,0,164,0
+CUST-1568,70,Female,Single,Yes,Karachi,Month-to-Month,Cash,4838.62,45,No,Yes,No,2,0,8,320,0
+CUST-1569,53,Female,Single,No,Lahore,One Year,Cash,3243.29,51,Yes,No,No,3,3,4,14,0
+CUST-1570,68,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,7622.02,42,No,No,No,1,5,9,279,1
+CUST-1571,43,Female,Married,No,Quetta,Month-to-Month,Bank Transfer,2968.08,24,No,Yes,No,3,5,0,156,0
+CUST-1572,46,Male,Single,Yes,Peshawar,One Year,Bank Transfer,1211.53,30,No,Yes,Yes,4,4,10,122,0
+CUST-1573,38,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,7976.37,37,No,No,No,5,0,0,263,0
+CUST-1574,28,Male,Single,No,Peshawar,One Year,Bank Transfer,2508.84,53,No,No,No,2,4,0,170,0
+CUST-1575,57,Male,Married,No,Peshawar,Month-to-Month,Cash,6884.43,63,Yes,No,No,2,3,8,10,1
+CUST-1576,28,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,1741.56,11,No,No,Yes,3,4,7,172,0
+CUST-1577,53,Female,Married,No,Islamabad,Month-to-Month,Credit Card,5985.15,23,No,Yes,No,3,4,10,358,1
+CUST-1578,66,Male,Married,No,Lahore,Two Year,Cash,4433.37,50,No,Yes,No,5,0,5,13,0
+CUST-1579,56,Male,Married,Yes,Islamabad,One Year,Cash,7856.8,55,Yes,No,No,5,5,9,213,0
+CUST-1580,57,Female,Single,No,Islamabad,One Year,Credit Card,4646.23,55,Yes,No,Yes,4,1,5,161,0
+CUST-1581,52,Female,Single,No,Islamabad,Month-to-Month,Credit Card,687.61,4,Yes,No,No,1,2,5,232,0
+CUST-1582,51,Male,Married,No,Peshawar,Month-to-Month,Cash,5029.08,54,Yes,Yes,Yes,4,3,3,160,0
+CUST-1583,64,Female,Married,Yes,Lahore,Two Year,Bank Transfer,1589.87,61,No,Yes,Yes,2,3,4,127,0
+CUST-1584,41,Female,Single,Yes,Peshawar,Month-to-Month,Cash,6489.06,5,Yes,No,No,3,3,9,48,1
+CUST-1585,39,Female,Single,Yes,Quetta,Month-to-Month,Cash,6924.26,18,No,No,Yes,4,2,2,261,0
+CUST-1586,22,Male,Single,No,Peshawar,One Year,Credit Card,4115.7,44,Yes,No,No,3,1,2,61,0
+CUST-1587,50,Male,Single,Yes,Quetta,Month-to-Month,Cash,6374.16,31,Yes,No,Yes,3,5,9,122,1
+CUST-1588,53,Male,Married,Yes,Karachi,Two Year,Bank Transfer,1588.33,21,Yes,No,Yes,4,4,6,90,0
+CUST-1589,64,Female,Single,No,Karachi,One Year,Credit Card,4190.59,47,Yes,No,No,4,5,4,359,0
+CUST-1590,37,Female,Married,No,Quetta,Month-to-Month,Cash,3454.58,30,No,Yes,No,5,3,7,255,0
+CUST-1591,36,Male,Single,Yes,Quetta,Month-to-Month,Cash,5084.88,55,Yes,Yes,Yes,1,4,4,90,0
+CUST-1592,52,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,833.58,68,No,Yes,Yes,5,0,3,3,0
+CUST-1593,69,Male,Single,No,Quetta,Two Year,Cash,6140.92,69,No,No,Yes,1,5,2,280,0
+CUST-1594,60,Female,Married,No,Lahore,One Year,Cash,1093.47,41,No,No,Yes,4,0,1,117,0
+CUST-1595,34,Male,Married,No,Karachi,Month-to-Month,Cash,5423.54,45,No,No,No,1,0,2,98,0
+CUST-1596,62,Male,Single,Yes,Karachi,Month-to-Month,Cash,638.43,30,No,Yes,Yes,2,5,6,162,0
+CUST-1597,60,Female,Married,No,Quetta,One Year,Bank Transfer,6739.16,45,No,No,Yes,5,3,7,340,0
+CUST-1598,51,Female,Married,Yes,Islamabad,One Year,Cash,1810.25,45,No,Yes,No,5,2,4,298,1
+CUST-1599,26,Female,Single,Yes,Islamabad,Month-to-Month,Cash,4366.23,45,Yes,No,Yes,5,3,10,297,0
+CUST-1600,43,Male,Single,Yes,Quetta,Month-to-Month,Cash,2461.2,55,No,No,No,3,0,0,82,0
+CUST-1601,19,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,5919.85,59,Yes,No,No,3,0,2,358,0
+CUST-1602,70,Female,Married,No,Islamabad,One Year,Bank Transfer,2910.13,5,Yes,Yes,No,4,3,3,148,0
+CUST-1603,26,Male,Married,No,Quetta,Two Year,Credit Card,5934.57,32,No,Yes,Yes,4,2,9,6,1
+CUST-1604,26,Female,Single,No,Lahore,Month-to-Month,Credit Card,2636.53,6,No,Yes,No,3,2,3,185,0
+CUST-1605,57,Male,Single,Yes,Lahore,One Year,Bank Transfer,6143.55,26,Yes,No,No,5,4,0,252,1
+CUST-1606,34,Male,Married,Yes,Peshawar,Month-to-Month,Credit Card,729.54,37,Yes,Yes,No,3,1,9,25,0
+CUST-1607,18,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,2624.84,13,No,No,Yes,1,0,8,41,1
+CUST-1608,42,Female,Single,No,Islamabad,Month-to-Month,Credit Card,4239.75,69,No,No,Yes,5,2,9,169,0
+CUST-1609,60,Female,Married,Yes,Islamabad,Two Year,Bank Transfer,837.95,25,Yes,Yes,Yes,3,5,3,3,0
+CUST-1610,57,Female,Married,No,Quetta,Month-to-Month,Cash,1895.26,13,Yes,Yes,Yes,4,0,1,364,1
+CUST-1611,59,Female,Single,No,Quetta,One Year,Bank Transfer,7509.03,20,No,No,No,3,1,8,171,0
+CUST-1612,42,Female,Single,No,Lahore,Month-to-Month,Bank Transfer,7826.26,72,Yes,No,No,2,5,3,57,1
+CUST-1613,56,Male,Married,No,Karachi,Month-to-Month,Bank Transfer,6048.12,60,Yes,No,No,3,0,3,83,0
+CUST-1614,52,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,2391.5,21,No,No,Yes,5,2,10,330,0
+CUST-1615,20,Female,Single,No,Karachi,One Year,Cash,2453.88,61,Yes,Yes,No,3,4,5,179,1
+CUST-1616,67,Male,Married,Yes,Lahore,Month-to-Month,Bank Transfer,5343.43,26,No,Yes,Yes,4,3,7,133,0
+CUST-1617,54,Female,Married,No,Lahore,One Year,Bank Transfer,1382.0,54,No,Yes,Yes,1,5,4,86,0
+CUST-1618,61,Male,Single,Yes,Karachi,Month-to-Month,Cash,7612.32,42,No,No,Yes,2,3,7,353,1
+CUST-1619,61,Male,Single,Yes,Peshawar,Month-to-Month,Cash,2186.1,11,Yes,No,No,5,2,0,271,0
+CUST-1620,68,Male,Single,No,Karachi,Month-to-Month,Cash,7997.27,37,No,No,No,4,2,3,344,0
+CUST-1621,47,Female,Married,No,Quetta,Month-to-Month,Credit Card,4218.0,11,Yes,Yes,Yes,2,5,0,94,1
+CUST-1622,55,Male,Single,No,Islamabad,Month-to-Month,Cash,6285.72,27,No,No,No,3,1,2,356,0
+CUST-1623,51,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,516.38,34,No,No,Yes,2,5,10,250,1
+CUST-1624,29,Male,Married,No,Islamabad,One Year,Bank Transfer,7165.6,38,Yes,Yes,No,1,0,6,295,1
+CUST-1625,36,Male,Married,No,Lahore,One Year,Credit Card,2525.02,61,Yes,Yes,Yes,2,1,0,198,0
+CUST-1626,54,Male,Single,Yes,Peshawar,Month-to-Month,Cash,5509.53,53,Yes,No,Yes,2,3,4,79,0
+CUST-1627,61,Male,Married,No,Karachi,Month-to-Month,Credit Card,6547.66,65,No,Yes,Yes,3,0,0,166,0
+CUST-1628,66,Male,Married,Yes,Peshawar,Month-to-Month,Cash,1731.11,3,Yes,No,No,3,1,5,39,1
+CUST-1629,34,Female,Single,No,Karachi,Month-to-Month,Credit Card,3818.82,67,No,Yes,No,5,3,8,308,0
+CUST-1630,27,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,4203.77,28,Yes,No,No,3,0,2,214,0
+CUST-1631,66,Male,Married,Yes,Quetta,Two Year,Credit Card,2840.9,14,No,Yes,No,2,4,10,131,0
+CUST-1632,64,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,4113.17,52,No,Yes,No,1,5,10,157,1
+CUST-1633,29,Male,Married,Yes,Peshawar,Month-to-Month,Cash,2881.59,30,No,Yes,Yes,3,5,5,159,0
+CUST-1634,33,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,3205.61,58,No,Yes,No,5,5,3,322,0
+CUST-1635,41,Female,Single,No,Lahore,Month-to-Month,Cash,5519.98,54,Yes,No,Yes,5,4,5,227,0
+CUST-1636,36,Male,Married,Yes,Quetta,One Year,Cash,5244.45,69,Yes,No,No,2,1,1,45,0
+CUST-1637,25,Female,Married,No,Lahore,Month-to-Month,Bank Transfer,2241.99,15,No,Yes,No,3,2,3,201,1
+CUST-1638,48,Male,Married,Yes,Quetta,Month-to-Month,Bank Transfer,7231.12,38,No,No,No,3,0,6,22,0
+CUST-1639,38,Female,Single,Yes,Quetta,One Year,Credit Card,6970.91,14,Yes,Yes,Yes,5,1,10,339,1
+CUST-1640,34,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,4318.12,57,Yes,Yes,No,3,2,5,242,0
+CUST-1641,40,Male,Single,Yes,Lahore,One Year,Bank Transfer,3749.38,59,Yes,No,Yes,2,5,8,229,0
+CUST-1642,54,Female,Married,Yes,Lahore,One Year,Bank Transfer,3326.42,8,Yes,No,No,1,5,10,238,0
+CUST-1643,33,Male,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,5804.51,72,Yes,No,Yes,2,5,6,149,0
+CUST-1644,23,Male,Married,Yes,Peshawar,One Year,Bank Transfer,5537.5,19,Yes,No,Yes,3,2,0,273,0
+CUST-1645,25,Male,Single,Yes,Lahore,Month-to-Month,Cash,1971.35,32,No,No,Yes,2,0,5,67,1
+CUST-1646,42,Female,Married,No,Karachi,One Year,Bank Transfer,5535.94,29,Yes,No,Yes,4,0,10,7,0
+CUST-1647,35,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,2393.23,41,Yes,No,No,4,2,2,233,0
+CUST-1648,42,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,639.19,45,No,Yes,No,3,3,7,357,1
+CUST-1649,29,Female,Single,No,Peshawar,One Year,Bank Transfer,5744.07,13,Yes,No,Yes,3,5,0,292,1
+CUST-1650,32,Female,Married,No,Lahore,Two Year,Cash,5335.95,27,Yes,Yes,No,1,1,9,256,0
+CUST-1651,43,Female,Married,No,Quetta,Two Year,Credit Card,3581.07,19,Yes,No,Yes,2,0,1,67,0
+CUST-1652,58,Male,Married,No,Karachi,One Year,Credit Card,4442.65,26,No,No,No,1,2,2,250,0
+CUST-1653,62,Male,Single,No,Islamabad,Month-to-Month,Credit Card,7603.77,53,Yes,Yes,No,3,3,2,77,0
+CUST-1654,43,Male,Single,No,Quetta,Month-to-Month,Credit Card,4964.0,51,No,Yes,No,3,4,6,87,0
+CUST-1655,64,Female,Single,Yes,Peshawar,Month-to-Month,Credit Card,5434.13,37,Yes,Yes,Yes,5,2,7,252,0
+CUST-1656,49,Male,Single,No,Quetta,Month-to-Month,Cash,979.33,9,No,Yes,No,1,3,8,222,1
+CUST-1657,27,Male,Married,No,Quetta,Month-to-Month,Credit Card,1744.96,52,Yes,No,Yes,3,4,6,72,0
+CUST-1658,33,Female,Single,No,Peshawar,Two Year,Cash,2757.14,54,Yes,No,No,4,3,7,202,1
+CUST-1659,24,Female,Single,No,Quetta,Month-to-Month,Cash,4545.34,3,Yes,Yes,Yes,5,0,10,59,1
+CUST-1660,34,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,6324.43,69,No,Yes,No,2,2,5,276,0
+CUST-1661,40,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,2909.31,8,Yes,No,Yes,5,4,1,221,1
+CUST-1662,43,Female,Married,Yes,Quetta,Two Year,Credit Card,3172.87,14,Yes,No,Yes,2,3,0,157,0
+CUST-1663,38,Male,Single,Yes,Islamabad,One Year,Bank Transfer,2421.13,3,No,Yes,Yes,4,4,2,181,0
+CUST-1664,39,Female,Single,No,Lahore,One Year,Cash,2409.57,24,No,No,No,2,1,8,213,0
+CUST-1665,24,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,7616.48,13,No,No,Yes,1,2,6,129,1
+CUST-1666,31,Male,Married,Yes,Quetta,Two Year,Bank Transfer,5265.93,43,Yes,Yes,No,2,0,1,243,0
+CUST-1667,32,Female,Married,Yes,Islamabad,Month-to-Month,Cash,1669.26,29,No,Yes,Yes,2,4,0,172,0
+CUST-1668,70,Female,Married,Yes,Quetta,Two Year,Bank Transfer,5916.86,72,Yes,Yes,Yes,5,5,1,365,0
+CUST-1669,24,Female,Married,No,Peshawar,One Year,Bank Transfer,5915.16,51,No,Yes,Yes,4,3,2,270,0
+CUST-1670,26,Male,Married,Yes,Lahore,Month-to-Month,Credit Card,5498.53,42,No,No,No,2,5,5,163,0
+CUST-1671,68,Female,Married,No,Quetta,Month-to-Month,Cash,1510.4,31,Yes,Yes,No,1,4,8,24,0
+CUST-1672,65,Female,Married,Yes,Lahore,One Year,Bank Transfer,3559.94,63,Yes,No,No,5,5,7,193,0
+CUST-1673,25,Female,Single,No,Islamabad,Month-to-Month,Cash,1300.67,26,Yes,No,No,4,3,9,294,0
+CUST-1674,67,Female,Single,No,Karachi,Two Year,Credit Card,6624.65,18,Yes,No,No,4,4,8,129,0
+CUST-1675,40,Female,Single,Yes,Quetta,Month-to-Month,Cash,5413.79,57,No,No,No,3,0,10,41,0
+CUST-1676,46,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,4304.03,7,No,Yes,No,1,0,10,31,0
+CUST-1677,35,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,3072.62,48,No,No,Yes,5,2,7,36,0
+CUST-1678,48,Male,Single,Yes,Islamabad,Month-to-Month,Cash,1881.87,60,Yes,Yes,Yes,5,0,6,361,0
+CUST-1679,47,Female,Married,No,Peshawar,Month-to-Month,Bank Transfer,1298.36,33,Yes,No,No,1,4,5,253,0
+CUST-1680,69,Female,Married,No,Islamabad,Month-to-Month,Bank Transfer,7769.3,3,No,Yes,No,4,4,7,365,1
+CUST-1681,56,Female,Single,Yes,Quetta,One Year,Bank Transfer,1997.36,4,No,No,No,2,0,5,215,1
+CUST-1682,52,Male,Single,Yes,Peshawar,Month-to-Month,Credit Card,949.06,4,Yes,No,No,1,1,1,287,1
+CUST-1683,35,Female,Married,No,Islamabad,Two Year,Credit Card,7712.5,42,No,Yes,No,5,4,8,256,0
+CUST-1684,59,Female,Married,Yes,Karachi,One Year,Bank Transfer,4617.14,9,No,Yes,Yes,1,2,8,186,0
+CUST-1685,56,Female,Married,No,Lahore,Two Year,Cash,6474.93,51,No,Yes,No,4,1,2,61,0
+CUST-1686,34,Male,Single,Yes,Islamabad,Month-to-Month,Credit Card,828.24,17,Yes,Yes,No,3,0,8,262,0
+CUST-1687,31,Female,Married,No,Islamabad,Month-to-Month,Cash,4752.09,17,No,No,No,3,3,1,276,0
+CUST-1688,48,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,3486.57,20,Yes,No,Yes,2,4,2,111,0
+CUST-1689,41,Female,Single,No,Quetta,One Year,Bank Transfer,6289.73,14,No,No,Yes,2,3,5,317,1
+CUST-1690,52,Male,Married,No,Lahore,Two Year,Cash,788.19,22,Yes,No,Yes,4,5,3,141,1
+CUST-1691,61,Male,Married,No,Islamabad,Month-to-Month,Credit Card,3512.68,52,No,No,Yes,2,2,7,233,0
+CUST-1692,62,Male,Single,Yes,Peshawar,Month-to-Month,Cash,6493.05,27,No,Yes,No,3,1,0,23,1
+CUST-1693,51,Female,Married,No,Islamabad,Two Year,Cash,4420.23,43,No,Yes,Yes,4,3,5,79,0
+CUST-1694,20,Female,Married,Yes,Lahore,Month-to-Month,Bank Transfer,4625.29,3,Yes,No,Yes,4,2,1,31,0
+CUST-1695,54,Male,Single,No,Islamabad,One Year,Credit Card,1228.74,8,No,Yes,Yes,4,3,5,4,0
+CUST-1696,60,Male,Married,No,Karachi,One Year,Cash,1492.48,10,No,No,Yes,1,3,0,118,0
+CUST-1697,57,Female,Single,Yes,Islamabad,Two Year,Credit Card,5577.5,29,Yes,No,Yes,2,2,1,66,1
+CUST-1698,43,Female,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,5562.85,40,Yes,Yes,No,5,4,8,287,0
+CUST-1699,40,Male,Married,Yes,Peshawar,Month-to-Month,Credit Card,7843.28,65,No,No,Yes,3,3,5,176,1
+CUST-1700,61,Female,Single,Yes,Karachi,One Year,Bank Transfer,5839.65,21,No,Yes,Yes,2,2,7,123,0
+CUST-1701,56,Female,Single,No,Karachi,Two Year,Credit Card,4199.33,24,No,No,Yes,3,3,6,231,0
+CUST-1702,32,Female,Married,Yes,Islamabad,Month-to-Month,Cash,6929.96,60,No,Yes,No,2,4,8,43,1
+CUST-1703,66,Female,Married,No,Peshawar,Month-to-Month,Bank Transfer,1283.55,26,No,No,No,5,2,8,4,0
+CUST-1704,21,Male,Married,Yes,Islamabad,One Year,Cash,3869.72,9,Yes,No,No,3,3,10,190,0
+CUST-1705,46,Female,Single,Yes,Islamabad,Two Year,Bank Transfer,2653.32,20,No,Yes,No,5,0,3,304,0
+CUST-1706,39,Female,Single,No,Lahore,Two Year,Credit Card,1284.78,56,Yes,No,No,3,4,6,250,0
+CUST-1707,42,Male,Married,No,Lahore,Two Year,Credit Card,6226.27,36,Yes,No,No,1,3,4,144,0
+CUST-1708,30,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,4330.94,36,No,Yes,No,1,1,6,345,0
+CUST-1709,35,Female,Married,No,Quetta,Month-to-Month,Bank Transfer,4675.77,22,Yes,Yes,No,3,2,3,333,0
+CUST-1710,50,Female,Married,No,Lahore,One Year,Bank Transfer,3584.41,1,No,Yes,Yes,3,3,9,158,1
+CUST-1711,33,Female,Single,No,Quetta,Two Year,Credit Card,3952.53,69,Yes,No,Yes,5,4,10,65,0
+CUST-1712,62,Female,Married,No,Karachi,Month-to-Month,Bank Transfer,1370.13,37,Yes,Yes,No,4,4,10,325,0
+CUST-1713,59,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,5546.88,72,No,Yes,Yes,3,1,0,270,1
+CUST-1714,61,Male,Single,No,Lahore,One Year,Cash,3743.36,13,No,Yes,No,2,1,3,75,1
+CUST-1715,19,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,6625.76,43,Yes,No,Yes,2,5,9,29,1
+CUST-1716,52,Female,Single,No,Quetta,Month-to-Month,Cash,1972.15,37,No,Yes,Yes,2,5,2,335,0
+CUST-1717,59,Female,Married,Yes,Lahore,One Year,Cash,2037.91,25,No,No,No,1,3,8,238,0
+CUST-1718,51,Female,Single,No,Lahore,One Year,Cash,5343.2,21,Yes,No,Yes,5,0,4,153,1
+CUST-1719,47,Female,Single,Yes,Peshawar,One Year,Credit Card,6845.03,41,Yes,Yes,No,1,4,3,94,1
+CUST-1720,30,Male,Single,No,Peshawar,Month-to-Month,Cash,4041.48,42,Yes,No,No,2,0,7,237,1
+CUST-1721,30,Male,Married,No,Quetta,One Year,Bank Transfer,5952.15,42,No,No,Yes,3,0,4,322,0
+CUST-1722,35,Female,Single,No,Karachi,One Year,Credit Card,7994.97,2,No,No,No,2,3,2,115,0
+CUST-1723,49,Male,Married,No,Karachi,One Year,Credit Card,7926.99,68,No,No,Yes,3,2,1,296,0
+CUST-1724,49,Female,Single,Yes,Islamabad,One Year,Credit Card,6082.53,8,Yes,No,Yes,5,2,7,219,1
+CUST-1725,52,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,6046.9,61,No,Yes,No,4,2,1,246,0
+CUST-1726,56,Male,Married,No,Quetta,Month-to-Month,Credit Card,2357.14,14,Yes,Yes,No,3,1,7,32,1
+CUST-1727,63,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,6751.55,21,Yes,Yes,No,1,4,4,20,1
+CUST-1728,69,Female,Married,No,Quetta,Month-to-Month,Credit Card,3538.27,24,Yes,No,No,2,1,7,53,1
+CUST-1729,46,Male,Married,No,Quetta,One Year,Cash,7714.95,50,Yes,Yes,No,2,4,4,206,0
+CUST-1730,66,Female,Married,Yes,Quetta,Two Year,Bank Transfer,1110.71,45,Yes,No,Yes,2,5,0,219,0
+CUST-1731,46,Female,Single,Yes,Lahore,One Year,Bank Transfer,3768.8,64,Yes,No,No,3,4,10,195,0
+CUST-1732,70,Male,Single,No,Peshawar,One Year,Cash,4668.8,64,Yes,No,Yes,5,4,10,305,0
+CUST-1733,61,Female,Married,No,Lahore,Month-to-Month,Cash,3538.67,26,No,No,No,3,3,1,195,0
+CUST-1734,33,Male,Single,Yes,Quetta,Month-to-Month,Credit Card,2079.34,32,Yes,Yes,Yes,1,2,5,345,0
+CUST-1735,61,Female,Single,No,Islamabad,Month-to-Month,Credit Card,4947.41,57,No,No,Yes,2,1,2,82,1
+CUST-1736,64,Male,Single,Yes,Karachi,Month-to-Month,Cash,6169.38,53,No,Yes,Yes,3,5,7,1,0
+CUST-1737,27,Male,Married,No,Quetta,Month-to-Month,Credit Card,5336.29,33,No,Yes,Yes,2,1,4,167,0
+CUST-1738,47,Male,Single,No,Islamabad,One Year,Bank Transfer,2258.37,52,No,No,Yes,1,3,2,317,1
+CUST-1739,42,Female,Single,Yes,Peshawar,Two Year,Bank Transfer,5987.06,18,No,Yes,No,4,4,9,183,1
+CUST-1740,56,Male,Single,Yes,Quetta,Month-to-Month,Credit Card,2426.73,35,Yes,Yes,Yes,4,5,6,350,0
+CUST-1741,37,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,1814.02,12,No,Yes,No,4,2,7,273,0
+CUST-1742,22,Male,Single,No,Quetta,One Year,Credit Card,5680.01,51,No,No,Yes,2,0,3,157,1
+CUST-1743,18,Male,Single,No,Lahore,Month-to-Month,Bank Transfer,6820.9,10,No,No,No,3,0,10,362,1
+CUST-1744,47,Male,Married,No,Islamabad,Two Year,Credit Card,4111.55,52,Yes,No,Yes,2,3,8,201,0
+CUST-1745,66,Female,Married,No,Lahore,One Year,Cash,4485.44,34,No,Yes,Yes,5,2,5,192,0
+CUST-1746,20,Female,Single,Yes,Lahore,Two Year,Credit Card,2770.61,67,No,Yes,No,3,0,0,341,0
+CUST-1747,62,Female,Single,No,Islamabad,Month-to-Month,Cash,4209.64,39,No,No,No,1,0,4,299,1
+CUST-1748,31,Female,Married,No,Karachi,One Year,Credit Card,1489.87,8,No,No,Yes,4,5,4,76,1
+CUST-1749,47,Female,Married,No,Islamabad,Month-to-Month,Credit Card,7668.73,29,Yes,Yes,Yes,3,5,6,140,0
+CUST-1750,67,Female,Married,Yes,Karachi,One Year,Bank Transfer,6502.7,22,No,No,No,3,1,6,306,0
+CUST-1751,21,Female,Married,No,Quetta,Month-to-Month,Cash,5509.8,70,Yes,No,Yes,4,2,5,196,0
+CUST-1752,35,Male,Married,No,Quetta,Month-to-Month,Cash,4536.46,61,Yes,Yes,Yes,1,0,7,61,0
+CUST-1753,54,Female,Married,Yes,Islamabad,One Year,Cash,6441.27,43,No,Yes,No,2,5,1,360,0
+CUST-1754,42,Male,Married,No,Quetta,One Year,Bank Transfer,4210.68,49,No,No,Yes,2,5,6,307,0
+CUST-1755,65,Male,Single,No,Peshawar,Two Year,Cash,2749.8,29,Yes,No,Yes,3,5,9,333,0
+CUST-1756,18,Female,Married,Yes,Lahore,One Year,Bank Transfer,1702.81,31,No,No,No,4,1,6,354,0
+CUST-1757,70,Male,Married,No,Lahore,One Year,Credit Card,5356.89,53,No,No,Yes,5,2,3,83,0
+CUST-1758,63,Male,Single,No,Karachi,Month-to-Month,Credit Card,7470.69,34,No,Yes,No,1,4,9,334,0
+CUST-1759,32,Male,Married,No,Quetta,One Year,Cash,1652.14,38,Yes,No,No,2,5,1,5,0
+CUST-1760,26,Male,Married,Yes,Karachi,One Year,Credit Card,1850.14,57,Yes,No,Yes,1,2,3,219,0
+CUST-1761,32,Female,Single,No,Lahore,Two Year,Credit Card,3752.05,4,No,Yes,Yes,1,3,3,254,0
+CUST-1762,66,Female,Married,No,Lahore,Two Year,Cash,6551.75,2,No,Yes,No,1,1,5,88,1
+CUST-1763,41,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,2704.42,12,Yes,Yes,No,4,4,6,209,0
+CUST-1764,21,Female,Single,Yes,Peshawar,Two Year,Cash,2404.35,35,Yes,Yes,Yes,4,5,2,180,0
+CUST-1765,29,Female,Single,No,Peshawar,Month-to-Month,Cash,5149.75,70,Yes,Yes,No,4,5,9,208,0
+CUST-1766,54,Female,Single,No,Quetta,Month-to-Month,Credit Card,4517.11,72,Yes,Yes,Yes,3,1,0,273,0
+CUST-1767,54,Female,Married,No,Quetta,One Year,Credit Card,951.65,21,Yes,Yes,No,4,1,2,65,0
+CUST-1768,60,Female,Single,No,Karachi,Month-to-Month,Credit Card,1111.17,61,Yes,No,No,3,0,8,21,1
+CUST-1769,23,Female,Single,Yes,Quetta,One Year,Credit Card,5322.6,35,Yes,No,No,2,5,0,177,1
+CUST-1770,56,Female,Married,No,Peshawar,Month-to-Month,Credit Card,3988.43,48,No,Yes,Yes,2,2,7,363,1
+CUST-1771,63,Male,Single,Yes,Quetta,Month-to-Month,Bank Transfer,7782.33,15,Yes,No,No,2,1,1,22,1
+CUST-1772,41,Female,Single,Yes,Karachi,One Year,Credit Card,5588.99,71,Yes,No,No,2,1,5,325,1
+CUST-1773,28,Male,Single,No,Karachi,One Year,Bank Transfer,575.55,15,No,Yes,No,2,3,2,36,0
+CUST-1774,30,Male,Single,No,Karachi,Two Year,Cash,4107.64,6,No,Yes,No,4,3,6,250,0
+CUST-1775,51,Male,Married,Yes,Karachi,One Year,Credit Card,3608.36,68,No,Yes,Yes,5,3,1,149,0
+CUST-1776,42,Male,Single,Yes,Islamabad,One Year,Credit Card,1300.35,22,Yes,Yes,No,4,1,3,73,0
+CUST-1777,24,Female,Married,No,Quetta,Month-to-Month,Credit Card,7424.07,32,Yes,Yes,Yes,5,4,9,91,1
+CUST-1778,69,Male,Married,Yes,Lahore,Month-to-Month,Cash,6537.58,22,No,No,No,4,2,8,176,1
+CUST-1779,21,Female,Single,No,Quetta,Month-to-Month,Bank Transfer,2225.64,27,No,No,No,2,1,5,126,1
+CUST-1780,25,Female,Single,No,Islamabad,One Year,Bank Transfer,2419.86,15,No,Yes,Yes,1,0,3,204,1
+CUST-1781,37,Male,Single,Yes,Karachi,One Year,Credit Card,740.14,44,Yes,Yes,Yes,5,5,1,246,0
+CUST-1782,46,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,2725.38,9,No,No,No,1,4,9,99,1
+CUST-1783,70,Male,Married,No,Peshawar,One Year,Credit Card,4884.67,34,Yes,No,No,2,4,8,271,0
+CUST-1784,68,Male,Married,Yes,Peshawar,One Year,Credit Card,3656.33,15,Yes,No,No,5,2,3,44,0
+CUST-1785,62,Female,Married,No,Quetta,Month-to-Month,Cash,7769.42,62,Yes,Yes,Yes,1,4,8,222,0
+CUST-1786,63,Female,Single,No,Quetta,Month-to-Month,Credit Card,920.6,45,Yes,Yes,No,4,2,1,97,0
+CUST-1787,27,Male,Married,No,Lahore,Two Year,Cash,4935.73,72,No,No,Yes,2,4,6,36,0
+CUST-1788,60,Female,Single,Yes,Lahore,One Year,Credit Card,6937.32,58,No,Yes,No,4,5,10,168,0
+CUST-1789,51,Female,Single,No,Peshawar,Two Year,Bank Transfer,4105.56,19,No,No,Yes,4,2,10,30,0
+CUST-1790,43,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,522.22,16,Yes,Yes,Yes,2,3,4,282,1
+CUST-1791,58,Male,Single,No,Islamabad,Two Year,Credit Card,2321.01,8,No,Yes,Yes,5,3,7,85,0
+CUST-1792,66,Male,Single,No,Lahore,Month-to-Month,Credit Card,2928.27,33,Yes,No,No,3,4,10,357,0
+CUST-1793,20,Female,Married,No,Lahore,Month-to-Month,Cash,7744.96,18,Yes,No,No,3,4,7,121,1
+CUST-1794,23,Female,Married,No,Karachi,Two Year,Credit Card,7338.3,35,Yes,Yes,Yes,2,2,3,287,0
+CUST-1795,22,Female,Single,No,Karachi,Month-to-Month,Credit Card,7618.78,43,No,No,Yes,3,2,3,248,1
+CUST-1796,22,Female,Married,No,Quetta,One Year,Credit Card,6693.19,50,Yes,Yes,Yes,1,5,7,184,1
+CUST-1797,64,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,3137.36,3,Yes,No,No,5,1,2,253,1
+CUST-1798,40,Male,Single,No,Karachi,One Year,Cash,7294.07,59,No,No,No,4,3,6,273,1
+CUST-1799,66,Female,Single,No,Lahore,Two Year,Bank Transfer,7862.63,28,No,Yes,No,4,1,7,209,1
+CUST-1800,26,Male,Married,Yes,Lahore,Month-to-Month,Cash,3125.53,46,No,Yes,Yes,2,1,7,354,0
+CUST-1801,52,Female,Single,No,Peshawar,One Year,Bank Transfer,2454.17,64,Yes,Yes,No,4,0,10,24,0
+CUST-1802,37,Male,Single,No,Karachi,Month-to-Month,Credit Card,4601.87,70,Yes,No,No,1,2,9,122,0
+CUST-1803,66,Female,Married,No,Quetta,One Year,Bank Transfer,1903.64,47,No,No,No,1,0,3,225,1
+CUST-1804,59,Male,Married,Yes,Islamabad,Month-to-Month,Bank Transfer,744.68,14,Yes,Yes,Yes,2,0,8,123,0
+CUST-1805,52,Female,Married,No,Quetta,Month-to-Month,Cash,7593.73,7,Yes,No,No,4,1,9,294,1
+CUST-1806,67,Male,Single,Yes,Lahore,Month-to-Month,Cash,7443.05,31,No,Yes,No,3,0,3,173,1
+CUST-1807,35,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,1719.9,51,No,Yes,No,3,5,7,143,0
+CUST-1808,34,Male,Married,No,Lahore,Two Year,Cash,3558.05,29,No,Yes,No,5,2,5,169,1
+CUST-1809,41,Male,Single,Yes,Lahore,Month-to-Month,Cash,6732.77,15,No,Yes,No,2,1,4,57,1
+CUST-1810,20,Male,Married,No,Lahore,Month-to-Month,Cash,5457.5,25,No,Yes,Yes,5,2,3,42,0
+CUST-1811,49,Male,Married,Yes,Lahore,Month-to-Month,Cash,3460.91,61,No,No,Yes,3,5,4,309,0
+CUST-1812,52,Female,Single,Yes,Lahore,Month-to-Month,Cash,6081.28,41,No,No,Yes,3,4,10,119,0
+CUST-1813,55,Male,Single,No,Peshawar,One Year,Bank Transfer,7227.86,69,No,Yes,Yes,3,0,0,121,0
+CUST-1814,30,Female,Married,No,Quetta,Two Year,Cash,7446.19,4,Yes,No,No,5,1,6,312,1
+CUST-1815,64,Female,Married,No,Peshawar,Month-to-Month,Credit Card,3341.37,57,Yes,Yes,No,2,3,7,251,1
+CUST-1816,42,Female,Married,No,Peshawar,Two Year,Bank Transfer,1801.71,31,Yes,No,Yes,1,2,8,343,0
+CUST-1817,26,Female,Married,Yes,Karachi,One Year,Bank Transfer,7346.29,3,Yes,No,Yes,1,5,2,332,1
+CUST-1818,21,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,1194.17,67,Yes,Yes,Yes,3,0,8,341,0
+CUST-1819,31,Male,Married,No,Karachi,One Year,Cash,5912.66,50,Yes,No,No,2,2,9,341,0
+CUST-1820,54,Male,Married,Yes,Islamabad,One Year,Credit Card,1553.73,17,Yes,Yes,No,2,5,4,337,0
+CUST-1821,51,Male,Married,Yes,Karachi,One Year,Cash,3420.4,60,Yes,No,No,4,2,9,182,0
+CUST-1822,28,Female,Single,No,Quetta,Two Year,Bank Transfer,3586.67,66,Yes,Yes,Yes,4,4,5,165,0
+CUST-1823,58,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,1690.68,24,Yes,Yes,Yes,5,5,0,264,1
+CUST-1824,20,Male,Married,Yes,Quetta,Two Year,Bank Transfer,7420.11,32,Yes,Yes,Yes,4,2,8,210,0
+CUST-1825,45,Male,Single,No,Karachi,One Year,Bank Transfer,520.01,19,No,Yes,No,5,4,8,11,0
+CUST-1826,46,Male,Single,Yes,Islamabad,Month-to-Month,Cash,7203.56,66,Yes,Yes,No,1,4,5,182,1
+CUST-1827,26,Male,Single,No,Islamabad,One Year,Credit Card,7128.72,60,No,Yes,Yes,3,4,7,251,1
+CUST-1828,20,Female,Married,Yes,Peshawar,Month-to-Month,Credit Card,2877.23,66,Yes,No,Yes,2,0,3,138,0
+CUST-1829,42,Male,Married,No,Quetta,Two Year,Bank Transfer,5782.13,15,No,Yes,No,1,5,4,218,0
+CUST-1830,51,Female,Single,Yes,Lahore,One Year,Credit Card,2396.07,35,Yes,No,No,1,2,4,239,1
+CUST-1831,29,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,6190.8,69,No,Yes,Yes,5,2,6,337,0
+CUST-1832,59,Female,Married,No,Karachi,Month-to-Month,Bank Transfer,4708.4,27,Yes,No,Yes,3,5,6,87,0
+CUST-1833,26,Female,Single,No,Lahore,One Year,Credit Card,2751.69,7,No,Yes,No,5,4,6,298,0
+CUST-1834,32,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,3501.76,6,Yes,Yes,Yes,1,2,4,293,1
+CUST-1835,57,Male,Married,No,Peshawar,Month-to-Month,Credit Card,5674.17,33,No,No,Yes,2,2,3,92,1
+CUST-1836,42,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,7295.73,58,Yes,Yes,No,4,4,7,208,1
+CUST-1837,22,Male,Married,Yes,Islamabad,Month-to-Month,Credit Card,1480.45,49,No,Yes,Yes,5,3,0,204,0
+CUST-1838,28,Female,Married,Yes,Karachi,Month-to-Month,Bank Transfer,4785.23,17,No,Yes,No,1,3,0,186,1
+CUST-1839,51,Male,Single,No,Islamabad,Month-to-Month,Credit Card,2402.97,42,No,Yes,Yes,4,4,5,85,0
+CUST-1840,41,Male,Married,Yes,Karachi,Month-to-Month,Bank Transfer,6510.29,72,No,No,No,4,0,1,315,0
+CUST-1841,32,Female,Married,Yes,Lahore,One Year,Bank Transfer,1026.78,40,No,Yes,Yes,1,2,2,152,0
+CUST-1842,55,Female,Single,No,Islamabad,One Year,Bank Transfer,5667.17,46,No,No,Yes,3,2,3,156,0
+CUST-1843,25,Female,Single,No,Karachi,Month-to-Month,Credit Card,1812.1,71,No,Yes,Yes,1,3,1,293,0
+CUST-1844,22,Female,Single,Yes,Lahore,Month-to-Month,Cash,4972.89,70,No,Yes,No,2,4,9,21,1
+CUST-1845,65,Male,Married,No,Islamabad,One Year,Bank Transfer,6767.69,68,Yes,Yes,Yes,4,5,6,161,1
+CUST-1846,43,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,6163.1,1,Yes,Yes,Yes,2,5,9,339,0
+CUST-1847,35,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,6147.07,52,Yes,No,No,5,0,0,156,1
+CUST-1848,23,Male,Single,No,Quetta,Month-to-Month,Bank Transfer,4383.84,35,No,Yes,Yes,4,4,2,143,0
+CUST-1849,54,Male,Single,Yes,Islamabad,Two Year,Bank Transfer,7180.59,69,No,Yes,No,3,3,1,257,1
+CUST-1850,65,Female,Married,No,Quetta,One Year,Bank Transfer,4910.79,5,Yes,Yes,No,1,3,8,107,0
+CUST-1851,30,Male,Married,No,Lahore,One Year,Bank Transfer,7381.38,17,Yes,No,No,5,2,7,284,1
+CUST-1852,45,Female,Single,Yes,Islamabad,One Year,Cash,4598.92,53,No,No,Yes,2,1,2,50,0
+CUST-1853,22,Female,Married,Yes,Lahore,One Year,Cash,4294.74,52,No,No,No,5,0,4,35,0
+CUST-1854,30,Male,Single,Yes,Lahore,Month-to-Month,Bank Transfer,2167.65,14,Yes,No,Yes,3,0,2,224,0
+CUST-1855,34,Male,Single,No,Karachi,One Year,Bank Transfer,4585.9,29,No,Yes,No,1,1,10,156,1
+CUST-1856,67,Female,Married,Yes,Lahore,Month-to-Month,Bank Transfer,1554.39,8,Yes,Yes,Yes,5,5,10,191,1
+CUST-1857,57,Female,Married,No,Lahore,One Year,Cash,7022.68,1,No,No,No,2,5,10,184,0
+CUST-1858,62,Female,Single,No,Islamabad,One Year,Cash,5569.19,29,Yes,Yes,No,5,5,5,237,1
+CUST-1859,49,Male,Single,Yes,Islamabad,One Year,Credit Card,7952.27,36,Yes,Yes,Yes,1,3,4,297,0
+CUST-1860,46,Female,Married,No,Peshawar,Month-to-Month,Credit Card,1190.73,51,No,No,No,5,4,10,323,0
+CUST-1861,68,Female,Single,Yes,Karachi,Month-to-Month,Bank Transfer,2305.05,37,Yes,Yes,Yes,2,0,1,304,1
+CUST-1862,20,Female,Married,Yes,Lahore,One Year,Bank Transfer,7078.69,69,No,No,No,1,1,9,342,1
+CUST-1863,57,Female,Single,Yes,Karachi,One Year,Cash,3464.41,53,No,No,Yes,3,2,7,58,0
+CUST-1864,51,Female,Single,Yes,Quetta,Two Year,Bank Transfer,3997.27,52,No,No,No,3,2,5,39,0
+CUST-1865,57,Male,Married,Yes,Lahore,Month-to-Month,Bank Transfer,6954.89,12,No,No,No,4,3,2,241,0
+CUST-1866,44,Female,Married,Yes,Karachi,One Year,Cash,4413.67,52,No,No,Yes,5,0,0,25,0
+CUST-1867,30,Female,Married,Yes,Peshawar,One Year,Cash,1951.07,1,Yes,No,No,2,4,4,316,0
+CUST-1868,62,Female,Married,No,Peshawar,Two Year,Cash,7190.23,7,No,Yes,Yes,5,0,10,117,0
+CUST-1869,50,Female,Married,Yes,Lahore,One Year,Cash,732.96,17,No,Yes,Yes,1,5,1,342,0
+CUST-1870,23,Male,Married,No,Quetta,One Year,Credit Card,7215.47,43,Yes,Yes,No,4,2,1,240,0
+CUST-1871,41,Male,Married,No,Peshawar,One Year,Cash,878.9,71,No,No,No,2,0,8,175,0
+CUST-1872,36,Male,Single,No,Peshawar,One Year,Cash,5493.87,17,Yes,No,No,5,2,10,340,0
+CUST-1873,33,Female,Single,Yes,Quetta,Two Year,Bank Transfer,1037.6,59,No,No,Yes,2,1,9,228,0
+CUST-1874,57,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,5796.6,3,Yes,Yes,Yes,1,1,6,253,0
+CUST-1875,45,Male,Married,No,Peshawar,Month-to-Month,Bank Transfer,754.78,29,No,Yes,No,4,2,5,111,0
+CUST-1876,50,Male,Married,Yes,Islamabad,Two Year,Credit Card,6818.43,22,No,No,Yes,2,4,0,241,1
+CUST-1877,65,Male,Married,Yes,Peshawar,One Year,Cash,3994.58,38,No,No,No,1,4,9,224,1
+CUST-1878,58,Female,Single,No,Karachi,One Year,Cash,1200.9,54,No,No,No,3,0,1,298,0
+CUST-1879,30,Female,Married,Yes,Karachi,Month-to-Month,Credit Card,5801.15,50,No,No,No,2,2,10,52,0
+CUST-1880,60,Male,Married,Yes,Lahore,Month-to-Month,Cash,4169.68,69,Yes,No,Yes,4,3,6,221,0
+CUST-1881,62,Male,Single,Yes,Islamabad,One Year,Bank Transfer,1932.12,30,Yes,Yes,Yes,2,4,2,304,0
+CUST-1882,42,Male,Married,Yes,Karachi,One Year,Credit Card,617.54,23,No,No,No,2,4,1,288,0
+CUST-1883,70,Female,Single,No,Quetta,Month-to-Month,Cash,3634.99,47,Yes,No,Yes,1,5,5,152,0
+CUST-1884,59,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,1142.22,21,No,No,No,5,1,7,118,0
+CUST-1885,53,Female,Married,Yes,Islamabad,Two Year,Credit Card,1206.27,20,No,No,No,5,4,7,279,0
+CUST-1886,44,Male,Married,Yes,Quetta,Month-to-Month,Cash,2504.97,23,No,Yes,Yes,2,4,10,135,1
+CUST-1887,55,Male,Married,No,Peshawar,Two Year,Bank Transfer,5228.44,68,Yes,No,No,4,5,1,209,0
+CUST-1888,24,Female,Single,No,Quetta,Month-to-Month,Cash,4474.33,21,No,No,No,4,4,5,127,1
+CUST-1889,22,Male,Single,Yes,Quetta,One Year,Cash,1017.4,21,Yes,No,No,1,5,4,293,0
+CUST-1890,60,Female,Single,Yes,Peshawar,Two Year,Bank Transfer,7763.23,1,No,Yes,No,2,2,6,7,0
+CUST-1891,62,Male,Married,No,Peshawar,One Year,Cash,7153.77,15,No,No,No,2,2,3,222,0
+CUST-1892,68,Male,Married,Yes,Peshawar,Month-to-Month,Cash,2444.19,17,Yes,Yes,Yes,5,1,1,77,1
+CUST-1893,48,Male,Married,Yes,Peshawar,One Year,Cash,1417.54,51,No,No,Yes,1,0,9,338,0
+CUST-1894,40,Male,Married,No,Peshawar,Month-to-Month,Credit Card,7568.02,63,Yes,No,No,3,5,2,351,1
+CUST-1895,59,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,3958.56,14,No,No,Yes,4,4,8,278,1
+CUST-1896,27,Male,Single,Yes,Lahore,Two Year,Credit Card,2833.75,59,No,No,No,4,0,9,334,0
+CUST-1897,49,Female,Single,No,Lahore,One Year,Cash,4177.69,50,No,No,No,2,2,7,338,0
+CUST-1898,60,Female,Single,No,Karachi,One Year,Bank Transfer,6295.58,34,Yes,No,No,1,4,8,227,0
+CUST-1899,70,Female,Married,Yes,Lahore,Month-to-Month,Credit Card,1762.89,6,No,No,No,3,0,4,275,1
+CUST-1900,47,Male,Married,No,Lahore,Month-to-Month,Bank Transfer,6256.22,49,Yes,No,Yes,4,5,4,351,0
+CUST-1901,56,Female,Married,Yes,Quetta,Month-to-Month,Cash,6120.85,6,No,No,Yes,1,5,6,295,1
+CUST-1902,48,Female,Single,Yes,Peshawar,One Year,Credit Card,4545.11,69,No,Yes,No,3,0,6,117,1
+CUST-1903,35,Female,Single,Yes,Peshawar,One Year,Cash,6993.82,7,Yes,Yes,Yes,2,5,0,292,0
+CUST-1904,53,Male,Married,No,Quetta,One Year,Bank Transfer,1491.08,51,No,Yes,No,5,3,4,271,0
+CUST-1905,19,Male,Married,No,Lahore,Two Year,Credit Card,4966.09,1,No,Yes,Yes,4,2,7,157,0
+CUST-1906,31,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,3870.07,13,Yes,No,No,4,1,6,60,0
+CUST-1907,30,Male,Married,Yes,Karachi,Month-to-Month,Credit Card,3667.19,43,Yes,No,No,3,1,10,184,0
+CUST-1908,46,Female,Single,No,Peshawar,Month-to-Month,Credit Card,2394.21,27,Yes,Yes,No,5,3,1,144,0
+CUST-1909,29,Female,Single,No,Islamabad,Month-to-Month,Bank Transfer,3292.1,71,No,Yes,Yes,1,0,7,161,0
+CUST-1910,56,Male,Single,No,Karachi,Month-to-Month,Credit Card,1311.13,3,Yes,Yes,Yes,2,5,1,89,0
+CUST-1911,19,Female,Married,Yes,Karachi,Two Year,Cash,2386.99,58,Yes,Yes,No,1,3,9,16,0
+CUST-1912,49,Male,Married,No,Quetta,Month-to-Month,Credit Card,2539.74,17,No,No,Yes,3,3,0,249,0
+CUST-1913,30,Male,Single,No,Lahore,Two Year,Bank Transfer,5905.01,45,Yes,Yes,Yes,4,5,10,98,0
+CUST-1914,63,Female,Married,Yes,Peshawar,Month-to-Month,Credit Card,864.13,58,Yes,No,Yes,4,2,10,104,0
+CUST-1915,44,Male,Single,Yes,Islamabad,Two Year,Bank Transfer,5383.94,56,No,No,Yes,1,5,10,300,1
+CUST-1916,66,Male,Single,Yes,Karachi,One Year,Bank Transfer,2160.57,54,Yes,No,Yes,2,5,2,235,1
+CUST-1917,58,Female,Single,No,Islamabad,Two Year,Cash,1113.96,29,No,Yes,Yes,3,4,2,307,0
+CUST-1918,34,Female,Single,Yes,Lahore,Month-to-Month,Credit Card,2756.05,54,Yes,Yes,Yes,2,0,5,274,1
+CUST-1919,57,Male,Married,Yes,Lahore,One Year,Credit Card,2183.55,27,Yes,No,Yes,3,1,2,261,0
+CUST-1920,48,Male,Single,Yes,Islamabad,Two Year,Credit Card,4640.24,45,No,Yes,Yes,2,1,6,239,0
+CUST-1921,51,Female,Single,Yes,Peshawar,Month-to-Month,Cash,3180.32,31,Yes,Yes,Yes,1,3,7,262,1
+CUST-1922,41,Male,Married,No,Lahore,Month-to-Month,Cash,7744.95,36,No,No,Yes,5,3,2,332,0
+CUST-1923,62,Male,Single,Yes,Islamabad,Month-to-Month,Bank Transfer,7726.62,61,Yes,No,Yes,3,3,8,115,1
+CUST-1924,52,Male,Single,No,Karachi,Two Year,Bank Transfer,3827.86,37,Yes,Yes,Yes,1,0,0,268,0
+CUST-1925,65,Male,Married,No,Islamabad,One Year,Bank Transfer,6463.16,67,No,No,No,4,3,2,12,0
+CUST-1926,23,Male,Married,No,Islamabad,One Year,Cash,599.51,36,No,Yes,No,4,3,2,73,0
+CUST-1927,36,Male,Married,Yes,Quetta,Month-to-Month,Cash,4608.59,5,Yes,Yes,Yes,2,4,6,362,0
+CUST-1928,47,Male,Single,No,Lahore,Month-to-Month,Cash,6074.74,46,Yes,No,Yes,4,0,10,305,0
+CUST-1929,24,Female,Married,Yes,Peshawar,Two Year,Bank Transfer,2127.07,52,Yes,No,Yes,5,2,10,178,0
+CUST-1930,27,Female,Married,Yes,Peshawar,Month-to-Month,Cash,958.79,49,No,Yes,No,3,2,4,260,0
+CUST-1931,58,Female,Single,Yes,Quetta,One Year,Bank Transfer,1669.39,6,No,No,No,2,5,3,259,0
+CUST-1932,49,Female,Single,No,Peshawar,Two Year,Bank Transfer,3813.86,10,Yes,Yes,Yes,3,4,1,270,0
+CUST-1933,51,Female,Single,Yes,Islamabad,Month-to-Month,Credit Card,4297.79,23,Yes,No,Yes,3,1,6,320,0
+CUST-1934,45,Male,Single,Yes,Quetta,One Year,Credit Card,3356.64,17,Yes,Yes,Yes,1,5,2,120,0
+CUST-1935,32,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,3799.8,44,No,No,Yes,4,2,6,169,0
+CUST-1936,47,Male,Married,No,Lahore,One Year,Bank Transfer,4026.76,41,Yes,Yes,Yes,3,0,9,68,1
+CUST-1937,54,Male,Married,No,Lahore,Month-to-Month,Credit Card,6270.77,15,No,Yes,No,5,1,6,59,1
+CUST-1938,46,Female,Married,No,Lahore,One Year,Credit Card,1289.31,44,No,No,Yes,5,3,10,130,0
+CUST-1939,39,Male,Single,Yes,Islamabad,Month-to-Month,Credit Card,6267.13,58,Yes,Yes,No,4,0,1,266,0
+CUST-1940,21,Male,Single,No,Karachi,Month-to-Month,Cash,5664.7,50,No,Yes,Yes,4,1,6,75,0
+CUST-1941,37,Female,Single,Yes,Quetta,One Year,Bank Transfer,6062.46,52,No,Yes,Yes,2,2,5,90,0
+CUST-1942,49,Male,Married,Yes,Quetta,Month-to-Month,Credit Card,6008.51,70,Yes,Yes,No,2,5,9,357,0
+CUST-1943,53,Male,Married,No,Lahore,One Year,Cash,4029.44,68,Yes,Yes,No,2,3,3,154,0
+CUST-1944,67,Female,Single,Yes,Karachi,Month-to-Month,Cash,2085.5,63,Yes,No,Yes,4,3,10,218,0
+CUST-1945,21,Male,Married,No,Karachi,One Year,Cash,4524.72,58,Yes,Yes,No,3,0,4,28,0
+CUST-1946,44,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,7684.87,23,Yes,Yes,Yes,1,5,7,130,1
+CUST-1947,34,Male,Married,No,Peshawar,One Year,Cash,4913.94,44,Yes,Yes,No,2,3,4,66,0
+CUST-1948,29,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,582.85,44,Yes,No,No,1,1,2,144,0
+CUST-1949,39,Male,Married,Yes,Lahore,Month-to-Month,Cash,947.83,52,No,No,Yes,5,4,1,313,0
+CUST-1950,34,Female,Single,Yes,Karachi,Month-to-Month,Cash,7946.48,67,Yes,Yes,Yes,4,2,5,277,0
+CUST-1951,27,Female,Married,Yes,Karachi,One Year,Cash,1039.6,28,Yes,Yes,No,5,0,5,103,0
+CUST-1952,18,Female,Married,Yes,Quetta,Month-to-Month,Cash,845.34,67,Yes,No,Yes,2,5,6,314,0
+CUST-1953,39,Female,Single,No,Quetta,Two Year,Bank Transfer,3147.68,18,Yes,No,No,3,4,7,37,0
+CUST-1954,43,Female,Married,Yes,Lahore,Two Year,Credit Card,7769.88,27,Yes,Yes,No,2,4,3,249,0
+CUST-1955,35,Female,Single,No,Karachi,Month-to-Month,Bank Transfer,2890.06,51,Yes,No,Yes,1,0,7,156,0
+CUST-1956,67,Male,Single,No,Lahore,One Year,Bank Transfer,3574.13,60,No,Yes,No,2,1,0,132,0
+CUST-1957,31,Female,Single,No,Quetta,Month-to-Month,Credit Card,5255.58,49,Yes,Yes,Yes,3,5,5,47,0
+CUST-1958,64,Female,Single,Yes,Quetta,Month-to-Month,Cash,680.84,15,No,Yes,Yes,3,2,5,195,1
+CUST-1959,46,Male,Single,Yes,Peshawar,One Year,Credit Card,7233.23,68,Yes,No,No,4,0,2,103,0
+CUST-1960,29,Male,Married,Yes,Lahore,One Year,Credit Card,4395.82,15,No,Yes,Yes,4,5,8,328,0
+CUST-1961,53,Female,Single,No,Lahore,One Year,Bank Transfer,4001.08,51,No,Yes,No,3,4,4,171,1
+CUST-1962,52,Male,Single,Yes,Karachi,Month-to-Month,Credit Card,6955.45,48,No,No,No,3,4,0,89,1
+CUST-1963,69,Female,Single,Yes,Karachi,Month-to-Month,Cash,7648.07,72,Yes,Yes,Yes,1,0,6,246,1
+CUST-1964,29,Male,Single,No,Peshawar,Month-to-Month,Bank Transfer,3675.69,1,Yes,Yes,Yes,2,5,9,58,1
+CUST-1965,24,Female,Married,No,Islamabad,One Year,Cash,1793.31,7,Yes,Yes,No,4,4,2,105,0
+CUST-1966,46,Male,Single,No,Islamabad,One Year,Bank Transfer,6617.82,53,Yes,No,Yes,1,0,9,180,1
+CUST-1967,28,Male,Married,No,Islamabad,One Year,Cash,3524.45,31,Yes,No,No,2,0,9,69,0
+CUST-1968,50,Female,Single,No,Lahore,Month-to-Month,Credit Card,7516.59,18,Yes,Yes,No,4,2,10,302,0
+CUST-1969,23,Female,Married,No,Lahore,Month-to-Month,Credit Card,7624.24,12,No,No,No,1,0,3,153,1
+CUST-1970,64,Female,Single,Yes,Quetta,Month-to-Month,Credit Card,1361.22,48,No,Yes,No,5,5,5,25,1
+CUST-1971,32,Female,Single,No,Lahore,Month-to-Month,Cash,7674.15,30,No,Yes,No,5,5,7,35,1
+CUST-1972,49,Female,Married,Yes,Lahore,Month-to-Month,Bank Transfer,3262.03,7,Yes,No,Yes,4,4,3,15,0
+CUST-1973,68,Male,Single,Yes,Lahore,Two Year,Bank Transfer,5346.89,3,Yes,No,No,1,3,8,106,0
+CUST-1974,28,Female,Married,Yes,Peshawar,Two Year,Bank Transfer,760.63,63,No,Yes,No,2,2,7,218,0
+CUST-1975,40,Female,Single,No,Lahore,One Year,Credit Card,7166.63,6,Yes,No,No,2,5,9,74,0
+CUST-1976,43,Male,Married,Yes,Karachi,Month-to-Month,Cash,5311.98,15,Yes,No,No,1,4,9,344,0
+CUST-1977,51,Male,Single,No,Karachi,Month-to-Month,Bank Transfer,5326.66,71,Yes,No,No,5,4,5,285,0
+CUST-1978,63,Female,Single,No,Quetta,Two Year,Cash,7266.32,43,No,Yes,No,1,2,6,38,0
+CUST-1979,51,Male,Married,Yes,Peshawar,Month-to-Month,Bank Transfer,4312.6,18,No,Yes,Yes,5,2,7,197,0
+CUST-1980,46,Male,Single,No,Karachi,Two Year,Credit Card,3578.87,22,Yes,No,Yes,5,4,1,280,0
+CUST-1981,21,Female,Single,Yes,Peshawar,Month-to-Month,Cash,6995.97,61,No,Yes,No,2,3,4,275,1
+CUST-1982,34,Male,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,6068.15,61,No,Yes,No,4,1,6,174,1
+CUST-1983,52,Male,Single,No,Quetta,Two Year,Bank Transfer,7617.32,53,Yes,No,No,3,4,7,305,0
+CUST-1984,30,Female,Single,Yes,Peshawar,Month-to-Month,Bank Transfer,7550.91,26,Yes,Yes,Yes,1,2,4,44,1
+CUST-1985,58,Female,Single,Yes,Lahore,One Year,Bank Transfer,3367.45,40,No,No,No,5,0,2,154,0
+CUST-1986,56,Male,Married,Yes,Peshawar,One Year,Credit Card,3852.4,8,No,Yes,No,1,0,5,153,0
+CUST-1987,32,Male,Married,No,Quetta,Month-to-Month,Bank Transfer,2419.89,21,Yes,Yes,No,4,2,4,291,0
+CUST-1988,46,Female,Married,Yes,Quetta,Month-to-Month,Bank Transfer,5454.86,43,Yes,No,No,4,2,7,142,0
+CUST-1989,46,Male,Single,No,Quetta,One Year,Credit Card,3234.06,21,Yes,Yes,No,3,1,8,256,1
+CUST-1990,28,Male,Married,No,Karachi,One Year,Bank Transfer,6395.75,3,No,No,No,3,5,8,312,1
+CUST-1991,69,Male,Single,Yes,Lahore,Month-to-Month,Cash,1411.63,31,No,Yes,Yes,5,2,5,134,1
+CUST-1992,49,Female,Single,Yes,Karachi,Two Year,Cash,1373.02,27,Yes,Yes,No,3,0,3,32,0
+CUST-1993,19,Male,Single,No,Islamabad,Month-to-Month,Bank Transfer,2033.42,27,Yes,Yes,No,5,3,3,26,0
+CUST-1994,64,Male,Single,No,Lahore,Month-to-Month,Credit Card,1132.19,57,Yes,No,No,2,2,8,255,0
+CUST-1995,31,Female,Married,Yes,Peshawar,Month-to-Month,Credit Card,5150.24,33,Yes,Yes,No,5,1,3,223,0
+CUST-1996,37,Male,Single,Yes,Quetta,Month-to-Month,Credit Card,1605.15,44,No,Yes,No,3,3,7,56,0
+CUST-1997,39,Male,Married,No,Islamabad,Month-to-Month,Bank Transfer,1699.72,43,Yes,No,No,1,1,8,293,0
+CUST-1998,28,Female,Single,No,Lahore,Two Year,Bank Transfer,606.71,31,Yes,No,No,3,3,4,125,0
+CUST-1999,44,Female,Married,No,Karachi,Month-to-Month,Cash,6365.68,65,No,Yes,No,4,2,5,230,1
+CUST-2000,20,Female,Married,No,Quetta,Month-to-Month,Credit Card,6592.22,17,Yes,No,No,3,0,2,53,1
