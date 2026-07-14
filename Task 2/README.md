@@ -1,11 +1,4 @@
 # Customer Churn Prediction System
-## Teyzix Core Internship — Task 2
-
-**Intern:** Hina
-**Reference ID:** TC-INT-20260607-697
-**Submission Date:** June 29, 2026
-
----
 
 ## Project Overview
 
@@ -29,19 +22,6 @@ creating an interactive web dashboard.
 The dataset was generated using probability-based churn logic
 where churn is influenced by contract type, monthly charges,
 tenure, complaints, late payments, and customer rating.
-
----
-
-## Project Structure
-
-Task2/
-├── churn_prediction.ipynb    # Main notebook
-├── app.py                    # Streamlit dashboard
-├── telecom_churn_dataset.csv # Generated dataset
-├── churn_model.pkl           # Trained model
-├── scaler.pkl                # Fitted scaler
-├── feature_names.pkl         # Feature names
-└── README.md                 # This file
 
 ---
 
